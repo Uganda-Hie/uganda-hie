@@ -13,14 +13,20 @@ import { cn } from '@/lib/utils'
 
 interface AiBriefProps {
   disease: DiseaseKey
+  overrideText?: string
 }
 
-export function AiBrief({ disease }: AiBriefProps) {
+export function AiBrief({ disease, overrideText }: AiBriefProps) {
   // Prop is the source of truth; fall back to the global selected disease.
   const selectedDisease = useDemoStore((s) => s.selectedDisease)
   const active = disease ?? selectedDisease
 
-  const brief = useMemo(() => generateAIBrief(active), [active])
+  // A scenario override (if provided) replaces the generated brief — the
+  // typewriter still plays so scenario switches read dramatically.
+  const brief = useMemo(
+    () => overrideText ?? generateAIBrief(active),
+    [active, overrideText]
+  )
   const stockAlert = useMemo(() => generateStockAlert(active), [active])
   const outbreak = useMemo(() => generateOutbreakFlag(active), [active])
 

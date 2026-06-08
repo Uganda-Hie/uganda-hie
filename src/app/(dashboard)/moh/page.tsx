@@ -21,6 +21,7 @@ import { AlertBanner, type DashboardAlert } from '@/components/dashboard/alert-b
 import { AiBrief } from '@/components/dashboard/ai-brief'
 import { getNationalKPIs } from '@/lib/metrics'
 import { getNationalMonthlyKPIs } from '@/data/district-monthly'
+import { DEMO_SCENARIOS } from '@/lib/demo-scenarios'
 import { getNationalSummary, getTopDistricts } from '@/data/districts'
 import { getSeverityColor, getSeverityLabel } from '@/lib/severity'
 import { useDemoStore } from '@/store/demo-store'
@@ -72,6 +73,10 @@ const QUICK_LINKS = [
 export default function MohSnapshotPage() {
   const selectedDisease = useDemoStore((s) => s.selectedDisease)
   const setDisease = useDemoStore((s) => s.setDisease)
+  const scenario = useDemoStore((s) => s.scenario)
+  const setScenario = useDemoStore((s) => s.setScenario)
+  const activeScenario =
+    DEMO_SCENARIOS.find((s) => s.key === scenario) ?? DEMO_SCENARIOS[0]
 
   const [alerts, setAlerts] = useState<DashboardAlert[]>(INITIAL_ALERTS)
   const [today, setToday] = useState('')
@@ -124,7 +129,27 @@ export default function MohSnapshotPage() {
             {today && `${today} · `}Last updated: just now
           </p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          <label className="text-sm font-medium text-gray-600">Scenario:</label>
+          <Select
+            value={scenario}
+            onValueChange={(v) => {
+              const sc = DEMO_SCENARIOS.find((s) => s.key === v)
+              setScenario(v as typeof scenario)
+              if (sc) setDisease(sc.disease as Disease)
+            }}
+          >
+            <SelectTrigger className="w-56">
+              <SelectValue placeholder="Scenario" />
+            </SelectTrigger>
+            <SelectContent>
+              {DEMO_SCENARIOS.map((s) => (
+                <SelectItem key={s.key} value={s.key}>
+                  {s.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
           <label className="text-sm font-medium text-gray-600">Select Disease:</label>
           <Select
             value={selectedDisease}
@@ -238,7 +263,7 @@ export default function MohSnapshotPage() {
       </div>
 
       {/* Row 5 — AI brief */}
-      <AiBrief disease={selectedDisease} />
+      <AiBrief disease={selectedDisease} overrideText={activeScenario.aiOverride} />
 
       {/* Row 6 — Quick navigation */}
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">

@@ -1,10 +1,10 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { scaleLinear } from 'd3-scale'
 import type { FeatureCollection, Geometry, Position } from 'geojson'
 import { DISTRICTS, generateDistrictMetrics } from '@/data/districts'
-import { getSeverityHex } from '@/lib/severity'
+import { getSeverityHex, getSeverityLabel } from '@/lib/severity'
 import type { DiseaseKey } from '@/types/disease'
 import type { DistrictMetric } from '@/types/district'
 
@@ -83,6 +83,59 @@ function geometryToPath(geometry: Geometry, project: Projector): string {
   return d
 }
 
+// Error boundary so a map render failure degrades to a list, never a blank.
+class MapErrorBoundary extends React.Component<
+  { children: React.ReactNode; fallback: React.ReactNode },
+  { hasError: boolean }
+> {
+  state = { hasError: false }
+  static getDerivedStateFromError() {
+    return { hasError: true }
+  }
+  render() {
+    return this.state.hasError ? this.props.fallback : this.props.children
+  }
+}
+
+// Graceful fallback: rough Uganda outline + district severity list.
+function MapFallback({
+  items,
+}: {
+  items: { id: string; name: string; severity: string }[]
+}) {
+  return (
+    <div className="rounded-xl border bg-white p-5" style={{ minHeight: 600 }}>
+      <svg
+        viewBox="0 0 100 100"
+        className="mx-auto mb-3 h-24 w-24 text-slate-300"
+        aria-hidden
+      >
+        <polygon
+          points="22,34 38,20 55,22 72,30 82,42 76,58 64,76 46,80 30,70 20,52"
+          fill="currentColor"
+        />
+      </svg>
+      <h3 className="mb-4 text-center text-sm font-semibold text-gray-900">
+        Uganda — Disease Severity Overview
+      </h3>
+      <div className="grid grid-cols-1 gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+        {items.map((it) => (
+          <div key={it.id} className="flex items-center gap-2">
+            <span
+              className="size-2.5 shrink-0 rounded-full"
+              style={{ backgroundColor: getSeverityHex(it.severity) }}
+            />
+            <span className="flex-1 truncate text-gray-700">{it.name}</span>
+            <span className="shrink-0 text-xs text-muted-foreground">
+              {getSeverityLabel(it.severity)}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
 export function UgandaMap({
   disease,
   selectedDistrictId,
@@ -90,12 +143,18 @@ export function UgandaMap({
   onDistrictClick,
 }: UgandaMapProps) {
   const [geoData, setGeoData] = useState<FeatureCollection | null>(null)
+  const [loadFailed, setLoadFailed] = useState(false)
   useEffect(() => {
     let active = true
     fetch(GEOJSON_URL)
       .then((r) => r.json())
       .then((data) => active && setGeoData(data))
-      .catch(() => active && setGeoData(null))
+      .catch(() => {
+        if (active) {
+          setGeoData(null)
+          setLoadFailed(true)
+        }
+      })
     return () => {
       active = false
     }
@@ -124,6 +183,17 @@ export function UgandaMap({
     [metricByDistrict]
   )
 
+  const fallbackItems = DISTRICTS.map((d) => ({
+    id: d.id,
+    name: d.name,
+    severity: metricByDistrict[d.id]?.severity ?? 'missing',
+  }))
+
+  // GeoJSON failed to load → graceful list view instead of an endless skeleton.
+  if (loadFailed) {
+    return <MapFallback items={fallbackItems} />
+  }
+
   if (!geoData || !project) {
     return (
       <div className="h-[600px] w-full animate-pulse rounded-xl bg-gray-100" />
@@ -132,7 +202,8 @@ export function UgandaMap({
 
   return (
     <div>
-      <div className="overflow-hidden rounded-xl border bg-white">
+      <MapErrorBoundary fallback={<MapFallback items={fallbackItems} />}>
+        <div className="overflow-hidden rounded-xl border bg-white">
         <svg
           viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
           className="h-auto w-full"
@@ -216,7 +287,8 @@ export function UgandaMap({
             })}
           </g>
         </svg>
-      </div>
+        </div>
+      </MapErrorBoundary>
 
       {/* Footer row */}
       <div className="mt-2 flex items-center justify-between text-xs text-muted-foreground">
