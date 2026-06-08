@@ -1,0 +1,501 @@
+week_start,district_id,district_name,disease_code,disease_name,cases_last_7d,cases_previous_7d,week_on_week_change_pct,incidence_per_100k,deaths_last_7d,severity,map_color_hint
+2026-06-01,UG-D001,Kampala,MAL,Malaria,2430,2454,-1.0,127.89,72,High,red
+2026-06-01,UG-D001,Kampala,ARI,Acute respiratory infection,1998,1902,5.0,105.16,0,Moderate,orange
+2026-06-01,UG-D001,Kampala,DIA,Diarrhoeal disease,567,702,-19.2,29.84,0,Watch,yellow
+2026-06-01,UG-D001,Kampala,TB,Tuberculosis,53,48,10.4,2.79,1,Watch,yellow
+2026-06-01,UG-D001,Kampala,HIV,HIV positive tests,124,166,-25.3,6.53,0,Watch,yellow
+2026-06-01,UG-D001,Kampala,MEA,Measles,12,17,-29.4,0.63,0,Critical,dark red
+2026-06-01,UG-D001,Kampala,CHO,Cholera,12,16,-25.0,0.63,0,Critical,dark red
+2026-06-01,UG-D001,Kampala,TYP,Typhoid,404,369,9.5,21.26,0,Watch,yellow
+2026-06-01,UG-D001,Kampala,MAT,Maternal complications,41,39,5.1,2.16,1,Watch,yellow
+2026-06-01,UG-D001,Kampala,NEO,Neonatal sepsis,49,64,-23.4,2.58,0,Watch,yellow
+2026-06-01,UG-D002,Wakiso,MAL,Malaria,1422,1358,4.7,54.69,31,Moderate,orange
+2026-06-01,UG-D002,Wakiso,ARI,Acute respiratory infection,1477,1053,40.3,56.81,0,Moderate,orange
+2026-06-01,UG-D002,Wakiso,DIA,Diarrhoeal disease,661,451,46.6,25.42,0,Moderate,orange
+2026-06-01,UG-D002,Wakiso,TB,Tuberculosis,59,60,-1.7,2.27,1,Watch,yellow
+2026-06-01,UG-D002,Wakiso,HIV,HIV positive tests,175,165,6.1,6.73,0,Watch,yellow
+2026-06-01,UG-D002,Wakiso,MEA,Measles,12,8,50.0,0.46,0,Critical,dark red
+2026-06-01,UG-D002,Wakiso,CHO,Cholera,4,2,100.0,0.15,0,High,red
+2026-06-01,UG-D002,Wakiso,TYP,Typhoid,383,480,-20.2,14.73,0,Watch,yellow
+2026-06-01,UG-D002,Wakiso,MAT,Maternal complications,280,278,0.7,10.77,4,Watch,yellow
+2026-06-01,UG-D002,Wakiso,NEO,Neonatal sepsis,213,141,51.1,8.19,5,Moderate,orange
+2026-06-01,UG-D003,Mukono,MAL,Malaria,800,656,22.0,114.29,26,Moderate,orange
+2026-06-01,UG-D003,Mukono,ARI,Acute respiratory infection,494,517,-4.4,70.57,0,Moderate,orange
+2026-06-01,UG-D003,Mukono,DIA,Diarrhoeal disease,306,325,-5.8,43.71,0,Watch,yellow
+2026-06-01,UG-D003,Mukono,TB,Tuberculosis,21,14,50.0,3.0,0,Moderate,orange
+2026-06-01,UG-D003,Mukono,HIV,HIV positive tests,4,4,0.0,0.57,0,Watch,yellow
+2026-06-01,UG-D003,Mukono,MEA,Measles,5,7,-28.6,0.71,0,Watch,yellow
+2026-06-01,UG-D003,Mukono,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D003,Mukono,TYP,Typhoid,155,210,-26.2,22.14,0,Watch,yellow
+2026-06-01,UG-D003,Mukono,MAT,Maternal complications,74,97,-23.7,10.57,2,Watch,yellow
+2026-06-01,UG-D003,Mukono,NEO,Neonatal sepsis,64,52,23.1,9.14,1,Moderate,orange
+2026-06-01,UG-D004,Masaka,MAL,Malaria,163,217,-24.9,38.81,3,Watch,yellow
+2026-06-01,UG-D004,Masaka,ARI,Acute respiratory infection,118,79,49.4,28.1,0,Moderate,orange
+2026-06-01,UG-D004,Masaka,DIA,Diarrhoeal disease,64,47,36.2,15.24,0,Moderate,orange
+2026-06-01,UG-D004,Masaka,TB,Tuberculosis,5,4,25.0,1.19,0,Moderate,orange
+2026-06-01,UG-D004,Masaka,HIV,HIV positive tests,12,8,50.0,2.86,0,Moderate,orange
+2026-06-01,UG-D004,Masaka,MEA,Measles,1,0,0,0.24,0,Rare,green
+2026-06-01,UG-D004,Masaka,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D004,Masaka,TYP,Typhoid,33,27,22.2,7.86,0,Moderate,orange
+2026-06-01,UG-D004,Masaka,MAT,Maternal complications,59,52,13.5,14.05,1,Watch,yellow
+2026-06-01,UG-D004,Masaka,NEO,Neonatal sepsis,8,9,-11.1,1.9,0,Watch,yellow
+2026-06-01,UG-D005,Luwero,MAL,Malaria,315,334,-5.7,60.58,4,Moderate,orange
+2026-06-01,UG-D005,Luwero,ARI,Acute respiratory infection,458,359,27.6,88.08,0,Moderate,orange
+2026-06-01,UG-D005,Luwero,DIA,Diarrhoeal disease,93,89,4.5,17.88,0,Watch,yellow
+2026-06-01,UG-D005,Luwero,TB,Tuberculosis,17,20,-15.0,3.27,0,Watch,yellow
+2026-06-01,UG-D005,Luwero,HIV,HIV positive tests,14,9,55.6,2.69,0,Moderate,orange
+2026-06-01,UG-D005,Luwero,MEA,Measles,1,0,0,0.19,0,Rare,green
+2026-06-01,UG-D005,Luwero,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D005,Luwero,TYP,Typhoid,33,27,22.2,6.35,0,Moderate,orange
+2026-06-01,UG-D005,Luwero,MAT,Maternal complications,11,10,10.0,2.12,0,Watch,yellow
+2026-06-01,UG-D005,Luwero,NEO,Neonatal sepsis,7,6,16.7,1.35,0,Watch,yellow
+2026-06-01,UG-D006,Mityana,MAL,Malaria,225,221,1.8,57.69,7,Moderate,orange
+2026-06-01,UG-D006,Mityana,ARI,Acute respiratory infection,348,304,14.5,89.23,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,DIA,Diarrhoeal disease,131,87,50.6,33.59,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,TB,Tuberculosis,9,6,50.0,2.31,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,HIV,HIV positive tests,14,10,40.0,3.59,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,MEA,Measles,2,2,0.0,0.51,0,Rare,green
+2026-06-01,UG-D006,Mityana,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D006,Mityana,TYP,Typhoid,67,52,28.8,17.18,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,MAT,Maternal complications,39,32,21.9,10.0,0,Moderate,orange
+2026-06-01,UG-D006,Mityana,NEO,Neonatal sepsis,17,20,-15.0,4.36,0,Watch,yellow
+2026-06-01,UG-D007,Mubende,MAL,Malaria,475,511,-7.0,69.85,4,Moderate,orange
+2026-06-01,UG-D007,Mubende,ARI,Acute respiratory infection,571,448,27.5,83.97,0,Moderate,orange
+2026-06-01,UG-D007,Mubende,DIA,Diarrhoeal disease,235,303,-22.4,34.56,0,Watch,yellow
+2026-06-01,UG-D007,Mubende,TB,Tuberculosis,12,10,20.0,1.76,0,Moderate,orange
+2026-06-01,UG-D007,Mubende,HIV,HIV positive tests,24,23,4.3,3.53,0,Watch,yellow
+2026-06-01,UG-D007,Mubende,MEA,Measles,1,1,0.0,0.15,0,Rare,green
+2026-06-01,UG-D007,Mubende,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D007,Mubende,TYP,Typhoid,37,45,-17.8,5.44,0,Watch,yellow
+2026-06-01,UG-D007,Mubende,MAT,Maternal complications,38,35,8.6,5.59,0,Watch,yellow
+2026-06-01,UG-D007,Mubende,NEO,Neonatal sepsis,62,84,-26.2,9.12,0,Watch,yellow
+2026-06-01,UG-D008,Mpigi,MAL,Malaria,482,382,26.2,155.48,4,High,red
+2026-06-01,UG-D008,Mpigi,ARI,Acute respiratory infection,217,204,6.4,70.0,0,Moderate,orange
+2026-06-01,UG-D008,Mpigi,DIA,Diarrhoeal disease,60,40,50.0,19.35,0,Moderate,orange
+2026-06-01,UG-D008,Mpigi,TB,Tuberculosis,2,1,100.0,0.65,0,High,red
+2026-06-01,UG-D008,Mpigi,HIV,HIV positive tests,3,2,50.0,0.97,0,Moderate,orange
+2026-06-01,UG-D008,Mpigi,MEA,Measles,1,0,0,0.32,0,Rare,green
+2026-06-01,UG-D008,Mpigi,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D008,Mpigi,TYP,Typhoid,57,40,42.5,18.39,0,Moderate,orange
+2026-06-01,UG-D008,Mpigi,MAT,Maternal complications,35,22,59.1,11.29,0,Moderate,orange
+2026-06-01,UG-D008,Mpigi,NEO,Neonatal sepsis,25,36,-30.6,8.06,0,Watch,yellow
+2026-06-01,UG-D009,Kayunga,MAL,Malaria,173,147,17.7,41.19,1,Watch,yellow
+2026-06-01,UG-D009,Kayunga,ARI,Acute respiratory infection,238,165,44.2,56.67,0,Moderate,orange
+2026-06-01,UG-D009,Kayunga,DIA,Diarrhoeal disease,129,123,4.9,30.71,0,Watch,yellow
+2026-06-01,UG-D009,Kayunga,TB,Tuberculosis,13,10,30.0,3.1,0,Moderate,orange
+2026-06-01,UG-D009,Kayunga,HIV,HIV positive tests,18,12,50.0,4.29,0,Moderate,orange
+2026-06-01,UG-D009,Kayunga,MEA,Measles,2,1,100.0,0.48,0,High,red
+2026-06-01,UG-D009,Kayunga,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D009,Kayunga,TYP,Typhoid,27,37,-27.0,6.43,0,Watch,yellow
+2026-06-01,UG-D009,Kayunga,MAT,Maternal complications,16,15,6.7,3.81,0,Watch,yellow
+2026-06-01,UG-D009,Kayunga,NEO,Neonatal sepsis,38,54,-29.6,9.05,1,Watch,yellow
+2026-06-01,UG-D010,Kalangala,MAL,Malaria,66,96,-31.2,101.54,0,Moderate,orange
+2026-06-01,UG-D010,Kalangala,ARI,Acute respiratory infection,32,37,-13.5,49.23,0,Watch,yellow
+2026-06-01,UG-D010,Kalangala,DIA,Diarrhoeal disease,10,7,42.9,15.38,0,Moderate,orange
+2026-06-01,UG-D010,Kalangala,TB,Tuberculosis,1,0,0,1.54,0,Rare,green
+2026-06-01,UG-D010,Kalangala,HIV,HIV positive tests,1,1,0.0,1.54,0,Rare,green
+2026-06-01,UG-D010,Kalangala,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D010,Kalangala,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D010,Kalangala,TYP,Typhoid,5,3,66.7,7.69,0,High,red
+2026-06-01,UG-D010,Kalangala,MAT,Maternal complications,7,7,0.0,10.77,0,Watch,yellow
+2026-06-01,UG-D010,Kalangala,NEO,Neonatal sepsis,5,6,-16.7,7.69,0,Watch,yellow
+2026-06-01,UG-D011,Buvuma,MAL,Malaria,165,122,35.2,137.5,4,High,red
+2026-06-01,UG-D011,Buvuma,ARI,Acute respiratory infection,54,46,17.4,45.0,0,Watch,yellow
+2026-06-01,UG-D011,Buvuma,DIA,Diarrhoeal disease,51,77,-33.8,42.5,0,Watch,yellow
+2026-06-01,UG-D011,Buvuma,TB,Tuberculosis,3,2,50.0,2.5,0,Moderate,orange
+2026-06-01,UG-D011,Buvuma,HIV,HIV positive tests,2,2,0.0,1.67,0,Rare,green
+2026-06-01,UG-D011,Buvuma,MEA,Measles,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D011,Buvuma,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D011,Buvuma,TYP,Typhoid,14,14,0.0,11.67,0,Watch,yellow
+2026-06-01,UG-D011,Buvuma,MAT,Maternal complications,12,17,-29.4,10.0,0,Watch,yellow
+2026-06-01,UG-D011,Buvuma,NEO,Neonatal sepsis,8,7,14.3,6.67,0,Watch,yellow
+2026-06-01,UG-D012,Jinja,MAL,Malaria,273,176,55.1,52.5,7,Moderate,orange
+2026-06-01,UG-D012,Jinja,ARI,Acute respiratory infection,348,394,-11.7,66.92,0,Moderate,orange
+2026-06-01,UG-D012,Jinja,DIA,Diarrhoeal disease,147,203,-27.6,28.27,0,Watch,yellow
+2026-06-01,UG-D012,Jinja,TB,Tuberculosis,9,8,12.5,1.73,0,Watch,yellow
+2026-06-01,UG-D012,Jinja,HIV,HIV positive tests,20,14,42.9,3.85,0,Moderate,orange
+2026-06-01,UG-D012,Jinja,MEA,Measles,3,3,0.0,0.58,0,Rare,green
+2026-06-01,UG-D012,Jinja,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D012,Jinja,TYP,Typhoid,45,35,28.6,8.65,0,Moderate,orange
+2026-06-01,UG-D012,Jinja,MAT,Maternal complications,57,46,23.9,10.96,0,Moderate,orange
+2026-06-01,UG-D012,Jinja,NEO,Neonatal sepsis,35,34,2.9,6.73,0,Watch,yellow
+2026-06-01,UG-D013,Iganga,MAL,Malaria,336,417,-19.4,54.19,6,Moderate,orange
+2026-06-01,UG-D013,Iganga,ARI,Acute respiratory infection,389,441,-11.8,62.74,0,Moderate,orange
+2026-06-01,UG-D013,Iganga,DIA,Diarrhoeal disease,80,92,-13.0,12.9,0,Watch,yellow
+2026-06-01,UG-D013,Iganga,TB,Tuberculosis,5,4,25.0,0.81,0,Moderate,orange
+2026-06-01,UG-D013,Iganga,HIV,HIV positive tests,27,31,-12.9,4.35,0,Watch,yellow
+2026-06-01,UG-D013,Iganga,MEA,Measles,4,3,33.3,0.65,0,Moderate,orange
+2026-06-01,UG-D013,Iganga,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D013,Iganga,TYP,Typhoid,23,23,0.0,3.71,0,Watch,yellow
+2026-06-01,UG-D013,Iganga,MAT,Maternal complications,73,109,-33.0,11.77,1,Watch,yellow
+2026-06-01,UG-D013,Iganga,NEO,Neonatal sepsis,32,31,3.2,5.16,0,Watch,yellow
+2026-06-01,UG-D014,Mayuge,MAL,Malaria,739,621,19.0,129.65,17,High,red
+2026-06-01,UG-D014,Mayuge,ARI,Acute respiratory infection,126,116,8.6,22.11,0,Watch,yellow
+2026-06-01,UG-D014,Mayuge,DIA,Diarrhoeal disease,218,300,-27.3,38.25,0,Watch,yellow
+2026-06-01,UG-D014,Mayuge,TB,Tuberculosis,3,2,50.0,0.53,0,Moderate,orange
+2026-06-01,UG-D014,Mayuge,HIV,HIV positive tests,11,7,57.1,1.93,0,Moderate,orange
+2026-06-01,UG-D014,Mayuge,MEA,Measles,2,2,0.0,0.35,0,Rare,green
+2026-06-01,UG-D014,Mayuge,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D014,Mayuge,TYP,Typhoid,55,81,-32.1,9.65,0,Watch,yellow
+2026-06-01,UG-D014,Mayuge,MAT,Maternal complications,47,70,-32.9,8.25,0,Watch,yellow
+2026-06-01,UG-D014,Mayuge,NEO,Neonatal sepsis,50,36,38.9,8.77,0,Moderate,orange
+2026-06-01,UG-D015,Kamuli,MAL,Malaria,651,526,23.8,108.5,24,Moderate,orange
+2026-06-01,UG-D015,Kamuli,ARI,Acute respiratory infection,400,289,38.4,66.67,0,Moderate,orange
+2026-06-01,UG-D015,Kamuli,DIA,Diarrhoeal disease,110,120,-8.3,18.33,0,Watch,yellow
+2026-06-01,UG-D015,Kamuli,TB,Tuberculosis,20,15,33.3,3.33,0,Moderate,orange
+2026-06-01,UG-D015,Kamuli,HIV,HIV positive tests,13,14,-7.1,2.17,0,Watch,yellow
+2026-06-01,UG-D015,Kamuli,MEA,Measles,3,3,0.0,0.5,0,Rare,green
+2026-06-01,UG-D015,Kamuli,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D015,Kamuli,TYP,Typhoid,113,106,6.6,18.83,0,Watch,yellow
+2026-06-01,UG-D015,Kamuli,MAT,Maternal complications,65,61,6.6,10.83,1,Watch,yellow
+2026-06-01,UG-D015,Kamuli,NEO,Neonatal sepsis,35,47,-25.5,5.83,0,Watch,yellow
+2026-06-01,UG-D016,Mbale,MAL,Malaria,414,286,44.8,71.38,7,Moderate,orange
+2026-06-01,UG-D016,Mbale,ARI,Acute respiratory infection,415,402,3.2,71.55,0,Moderate,orange
+2026-06-01,UG-D016,Mbale,DIA,Diarrhoeal disease,88,114,-22.8,15.17,0,Watch,yellow
+2026-06-01,UG-D016,Mbale,TB,Tuberculosis,6,4,50.0,1.03,0,Moderate,orange
+2026-06-01,UG-D016,Mbale,HIV,HIV positive tests,5,5,0.0,0.86,0,Watch,yellow
+2026-06-01,UG-D016,Mbale,MEA,Measles,1,0,0,0.17,0,Rare,green
+2026-06-01,UG-D016,Mbale,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D016,Mbale,TYP,Typhoid,70,57,22.8,12.07,0,Moderate,orange
+2026-06-01,UG-D016,Mbale,MAT,Maternal complications,32,36,-11.1,5.52,0,Watch,yellow
+2026-06-01,UG-D016,Mbale,NEO,Neonatal sepsis,46,64,-28.1,7.93,1,Watch,yellow
+2026-06-01,UG-D017,Tororo,MAL,Malaria,2020,1491,35.5,310.77,62,High,red
+2026-06-01,UG-D017,Tororo,ARI,Acute respiratory infection,178,144,23.6,27.38,0,Moderate,orange
+2026-06-01,UG-D017,Tororo,DIA,Diarrhoeal disease,234,237,-1.3,36.0,0,Watch,yellow
+2026-06-01,UG-D017,Tororo,TB,Tuberculosis,17,11,54.5,2.62,0,Moderate,orange
+2026-06-01,UG-D017,Tororo,HIV,HIV positive tests,14,15,-6.7,2.15,0,Watch,yellow
+2026-06-01,UG-D017,Tororo,MEA,Measles,4,3,33.3,0.62,0,Moderate,orange
+2026-06-01,UG-D017,Tororo,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D017,Tororo,TYP,Typhoid,93,122,-23.8,14.31,0,Watch,yellow
+2026-06-01,UG-D017,Tororo,MAT,Maternal complications,43,58,-25.9,6.62,1,Watch,yellow
+2026-06-01,UG-D017,Tororo,NEO,Neonatal sepsis,19,12,58.3,2.92,0,Moderate,orange
+2026-06-01,UG-D018,Busia,MAL,Malaria,558,385,44.9,132.86,21,High,red
+2026-06-01,UG-D018,Busia,ARI,Acute respiratory infection,312,334,-6.6,74.29,0,Moderate,orange
+2026-06-01,UG-D018,Busia,DIA,Diarrhoeal disease,188,128,46.9,44.76,0,Moderate,orange
+2026-06-01,UG-D018,Busia,TB,Tuberculosis,11,11,0.0,2.62,0,Watch,yellow
+2026-06-01,UG-D018,Busia,HIV,HIV positive tests,15,22,-31.8,3.57,0,Watch,yellow
+2026-06-01,UG-D018,Busia,MEA,Measles,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D018,Busia,CHO,Cholera,7,5,40.0,1.67,0,Moderate,orange
+2026-06-01,UG-D018,Busia,TYP,Typhoid,50,72,-30.6,11.9,0,Watch,yellow
+2026-06-01,UG-D018,Busia,MAT,Maternal complications,28,21,33.3,6.67,0,Moderate,orange
+2026-06-01,UG-D018,Busia,NEO,Neonatal sepsis,32,25,28.0,7.62,0,Moderate,orange
+2026-06-01,UG-D019,Soroti,MAL,Malaria,480,659,-27.2,114.29,1,Moderate,orange
+2026-06-01,UG-D019,Soroti,ARI,Acute respiratory infection,272,207,31.4,64.76,0,Moderate,orange
+2026-06-01,UG-D019,Soroti,DIA,Diarrhoeal disease,118,77,53.2,28.1,0,Moderate,orange
+2026-06-01,UG-D019,Soroti,TB,Tuberculosis,7,8,-12.5,1.67,0,Watch,yellow
+2026-06-01,UG-D019,Soroti,HIV,HIV positive tests,4,3,33.3,0.95,0,Moderate,orange
+2026-06-01,UG-D019,Soroti,MEA,Measles,1,1,0.0,0.24,0,Rare,green
+2026-06-01,UG-D019,Soroti,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D019,Soroti,TYP,Typhoid,49,47,4.3,11.67,0,Watch,yellow
+2026-06-01,UG-D019,Soroti,MAT,Maternal complications,18,18,0.0,4.29,0,Watch,yellow
+2026-06-01,UG-D019,Soroti,NEO,Neonatal sepsis,30,28,7.1,7.14,0,Watch,yellow
+2026-06-01,UG-D020,Kumi,MAL,Malaria,320,309,3.6,103.23,1,Moderate,orange
+2026-06-01,UG-D020,Kumi,ARI,Acute respiratory infection,70,45,55.6,22.58,0,Moderate,orange
+2026-06-01,UG-D020,Kumi,DIA,Diarrhoeal disease,89,129,-31.0,28.71,0,Watch,yellow
+2026-06-01,UG-D020,Kumi,TB,Tuberculosis,3,2,50.0,0.97,0,Moderate,orange
+2026-06-01,UG-D020,Kumi,HIV,HIV positive tests,6,4,50.0,1.94,0,Moderate,orange
+2026-06-01,UG-D020,Kumi,MEA,Measles,1,1,0.0,0.32,0,Rare,green
+2026-06-01,UG-D020,Kumi,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D020,Kumi,TYP,Typhoid,22,18,22.2,7.1,0,Moderate,orange
+2026-06-01,UG-D020,Kumi,MAT,Maternal complications,14,15,-6.7,4.52,0,Watch,yellow
+2026-06-01,UG-D020,Kumi,NEO,Neonatal sepsis,6,4,50.0,1.94,0,Moderate,orange
+2026-06-01,UG-D021,Kapchorwa,MAL,Malaria,129,146,-11.6,99.23,4,Moderate,orange
+2026-06-01,UG-D021,Kapchorwa,ARI,Acute respiratory infection,41,37,10.8,31.54,0,Watch,yellow
+2026-06-01,UG-D021,Kapchorwa,DIA,Diarrhoeal disease,15,9,66.7,11.54,0,High,red
+2026-06-01,UG-D021,Kapchorwa,TB,Tuberculosis,3,3,0.0,2.31,0,Rare,green
+2026-06-01,UG-D021,Kapchorwa,HIV,HIV positive tests,5,5,0.0,3.85,0,Watch,yellow
+2026-06-01,UG-D021,Kapchorwa,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D021,Kapchorwa,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D021,Kapchorwa,TYP,Typhoid,23,17,35.3,17.69,0,Moderate,orange
+2026-06-01,UG-D021,Kapchorwa,MAT,Maternal complications,11,7,57.1,8.46,0,Moderate,orange
+2026-06-01,UG-D021,Kapchorwa,NEO,Neonatal sepsis,3,3,0.0,2.31,0,Rare,green
+2026-06-01,UG-D022,Moroto,MAL,Malaria,219,208,5.3,146.0,1,High,red
+2026-06-01,UG-D022,Moroto,ARI,Acute respiratory infection,64,46,39.1,42.67,0,Moderate,orange
+2026-06-01,UG-D022,Moroto,DIA,Diarrhoeal disease,41,62,-33.9,27.33,0,Watch,yellow
+2026-06-01,UG-D022,Moroto,TB,Tuberculosis,5,7,-28.6,3.33,0,Watch,yellow
+2026-06-01,UG-D022,Moroto,HIV,HIV positive tests,5,6,-16.7,3.33,0,Watch,yellow
+2026-06-01,UG-D022,Moroto,MEA,Measles,11,10,10.0,7.33,0,Critical,dark red
+2026-06-01,UG-D022,Moroto,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D022,Moroto,TYP,Typhoid,26,37,-29.7,17.33,0,Watch,yellow
+2026-06-01,UG-D022,Moroto,MAT,Maternal complications,21,25,-16.0,14.0,0,Watch,yellow
+2026-06-01,UG-D022,Moroto,NEO,Neonatal sepsis,1,0,0,0.67,0,Rare,green
+2026-06-01,UG-D023,Kotido,MAL,Malaria,329,253,30.0,126.54,3,High,red
+2026-06-01,UG-D023,Kotido,ARI,Acute respiratory infection,226,253,-10.7,86.92,0,Moderate,orange
+2026-06-01,UG-D023,Kotido,DIA,Diarrhoeal disease,91,127,-28.3,35.0,0,Watch,yellow
+2026-06-01,UG-D023,Kotido,TB,Tuberculosis,3,2,50.0,1.15,0,Moderate,orange
+2026-06-01,UG-D023,Kotido,HIV,HIV positive tests,3,2,50.0,1.15,0,Moderate,orange
+2026-06-01,UG-D023,Kotido,MEA,Measles,13,17,-23.5,5.0,0,Critical,dark red
+2026-06-01,UG-D023,Kotido,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D023,Kotido,TYP,Typhoid,51,39,30.8,19.62,0,Moderate,orange
+2026-06-01,UG-D023,Kotido,MAT,Maternal complications,6,5,20.0,2.31,0,Moderate,orange
+2026-06-01,UG-D023,Kotido,NEO,Neonatal sepsis,6,4,50.0,2.31,0,Moderate,orange
+2026-06-01,UG-D024,Kaabong,MAL,Malaria,145,100,45.0,80.56,4,Moderate,orange
+2026-06-01,UG-D024,Kaabong,ARI,Acute respiratory infection,36,40,-10.0,20.0,0,Watch,yellow
+2026-06-01,UG-D024,Kaabong,DIA,Diarrhoeal disease,69,105,-34.3,38.33,0,Watch,yellow
+2026-06-01,UG-D024,Kaabong,TB,Tuberculosis,2,1,100.0,1.11,0,High,red
+2026-06-01,UG-D024,Kaabong,HIV,HIV positive tests,6,6,0.0,3.33,0,Watch,yellow
+2026-06-01,UG-D024,Kaabong,MEA,Measles,8,8,0.0,4.44,0,Watch,yellow
+2026-06-01,UG-D024,Kaabong,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D024,Kaabong,TYP,Typhoid,7,5,40.0,3.89,0,Moderate,orange
+2026-06-01,UG-D024,Kaabong,MAT,Maternal complications,9,6,50.0,5.0,0,Moderate,orange
+2026-06-01,UG-D024,Kaabong,NEO,Neonatal sepsis,16,11,45.5,8.89,0,Moderate,orange
+2026-06-01,UG-D025,Napak,MAL,Malaria,316,414,-23.7,150.48,10,High,red
+2026-06-01,UG-D025,Napak,ARI,Acute respiratory infection,86,56,53.6,40.95,0,Moderate,orange
+2026-06-01,UG-D025,Napak,DIA,Diarrhoeal disease,49,54,-9.3,23.33,0,Watch,yellow
+2026-06-01,UG-D025,Napak,TB,Tuberculosis,5,3,66.7,2.38,0,High,red
+2026-06-01,UG-D025,Napak,HIV,HIV positive tests,9,10,-10.0,4.29,0,Watch,yellow
+2026-06-01,UG-D025,Napak,MEA,Measles,11,12,-8.3,5.24,0,Critical,dark red
+2026-06-01,UG-D025,Napak,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D025,Napak,TYP,Typhoid,9,6,50.0,4.29,0,Moderate,orange
+2026-06-01,UG-D025,Napak,MAT,Maternal complications,33,28,17.9,15.71,0,Watch,yellow
+2026-06-01,UG-D025,Napak,NEO,Neonatal sepsis,18,13,38.5,8.57,0,Moderate,orange
+2026-06-01,UG-D026,Gulu,MAL,Malaria,885,644,37.4,158.04,0,High,red
+2026-06-01,UG-D026,Gulu,ARI,Acute respiratory infection,268,273,-1.8,47.86,0,Watch,yellow
+2026-06-01,UG-D026,Gulu,DIA,Diarrhoeal disease,135,87,55.2,24.11,0,Moderate,orange
+2026-06-01,UG-D026,Gulu,TB,Tuberculosis,14,21,-33.3,2.5,0,Watch,yellow
+2026-06-01,UG-D026,Gulu,HIV,HIV positive tests,2,2,0.0,0.36,0,Rare,green
+2026-06-01,UG-D026,Gulu,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D026,Gulu,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D026,Gulu,TYP,Typhoid,133,149,-10.7,23.75,0,Watch,yellow
+2026-06-01,UG-D026,Gulu,MAT,Maternal complications,31,31,0.0,5.54,0,Watch,yellow
+2026-06-01,UG-D026,Gulu,NEO,Neonatal sepsis,27,38,-28.9,4.82,1,Watch,yellow
+2026-06-01,UG-D027,Lira,MAL,Malaria,654,790,-17.2,121.11,11,High,red
+2026-06-01,UG-D027,Lira,ARI,Acute respiratory infection,280,320,-12.5,51.85,0,Moderate,orange
+2026-06-01,UG-D027,Lira,DIA,Diarrhoeal disease,226,178,27.0,41.85,0,Moderate,orange
+2026-06-01,UG-D027,Lira,TB,Tuberculosis,12,15,-20.0,2.22,0,Watch,yellow
+2026-06-01,UG-D027,Lira,HIV,HIV positive tests,5,3,66.7,0.93,0,High,red
+2026-06-01,UG-D027,Lira,MEA,Measles,2,1,100.0,0.37,0,High,red
+2026-06-01,UG-D027,Lira,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D027,Lira,TYP,Typhoid,102,111,-8.1,18.89,0,Watch,yellow
+2026-06-01,UG-D027,Lira,MAT,Maternal complications,42,33,27.3,7.78,0,Moderate,orange
+2026-06-01,UG-D027,Lira,NEO,Neonatal sepsis,27,29,-6.9,5.0,0,Watch,yellow
+2026-06-01,UG-D028,Arua,MAL,Malaria,1803,2223,-18.9,277.38,62,High,red
+2026-06-01,UG-D028,Arua,ARI,Acute respiratory infection,295,295,0.0,45.38,0,Watch,yellow
+2026-06-01,UG-D028,Arua,DIA,Diarrhoeal disease,71,51,39.2,10.92,0,Moderate,orange
+2026-06-01,UG-D028,Arua,TB,Tuberculosis,13,11,18.2,2.0,0,Watch,yellow
+2026-06-01,UG-D028,Arua,HIV,HIV positive tests,15,13,15.4,2.31,0,Watch,yellow
+2026-06-01,UG-D028,Arua,MEA,Measles,3,2,50.0,0.46,0,Moderate,orange
+2026-06-01,UG-D028,Arua,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D028,Arua,TYP,Typhoid,79,82,-3.7,12.15,0,Watch,yellow
+2026-06-01,UG-D028,Arua,MAT,Maternal complications,87,58,50.0,13.38,2,Moderate,orange
+2026-06-01,UG-D028,Arua,NEO,Neonatal sepsis,25,24,4.2,3.85,0,Watch,yellow
+2026-06-01,UG-D029,Yumbe,MAL,Malaria,2674,2535,5.5,382.0,66,High,red
+2026-06-01,UG-D029,Yumbe,ARI,Acute respiratory infection,598,500,19.6,85.43,0,Moderate,orange
+2026-06-01,UG-D029,Yumbe,DIA,Diarrhoeal disease,224,155,44.5,32.0,0,Moderate,orange
+2026-06-01,UG-D029,Yumbe,TB,Tuberculosis,21,29,-27.6,3.0,0,Watch,yellow
+2026-06-01,UG-D029,Yumbe,HIV,HIV positive tests,12,10,20.0,1.71,0,Moderate,orange
+2026-06-01,UG-D029,Yumbe,MEA,Measles,2,1,100.0,0.29,0,High,red
+2026-06-01,UG-D029,Yumbe,CHO,Cholera,7,6,16.7,1.0,0,Watch,yellow
+2026-06-01,UG-D029,Yumbe,TYP,Typhoid,117,119,-1.7,16.71,0,Watch,yellow
+2026-06-01,UG-D029,Yumbe,MAT,Maternal complications,36,35,2.9,5.14,0,Watch,yellow
+2026-06-01,UG-D029,Yumbe,NEO,Neonatal sepsis,15,18,-16.7,2.14,0,Watch,yellow
+2026-06-01,UG-D030,Koboko,MAL,Malaria,503,543,-7.4,152.42,10,High,red
+2026-06-01,UG-D030,Koboko,ARI,Acute respiratory infection,123,82,50.0,37.27,0,Moderate,orange
+2026-06-01,UG-D030,Koboko,DIA,Diarrhoeal disease,119,128,-7.0,36.06,0,Watch,yellow
+2026-06-01,UG-D030,Koboko,TB,Tuberculosis,2,2,0.0,0.61,0,Rare,green
+2026-06-01,UG-D030,Koboko,HIV,HIV positive tests,8,5,60.0,2.42,0,High,red
+2026-06-01,UG-D030,Koboko,MEA,Measles,5,7,-28.6,1.52,0,Watch,yellow
+2026-06-01,UG-D030,Koboko,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D030,Koboko,TYP,Typhoid,60,69,-13.0,18.18,0,Watch,yellow
+2026-06-01,UG-D030,Koboko,MAT,Maternal complications,49,52,-5.8,14.85,0,Watch,yellow
+2026-06-01,UG-D030,Koboko,NEO,Neonatal sepsis,15,16,-6.2,4.55,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,MAL,Malaria,642,417,54.0,152.86,3,High,red
+2026-06-01,UG-D031,Adjumani,ARI,Acute respiratory infection,120,126,-4.8,28.57,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,DIA,Diarrhoeal disease,167,182,-8.2,39.76,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,TB,Tuberculosis,3,2,50.0,0.71,0,Moderate,orange
+2026-06-01,UG-D031,Adjumani,HIV,HIV positive tests,8,9,-11.1,1.9,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D031,Adjumani,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D031,Adjumani,TYP,Typhoid,54,50,8.0,12.86,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,MAT,Maternal complications,66,97,-32.0,15.71,0,Watch,yellow
+2026-06-01,UG-D031,Adjumani,NEO,Neonatal sepsis,18,20,-10.0,4.29,0,Watch,yellow
+2026-06-01,UG-D032,Moyo,MAL,Malaria,216,147,46.9,144.0,0,High,red
+2026-06-01,UG-D032,Moyo,ARI,Acute respiratory infection,64,63,1.6,42.67,0,Watch,yellow
+2026-06-01,UG-D032,Moyo,DIA,Diarrhoeal disease,47,45,4.4,31.33,0,Watch,yellow
+2026-06-01,UG-D032,Moyo,TB,Tuberculosis,3,2,50.0,2.0,0,Moderate,orange
+2026-06-01,UG-D032,Moyo,HIV,HIV positive tests,7,8,-12.5,4.67,0,Watch,yellow
+2026-06-01,UG-D032,Moyo,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D032,Moyo,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D032,Moyo,TYP,Typhoid,13,17,-23.5,8.67,0,Watch,yellow
+2026-06-01,UG-D032,Moyo,MAT,Maternal complications,10,6,66.7,6.67,0,High,red
+2026-06-01,UG-D032,Moyo,NEO,Neonatal sepsis,14,19,-26.3,9.33,0,Watch,yellow
+2026-06-01,UG-D033,Nebbi,MAL,Malaria,342,323,5.9,106.88,5,Moderate,orange
+2026-06-01,UG-D033,Nebbi,ARI,Acute respiratory infection,173,137,26.3,54.06,0,Moderate,orange
+2026-06-01,UG-D033,Nebbi,DIA,Diarrhoeal disease,99,78,26.9,30.94,0,Moderate,orange
+2026-06-01,UG-D033,Nebbi,TB,Tuberculosis,6,4,50.0,1.87,0,Moderate,orange
+2026-06-01,UG-D033,Nebbi,HIV,HIV positive tests,13,8,62.5,4.06,0,High,red
+2026-06-01,UG-D033,Nebbi,MEA,Measles,2,1,100.0,0.62,0,High,red
+2026-06-01,UG-D033,Nebbi,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D033,Nebbi,TYP,Typhoid,24,28,-14.3,7.5,0,Watch,yellow
+2026-06-01,UG-D033,Nebbi,MAT,Maternal complications,48,38,26.3,15.0,0,Moderate,orange
+2026-06-01,UG-D033,Nebbi,NEO,Neonatal sepsis,16,11,45.5,5.0,0,Moderate,orange
+2026-06-01,UG-D034,Masindi,MAL,Malaria,252,167,50.9,53.62,7,Moderate,orange
+2026-06-01,UG-D034,Masindi,ARI,Acute respiratory infection,157,222,-29.3,33.4,0,Watch,yellow
+2026-06-01,UG-D034,Masindi,DIA,Diarrhoeal disease,117,96,21.9,24.89,0,Moderate,orange
+2026-06-01,UG-D034,Masindi,TB,Tuberculosis,13,11,18.2,2.77,0,Watch,yellow
+2026-06-01,UG-D034,Masindi,HIV,HIV positive tests,4,3,33.3,0.85,0,Moderate,orange
+2026-06-01,UG-D034,Masindi,MEA,Measles,3,4,-25.0,0.64,0,Rare,green
+2026-06-01,UG-D034,Masindi,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D034,Masindi,TYP,Typhoid,13,13,0.0,2.77,0,Watch,yellow
+2026-06-01,UG-D034,Masindi,MAT,Maternal complications,18,19,-5.3,3.83,0,Watch,yellow
+2026-06-01,UG-D034,Masindi,NEO,Neonatal sepsis,40,46,-13.0,8.51,0,Watch,yellow
+2026-06-01,UG-D035,Hoima,MAL,Malaria,345,262,31.7,80.23,4,Moderate,orange
+2026-06-01,UG-D035,Hoima,ARI,Acute respiratory infection,287,238,20.6,66.74,0,Moderate,orange
+2026-06-01,UG-D035,Hoima,DIA,Diarrhoeal disease,166,173,-4.0,38.6,0,Watch,yellow
+2026-06-01,UG-D035,Hoima,TB,Tuberculosis,12,12,0.0,2.79,0,Watch,yellow
+2026-06-01,UG-D035,Hoima,HIV,HIV positive tests,16,10,60.0,3.72,0,High,red
+2026-06-01,UG-D035,Hoima,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D035,Hoima,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D035,Hoima,TYP,Typhoid,75,66,13.6,17.44,0,Watch,yellow
+2026-06-01,UG-D035,Hoima,MAT,Maternal complications,27,34,-20.6,6.28,0,Watch,yellow
+2026-06-01,UG-D035,Hoima,NEO,Neonatal sepsis,14,15,-6.7,3.26,0,Watch,yellow
+2026-06-01,UG-D036,Kiryandongo,MAL,Malaria,1172,908,29.1,316.76,14,High,red
+2026-06-01,UG-D036,Kiryandongo,ARI,Acute respiratory infection,194,217,-10.6,52.43,0,Moderate,orange
+2026-06-01,UG-D036,Kiryandongo,DIA,Diarrhoeal disease,35,51,-31.4,9.46,0,Watch,yellow
+2026-06-01,UG-D036,Kiryandongo,TB,Tuberculosis,1,1,0.0,0.27,0,Rare,green
+2026-06-01,UG-D036,Kiryandongo,HIV,HIV positive tests,5,3,66.7,1.35,0,High,red
+2026-06-01,UG-D036,Kiryandongo,MEA,Measles,1,0,0,0.27,0,Rare,green
+2026-06-01,UG-D036,Kiryandongo,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D036,Kiryandongo,TYP,Typhoid,55,57,-3.5,14.86,0,Watch,yellow
+2026-06-01,UG-D036,Kiryandongo,MAT,Maternal complications,32,22,45.5,8.65,0,Moderate,orange
+2026-06-01,UG-D036,Kiryandongo,NEO,Neonatal sepsis,16,13,23.1,4.32,0,Moderate,orange
+2026-06-01,UG-D037,Fort Portal,MAL,Malaria,414,417,-0.7,142.76,3,High,red
+2026-06-01,UG-D037,Fort Portal,ARI,Acute respiratory infection,106,69,53.6,36.55,0,Moderate,orange
+2026-06-01,UG-D037,Fort Portal,DIA,Diarrhoeal disease,55,51,7.8,18.97,0,Watch,yellow
+2026-06-01,UG-D037,Fort Portal,TB,Tuberculosis,6,6,0.0,2.07,0,Watch,yellow
+2026-06-01,UG-D037,Fort Portal,HIV,HIV positive tests,10,7,42.9,3.45,0,Moderate,orange
+2026-06-01,UG-D037,Fort Portal,MEA,Measles,2,2,0.0,0.69,0,Rare,green
+2026-06-01,UG-D037,Fort Portal,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D037,Fort Portal,TYP,Typhoid,51,63,-19.0,17.59,0,Watch,yellow
+2026-06-01,UG-D037,Fort Portal,MAT,Maternal complications,41,55,-25.5,14.14,0,Watch,yellow
+2026-06-01,UG-D037,Fort Portal,NEO,Neonatal sepsis,20,18,11.1,6.9,0,Watch,yellow
+2026-06-01,UG-D038,Kabarole,MAL,Malaria,338,234,44.4,93.89,10,Moderate,orange
+2026-06-01,UG-D038,Kabarole,ARI,Acute respiratory infection,280,339,-17.4,77.78,0,Moderate,orange
+2026-06-01,UG-D038,Kabarole,DIA,Diarrhoeal disease,109,86,26.7,30.28,0,Moderate,orange
+2026-06-01,UG-D038,Kabarole,TB,Tuberculosis,11,12,-8.3,3.06,0,Watch,yellow
+2026-06-01,UG-D038,Kabarole,HIV,HIV positive tests,5,3,66.7,1.39,0,High,red
+2026-06-01,UG-D038,Kabarole,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D038,Kabarole,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D038,Kabarole,TYP,Typhoid,47,49,-4.1,13.06,0,Watch,yellow
+2026-06-01,UG-D038,Kabarole,MAT,Maternal complications,11,8,37.5,3.06,0,Moderate,orange
+2026-06-01,UG-D038,Kabarole,NEO,Neonatal sepsis,9,9,0.0,2.5,0,Watch,yellow
+2026-06-01,UG-D039,Kasese,MAL,Malaria,3632,4106,-11.5,427.29,70,High,red
+2026-06-01,UG-D039,Kasese,ARI,Acute respiratory infection,751,653,15.0,88.35,0,Moderate,orange
+2026-06-01,UG-D039,Kasese,DIA,Diarrhoeal disease,257,330,-22.1,30.24,0,Watch,yellow
+2026-06-01,UG-D039,Kasese,TB,Tuberculosis,5,3,66.7,0.59,0,High,red
+2026-06-01,UG-D039,Kasese,HIV,HIV positive tests,15,13,15.4,1.76,0,Watch,yellow
+2026-06-01,UG-D039,Kasese,MEA,Measles,2,3,-33.3,0.24,0,Rare,green
+2026-06-01,UG-D039,Kasese,CHO,Cholera,6,4,50.0,0.71,0,Moderate,orange
+2026-06-01,UG-D039,Kasese,TYP,Typhoid,173,142,21.8,20.35,0,Moderate,orange
+2026-06-01,UG-D039,Kasese,MAT,Maternal complications,23,24,-4.2,2.71,0,Watch,yellow
+2026-06-01,UG-D039,Kasese,NEO,Neonatal sepsis,9,11,-18.2,1.06,0,Watch,yellow
+2026-06-01,UG-D040,Bundibugyo,MAL,Malaria,458,473,-3.2,152.67,1,High,red
+2026-06-01,UG-D040,Bundibugyo,ARI,Acute respiratory infection,152,182,-16.5,50.67,0,Moderate,orange
+2026-06-01,UG-D040,Bundibugyo,DIA,Diarrhoeal disease,101,153,-34.0,33.67,0,Watch,yellow
+2026-06-01,UG-D040,Bundibugyo,TB,Tuberculosis,7,4,75.0,2.33,0,High,red
+2026-06-01,UG-D040,Bundibugyo,HIV,HIV positive tests,7,5,40.0,2.33,0,Moderate,orange
+2026-06-01,UG-D040,Bundibugyo,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D040,Bundibugyo,CHO,Cholera,18,20,-10.0,6.0,0,Critical,dark red
+2026-06-01,UG-D040,Bundibugyo,TYP,Typhoid,47,31,51.6,15.67,0,Moderate,orange
+2026-06-01,UG-D040,Bundibugyo,MAT,Maternal complications,22,17,29.4,7.33,0,Moderate,orange
+2026-06-01,UG-D040,Bundibugyo,NEO,Neonatal sepsis,25,31,-19.4,8.33,0,Watch,yellow
+2026-06-01,UG-D041,Ntoroko,MAL,Malaria,114,79,44.3,114.0,1,Moderate,orange
+2026-06-01,UG-D041,Ntoroko,ARI,Acute respiratory infection,49,49,0.0,49.0,0,Watch,yellow
+2026-06-01,UG-D041,Ntoroko,DIA,Diarrhoeal disease,8,8,0.0,8.0,0,Watch,yellow
+2026-06-01,UG-D041,Ntoroko,TB,Tuberculosis,1,0,0,1.0,0,Rare,green
+2026-06-01,UG-D041,Ntoroko,HIV,HIV positive tests,1,0,0,1.0,0,Rare,green
+2026-06-01,UG-D041,Ntoroko,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D041,Ntoroko,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D041,Ntoroko,TYP,Typhoid,23,33,-30.3,23.0,0,Watch,yellow
+2026-06-01,UG-D041,Ntoroko,MAT,Maternal complications,13,10,30.0,13.0,0,Moderate,orange
+2026-06-01,UG-D041,Ntoroko,NEO,Neonatal sepsis,8,11,-27.3,8.0,0,Watch,yellow
+2026-06-01,UG-D042,Mbarara,MAL,Malaria,764,717,6.6,152.8,15,High,red
+2026-06-01,UG-D042,Mbarara,ARI,Acute respiratory infection,412,460,-10.4,82.4,0,Moderate,orange
+2026-06-01,UG-D042,Mbarara,DIA,Diarrhoeal disease,105,95,10.5,21.0,0,Watch,yellow
+2026-06-01,UG-D042,Mbarara,TB,Tuberculosis,19,12,58.3,3.8,0,Moderate,orange
+2026-06-01,UG-D042,Mbarara,HIV,HIV positive tests,29,26,11.5,5.8,0,Watch,yellow
+2026-06-01,UG-D042,Mbarara,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D042,Mbarara,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D042,Mbarara,TYP,Typhoid,122,104,17.3,24.4,0,Watch,yellow
+2026-06-01,UG-D042,Mbarara,MAT,Maternal complications,61,39,56.4,12.2,1,Moderate,orange
+2026-06-01,UG-D042,Mbarara,NEO,Neonatal sepsis,14,15,-6.7,2.8,0,Watch,yellow
+2026-06-01,UG-D043,Bushenyi,MAL,Malaria,233,214,8.9,93.2,8,Moderate,orange
+2026-06-01,UG-D043,Bushenyi,ARI,Acute respiratory infection,59,75,-21.3,23.6,0,Watch,yellow
+2026-06-01,UG-D043,Bushenyi,DIA,Diarrhoeal disease,110,73,50.7,44.0,0,Moderate,orange
+2026-06-01,UG-D043,Bushenyi,TB,Tuberculosis,2,1,100.0,0.8,0,High,red
+2026-06-01,UG-D043,Bushenyi,HIV,HIV positive tests,4,5,-20.0,1.6,0,Watch,yellow
+2026-06-01,UG-D043,Bushenyi,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D043,Bushenyi,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D043,Bushenyi,TYP,Typhoid,32,24,33.3,12.8,0,Moderate,orange
+2026-06-01,UG-D043,Bushenyi,MAT,Maternal complications,38,47,-19.1,15.2,0,Watch,yellow
+2026-06-01,UG-D043,Bushenyi,NEO,Neonatal sepsis,12,8,50.0,4.8,0,Moderate,orange
+2026-06-01,UG-D044,Ntungamo,MAL,Malaria,711,486,46.3,118.5,5,Moderate,orange
+2026-06-01,UG-D044,Ntungamo,ARI,Acute respiratory infection,326,470,-30.6,54.33,0,Moderate,orange
+2026-06-01,UG-D044,Ntungamo,DIA,Diarrhoeal disease,123,118,4.2,20.5,0,Watch,yellow
+2026-06-01,UG-D044,Ntungamo,TB,Tuberculosis,15,17,-11.8,2.5,0,Watch,yellow
+2026-06-01,UG-D044,Ntungamo,HIV,HIV positive tests,5,5,0.0,0.83,0,Watch,yellow
+2026-06-01,UG-D044,Ntungamo,MEA,Measles,1,0,0,0.17,0,Rare,green
+2026-06-01,UG-D044,Ntungamo,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D044,Ntungamo,TYP,Typhoid,139,150,-7.3,23.17,0,Watch,yellow
+2026-06-01,UG-D044,Ntungamo,MAT,Maternal complications,57,36,58.3,9.5,1,Moderate,orange
+2026-06-01,UG-D044,Ntungamo,NEO,Neonatal sepsis,33,24,37.5,5.5,0,Moderate,orange
+2026-06-01,UG-D045,Rukungiri,MAL,Malaria,278,292,-4.8,77.22,8,Moderate,orange
+2026-06-01,UG-D045,Rukungiri,ARI,Acute respiratory infection,292,445,-34.4,81.11,0,Moderate,orange
+2026-06-01,UG-D045,Rukungiri,DIA,Diarrhoeal disease,53,51,3.9,14.72,0,Watch,yellow
+2026-06-01,UG-D045,Rukungiri,TB,Tuberculosis,12,12,0.0,3.33,0,Watch,yellow
+2026-06-01,UG-D045,Rukungiri,HIV,HIV positive tests,10,14,-28.6,2.78,0,Watch,yellow
+2026-06-01,UG-D045,Rukungiri,MEA,Measles,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D045,Rukungiri,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D045,Rukungiri,TYP,Typhoid,79,71,11.3,21.94,0,Watch,yellow
+2026-06-01,UG-D045,Rukungiri,MAT,Maternal complications,36,37,-2.7,10.0,0,Watch,yellow
+2026-06-01,UG-D045,Rukungiri,NEO,Neonatal sepsis,18,13,38.5,5.0,0,Moderate,orange
+2026-06-01,UG-D046,Kabale,MAL,Malaria,246,255,-3.5,87.86,6,Moderate,orange
+2026-06-01,UG-D046,Kabale,ARI,Acute respiratory infection,98,112,-12.5,35.0,0,Watch,yellow
+2026-06-01,UG-D046,Kabale,DIA,Diarrhoeal disease,90,73,23.3,32.14,0,Moderate,orange
+2026-06-01,UG-D046,Kabale,TB,Tuberculosis,9,6,50.0,3.21,0,Moderate,orange
+2026-06-01,UG-D046,Kabale,HIV,HIV positive tests,12,8,50.0,4.29,0,Moderate,orange
+2026-06-01,UG-D046,Kabale,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D046,Kabale,CHO,Cholera,0,0,0,0.0,0,No signal,grey
+2026-06-01,UG-D046,Kabale,TYP,Typhoid,20,18,11.1,7.14,0,Watch,yellow
+2026-06-01,UG-D046,Kabale,MAT,Maternal complications,32,44,-27.3,11.43,1,Watch,yellow
+2026-06-01,UG-D046,Kabale,NEO,Neonatal sepsis,3,4,-25.0,1.07,0,Rare,green
+2026-06-01,UG-D047,Kisoro,MAL,Malaria,246,301,-18.3,72.35,9,Moderate,orange
+2026-06-01,UG-D047,Kisoro,ARI,Acute respiratory infection,186,161,15.5,54.71,0,Moderate,orange
+2026-06-01,UG-D047,Kisoro,DIA,Diarrhoeal disease,150,184,-18.5,44.12,0,Watch,yellow
+2026-06-01,UG-D047,Kisoro,TB,Tuberculosis,8,5,60.0,2.35,0,High,red
+2026-06-01,UG-D047,Kisoro,HIV,HIV positive tests,5,6,-16.7,1.47,0,Watch,yellow
+2026-06-01,UG-D047,Kisoro,MEA,Measles,2,2,0.0,0.59,0,Rare,green
+2026-06-01,UG-D047,Kisoro,CHO,Cholera,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D047,Kisoro,TYP,Typhoid,31,27,14.8,9.12,0,Watch,yellow
+2026-06-01,UG-D047,Kisoro,MAT,Maternal complications,40,32,25.0,11.76,0,Moderate,orange
+2026-06-01,UG-D047,Kisoro,NEO,Neonatal sepsis,6,5,20.0,1.76,0,Moderate,orange
+2026-06-01,UG-D048,Kanungu,MAL,Malaria,421,396,6.3,150.36,0,High,red
+2026-06-01,UG-D048,Kanungu,ARI,Acute respiratory infection,117,78,50.0,41.79,0,Moderate,orange
+2026-06-01,UG-D048,Kanungu,DIA,Diarrhoeal disease,113,114,-0.9,40.36,0,Watch,yellow
+2026-06-01,UG-D048,Kanungu,TB,Tuberculosis,9,8,12.5,3.21,0,Watch,yellow
+2026-06-01,UG-D048,Kanungu,HIV,HIV positive tests,5,5,0.0,1.79,0,Watch,yellow
+2026-06-01,UG-D048,Kanungu,MEA,Measles,0,1,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D048,Kanungu,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D048,Kanungu,TYP,Typhoid,38,37,2.7,13.57,0,Watch,yellow
+2026-06-01,UG-D048,Kanungu,MAT,Maternal complications,7,5,40.0,2.5,0,Moderate,orange
+2026-06-01,UG-D048,Kanungu,NEO,Neonatal sepsis,3,2,50.0,1.07,0,Moderate,orange
+2026-06-01,UG-D049,Isingiro,MAL,Malaria,990,723,36.9,159.68,29,High,red
+2026-06-01,UG-D049,Isingiro,ARI,Acute respiratory infection,168,117,43.6,27.1,0,Moderate,orange
+2026-06-01,UG-D049,Isingiro,DIA,Diarrhoeal disease,94,123,-23.6,15.16,0,Watch,yellow
+2026-06-01,UG-D049,Isingiro,TB,Tuberculosis,21,28,-25.0,3.39,0,Watch,yellow
+2026-06-01,UG-D049,Isingiro,HIV,HIV positive tests,8,6,33.3,1.29,0,Moderate,orange
+2026-06-01,UG-D049,Isingiro,MEA,Measles,3,2,50.0,0.48,0,Moderate,orange
+2026-06-01,UG-D049,Isingiro,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D049,Isingiro,TYP,Typhoid,80,71,12.7,12.9,0,Watch,yellow
+2026-06-01,UG-D049,Isingiro,MAT,Maternal complications,98,129,-24.0,15.81,2,Watch,yellow
+2026-06-01,UG-D049,Isingiro,NEO,Neonatal sepsis,6,4,50.0,0.97,0,Moderate,orange
+2026-06-01,UG-D050,Sembabule,MAL,Malaria,119,155,-23.2,38.39,1,Watch,yellow
+2026-06-01,UG-D050,Sembabule,ARI,Acute respiratory infection,246,301,-18.3,79.35,0,Moderate,orange
+2026-06-01,UG-D050,Sembabule,DIA,Diarrhoeal disease,61,72,-15.3,19.68,0,Watch,yellow
+2026-06-01,UG-D050,Sembabule,TB,Tuberculosis,7,7,0.0,2.26,0,Watch,yellow
+2026-06-01,UG-D050,Sembabule,HIV,HIV positive tests,4,5,-20.0,1.29,0,Watch,yellow
+2026-06-01,UG-D050,Sembabule,MEA,Measles,1,0,0,0.32,0,Rare,green
+2026-06-01,UG-D050,Sembabule,CHO,Cholera,0,2,-100.0,0.0,0,No signal,grey
+2026-06-01,UG-D050,Sembabule,TYP,Typhoid,6,6,0.0,1.94,0,Watch,yellow
+2026-06-01,UG-D050,Sembabule,MAT,Maternal complications,38,44,-13.6,12.26,1,Watch,yellow
+2026-06-01,UG-D050,Sembabule,NEO,Neonatal sepsis,19,18,5.6,6.13,0,Watch,yellow

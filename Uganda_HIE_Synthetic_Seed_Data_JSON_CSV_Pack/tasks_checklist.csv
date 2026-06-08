@@ -1,0 +1,16 @@
+day,owner,workstream,task,expected_output,dependency,priority,status
+Day 1 AM,John,District/map foundation,"Collect/confirm 50 demo districts, regions, subregions, map join names, lat/lng and remote flag.",Districts_50 sheet complete,None,High,Not started
+Day 1 AM,John,Map assets,Find/download Uganda district GeoJSON boundary source and confirm district name field used for joins.,/public/maps/uganda-districts.geojson,Districts list,High,Not started
+Day 1 PM,John,Facility metadata,"Create at least 2 synthetic government facilities per district with type, ownership, beds, location, lab/maternity flags.",Facilities sheet complete,Districts_50,High,Not started
+Day 1 PM,Moses,Disease catalogue,"Finalize disease list, severity categories, chart colors and dashboard KPI formulas.",Diseases + severity logic,None,High,Not started
+Day 1 PM,Moses,Synthetic health stats,"Populate district weekly disease, births, deaths, immunisation, bed occupancy, reporting completeness and timeliness.",District disease and monthly indicators,Districts_50,High,Not started
+Day 2 AM,Moses,Stock data,"Generate commodity stock levels for all demo facilities: days of stock, stockout status, alert flags.",Stock_Inventory sheet complete,Facilities,High,Not started
+Day 2 AM,Moses,Patient sharing data,"Generate 80-120 synthetic patient records with HIE IDs, consent status, next of kin, allergies, last visit.",Patient_Demo_Records,Facilities,High,Not started
+Day 2 AM,John,Data QA,"Check district names match map join names; verify no missing lat/lng, duplicate IDs, or broken facility-district links.",QA checklist marked done,Districts + Facilities,High,Not started
+Day 2 PM,John + Moses,Map integration,Wire disease data to map layer: select disease -> show hotspots -> color/marker legend -> top district list.,Working map demo,GeoJSON + district disease reports,High,Not started
+Day 2 PM,John + Moses,Final data freeze,Export JSON seed files and one XLSX workbook. Lock filenames and schema before front-end build.,/src/data/*.json + workbook,All data sheets,High,Not started
+Build Day 1,John,Frontend shell + map,"Build Next.js shell, navigation, MoH dashboard map, filter panel, district search and legend.",App shell + map route,Seed JSON,High,Not started
+Build Day 1,Moses,Dashboards + stats,"Build MoH KPI cards, disease intelligence, top districts, stock alerts, births/deaths/immunisation panels.",MoH command center screens,Seed JSON,High,Not started
+Build Day 2,John,Facility workflow,Build remote facility tablet reporting screen and facility daily report summary.,Facility reporting screen,Facility + daily report JSON,High,Not started
+Build Day 2,Moses,Patient/insurer flows,"Build patient sharing, next-of-kin, emergency access, and insurer claims screens.",Patient/claims routes,Patient + claims JSON,High,Not started
+Build Day 2,John + Moses,Demo polish,"Add transitions, loading states, realistic timestamps, AI insight cards and final judge demo script.",Final Vercel demo,All routes,High,Not started

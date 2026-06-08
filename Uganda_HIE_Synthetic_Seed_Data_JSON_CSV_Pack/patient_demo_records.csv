@@ -1,0 +1,121 @@
+patient_id,display_name,age,sex,district_name,primary_facility_id,primary_facility,last_visit_date,active_conditions_demo,allergy_flag,consent_status,next_of_kin_name,next_of_kin_relationship,next_of_kin_phone_demo
+HIE-DEMO-00001,Moses Achieng,76,Female,Kabale,FAC-0092,Kabale South HC IV,2026-04-15,None,Penicillin,Care sharing only,Joseph Nabirye,Mother,+256 796409275
+HIE-DEMO-00002,Patricia Kiconco,25,Male,Kabale,FAC-0091,Kabale General Hospital,2026-05-25,Pregnancy,None,Emergency only,Daniel Nambi,Guardian,+256 774666766
+HIE-DEMO-00003,Samuel Namugga,51,Female,Kampala,FAC-0002,Kampala South HC II,2026-04-26,Asthma,None,Full care sharing,David Namugga,Brother,+256 765676552
+HIE-DEMO-00004,Agnes Mukasa,81,Female,Lira,FAC-0053,Lira Regional Referral Hospital,2026-03-06,Hypertension,None,Care sharing only,David Nakitende,Mother,+256 735959652
+HIE-DEMO-00005,John Mukasa,73,Female,Mbale,FAC-0032,Mbale Border HC II,2026-05-14,Asthma,Penicillin,Care sharing only,David Namutebi,Guardian,+256 768018227
+HIE-DEMO-00006,Peter Otim,64,Female,Koboko,FAC-0059,Koboko HC IV,2026-05-31,None,None,Care sharing only,Allen Namugga,Brother,+256 761511148
+HIE-DEMO-00007,Agnes Byaruhanga,27,Female,Mayuge,FAC-0028,Mayuge South HC IV,2026-02-22,HIV care,Penicillin,Care sharing only,Joseph Tumusiime,Mother,+256 754788886
+HIE-DEMO-00008,David Mukasa,77,Female,Soroti,FAC-0037,Soroti General Hospital,2026-05-26,Hypertension,None,Emergency only,Kevin Namugga,Spouse,+256 702277990
+HIE-DEMO-00009,Paul Byaruhanga,72,Female,Kumi,FAC-0040,Kumi North HC II,2026-03-16,Diabetes,None,Full care sharing,Irene Achieng,Mother,+256 789580830
+HIE-DEMO-00010,David Mugisha,33,Female,Lira,FAC-0053,Lira Regional Referral Hospital,2026-02-28,TB follow-up,Sulfa drugs,Full care sharing,Irene Kato,Brother,+256 784923357
+HIE-DEMO-00011,Sarah Tumusiime,46,Female,Wakiso,FAC-0004,Wakiso Border HC II,2026-03-17,TB follow-up,Sulfa drugs,Full care sharing,Joseph Akello,Spouse,+256 769178726
+HIE-DEMO-00012,David Okello,7,Male,Kisoro,FAC-0093,Kisoro General Hospital,2026-03-13,Asthma,None,Care sharing only,Moses Ocen,Guardian,+256 766634269
+HIE-DEMO-00013,Moses Otim,76,Male,Kabale,FAC-0091,Kabale General Hospital,2026-02-09,Pregnancy,Penicillin,Emergency only,Grace Kato,Sister,+256 745090514
+HIE-DEMO-00014,Allen Akello,7,Male,Kalangala,FAC-0019,Kalangala HC IV,2026-03-19,TB follow-up,Sulfa drugs,Full care sharing,Samuel Kisembo,Brother,+256 721917302
+HIE-DEMO-00015,Moses Kisembo,65,Male,Mbale,FAC-0031,Mbale Regional Referral Hospital,2026-03-09,None,Sulfa drugs,Care sharing only,Kevin Nsubuga,Father,+256 747625788
+HIE-DEMO-00016,Brian Mugisha,83,Male,Wakiso,FAC-0003,Wakiso General Hospital,2026-03-19,None,None,Emergency only,Agnes Tumusiime,Spouse,+256 718190463
+HIE-DEMO-00017,Samuel Okello,46,Female,Arua,FAC-0055,Arua Regional Referral Hospital,2026-02-25,Hypertension,None,Care sharing only,Joseph Nsubuga,Spouse,+256 772982514
+HIE-DEMO-00018,Ruth Mugisha,14,Female,Tororo,FAC-0034,Tororo North HC II,2026-05-21,HIV care,Sulfa drugs,Care sharing only,Kevin Kato,Guardian,+256 741749853
+HIE-DEMO-00019,Agnes Nambi,83,Male,Kiryandongo,FAC-0071,Kiryandongo HC IV,2026-04-13,Hypertension,Sulfa drugs,Full care sharing,Esther Wasswa,Father,+256 799944720
+HIE-DEMO-00020,Joseph Kiconco,55,Male,Moroto,FAC-0044,Moroto South HC III,2026-04-12,HIV care,None,Emergency only,Agnes Akello,Father,+256 796342119
+HIE-DEMO-00021,Grace Otim,29,Male,Kamuli,FAC-0029,Kamuli HC IV,2026-02-19,Diabetes,None,Emergency only,Sarah Wasswa,Mother,+256 748140909
+HIE-DEMO-00022,Ruth Achieng,20,Male,Adjumani,FAC-0061,Adjumani General Hospital,2026-05-23,Hypertension,Penicillin,Full care sharing,Samuel Nakitende,Guardian,+256 771230065
+HIE-DEMO-00023,Brian Wasswa,39,Male,Mityana,FAC-0012,Mityana Border HC II,2026-05-31,Hypertension,None,Emergency only,Agnes Namugga,Mother,+256 776703403
+HIE-DEMO-00024,Esther Wasswa,21,Male,Kalangala,FAC-0020,Kalangala North HC IV,2026-02-26,Diabetes,None,Care sharing only,Amina Achieng,Guardian,+256 775398155
+HIE-DEMO-00025,Brian Otim,47,Female,Masaka,FAC-0007,Masaka General Hospital,2026-04-20,Asthma,None,Emergency only,Peter Ocen,Guardian,+256 797436735
+HIE-DEMO-00026,Moses Okello,8,Male,Kiryandongo,FAC-0071,Kiryandongo HC IV,2026-04-16,Diabetes,None,Care sharing only,Paul Ocen,Brother,+256 706135182
+HIE-DEMO-00027,Moses Kiconco,18,Male,Buvuma,FAC-0021,Buvuma General Hospital,2026-05-06,TB follow-up,None,Emergency only,Patricia Nambi,Brother,+256 788780197
+HIE-DEMO-00028,Agnes Atim,36,Female,Kabarole,FAC-0076,Kabarole Rural HC II,2026-03-01,None,Penicillin,Emergency only,Mercy Nakitende,Sister,+256 762916184
+HIE-DEMO-00029,John Achieng,44,Female,Ntungamo,FAC-0088,Ntungamo South HC II,2026-05-25,Asthma,None,Full care sharing,Peter Nabirye,Brother,+256 723837480
+HIE-DEMO-00030,Esther Namutebi,37,Male,Soroti,FAC-0037,Soroti General Hospital,2026-05-01,HIV care,None,Emergency only,Peter Atim,Brother,+256 799899530
+HIE-DEMO-00031,Grace Byaruhanga,17,Male,Buvuma,FAC-0022,Buvuma Border HC III,2026-05-29,Pregnancy,None,Care sharing only,Allen Atim,Father,+256 713517714
+HIE-DEMO-00032,Paul Nabirye,2,Female,Kiryandongo,FAC-0071,Kiryandongo HC IV,2026-05-07,None,None,Emergency only,David Kato,Brother,+256 749984581
+HIE-DEMO-00033,Joseph Mugisha,56,Male,Arua,FAC-0055,Arua Regional Referral Hospital,2026-02-12,Pregnancy,Penicillin,Care sharing only,Mercy Akello,Guardian,+256 777694062
+HIE-DEMO-00034,Esther Tumusiime,81,Female,Kotido,FAC-0045,Kotido General Hospital,2026-03-23,Asthma,Sulfa drugs,Emergency only,Amina Mugisha,Father,+256 718709198
+HIE-DEMO-00035,Agnes Nakitende,80,Male,Mayuge,FAC-0027,Mayuge General Hospital,2026-06-05,Hypertension,Sulfa drugs,Full care sharing,Grace Mukasa,Father,+256 707053738
+HIE-DEMO-00036,David Achieng,66,Female,Mbale,FAC-0032,Mbale Border HC II,2026-04-24,Asthma,None,Care sharing only,Agnes Namutebi,Mother,+256 784852055
+HIE-DEMO-00037,Paul Atim,10,Male,Masindi,FAC-0068,Masindi Central HC III,2026-04-30,Hypertension,Penicillin,Care sharing only,Esther Nabirye,Sister,+256 701245072
+HIE-DEMO-00038,Kevin Nakitende,80,Female,Kampala,FAC-0001,Kampala Regional Referral Hospital,2026-02-18,Hypertension,None,Full care sharing,Sarah Mugisha,Spouse,+256 759766326
+HIE-DEMO-00039,Agnes Byaruhanga,45,Female,Ntungamo,FAC-0088,Ntungamo South HC II,2026-03-14,Asthma,None,Care sharing only,Joseph Kato,Guardian,+256 778301455
+HIE-DEMO-00040,Mercy Achieng,45,Female,Kotido,FAC-0045,Kotido General Hospital,2026-04-22,Hypertension,Penicillin,Full care sharing,Mercy Nsubuga,Mother,+256 712200146
+HIE-DEMO-00041,Paul Mugisha,11,Female,Moyo,FAC-0063,Moyo HC IV,2026-03-18,Pregnancy,Penicillin,Emergency only,Paul Kiconco,Brother,+256 743536720
+HIE-DEMO-00042,Agnes Nabirye,32,Female,Mpigi,FAC-0016,Mpigi South HC IV,2026-03-23,HIV care,Sulfa drugs,Full care sharing,Joseph Kisembo,Sister,+256 744445625
+HIE-DEMO-00043,Mercy Nakitende,43,Female,Kumi,FAC-0039,Kumi General Hospital,2026-03-21,Hypertension,Sulfa drugs,Full care sharing,David Okello,Brother,+256 756138628
+HIE-DEMO-00044,John Akello,1,Male,Iganga,FAC-0026,Iganga Border HC III,2026-03-29,Pregnancy,None,Care sharing only,Kevin Mugisha,Sister,+256 715843202
+HIE-DEMO-00045,Daniel Nsubuga,23,Female,Tororo,FAC-0034,Tororo North HC II,2026-03-17,TB follow-up,None,Care sharing only,Agnes Nabirye,Father,+256 754473160
+HIE-DEMO-00046,Ruth Mukasa,1,Male,Kapchorwa,FAC-0042,Kapchorwa Central HC II,2026-05-29,Diabetes,None,Full care sharing,Peter Mukasa,Spouse,+256 753215011
+HIE-DEMO-00047,Allen Byaruhanga,32,Male,Luwero,FAC-0009,Luwero HC IV,2026-04-05,Asthma,None,Emergency only,Ruth Mugisha,Brother,+256 712478365
+HIE-DEMO-00048,Ruth Okello,9,Female,Kabale,FAC-0091,Kabale General Hospital,2026-04-27,Hypertension,Penicillin,Emergency only,Peter Mugisha,Spouse,+256 769115949
+HIE-DEMO-00049,Paul Namutebi,37,Male,Kanungu,FAC-0095,Kanungu HC IV,2026-05-22,Diabetes,None,Emergency only,Kevin Otim,Spouse,+256 732581597
+HIE-DEMO-00050,Joseph Mukasa,64,Female,Ntungamo,FAC-0087,Ntungamo General Hospital,2026-05-28,None,None,Full care sharing,Joseph Achieng,Father,+256 758919653
+HIE-DEMO-00051,Allen Kisembo,81,Female,Kiryandongo,FAC-0071,Kiryandongo HC IV,2026-03-19,Diabetes,None,Full care sharing,Mercy Kisembo,Guardian,+256 711138152
+HIE-DEMO-00052,John Nabirye,41,Male,Ntoroko,FAC-0082,Ntoroko Rural HC II,2026-04-01,Diabetes,Penicillin,Care sharing only,Joseph Mugisha,Sister,+256 793822716
+HIE-DEMO-00053,Mercy Tumusiime,35,Male,Arua,FAC-0056,Arua Island HC IV,2026-05-02,HIV care,None,Care sharing only,Irene Nakitende,Brother,+256 704459286
+HIE-DEMO-00054,Samuel Nabirye,12,Female,Busia,FAC-0035,Busia HC IV,2026-03-17,TB follow-up,None,Full care sharing,Amina Kisembo,Sister,+256 715368255
+HIE-DEMO-00055,Samuel Nabirye,1,Male,Kumi,FAC-0039,Kumi General Hospital,2026-04-01,Pregnancy,None,Emergency only,David Nambi,Mother,+256 736796660
+HIE-DEMO-00056,Daniel Atim,65,Male,Moroto,FAC-0044,Moroto South HC III,2026-05-11,Diabetes,None,Care sharing only,Esther Atim,Mother,+256 714560590
+HIE-DEMO-00057,Paul Nabirye,75,Female,Mayuge,FAC-0028,Mayuge South HC IV,2026-05-25,HIV care,None,Care sharing only,Amina Ocen,Spouse,+256 715216602
+HIE-DEMO-00058,Grace Namugga,48,Male,Lira,FAC-0054,Lira Border HC IV,2026-06-02,Hypertension,None,Emergency only,Amina Nakitende,Spouse,+256 799190647
+HIE-DEMO-00059,Grace Namugga,74,Female,Kisoro,FAC-0094,Kisoro Rural HC IV,2026-02-21,Hypertension,None,Care sharing only,Esther Achieng,Spouse,+256 702353833
+HIE-DEMO-00060,John Kiconco,17,Male,Busia,FAC-0035,Busia HC IV,2026-02-13,Pregnancy,None,Full care sharing,Paul Namutebi,Father,+256 714695613
+HIE-DEMO-00061,Irene Atim,4,Female,Ntungamo,FAC-0088,Ntungamo South HC II,2026-05-09,Asthma,None,Full care sharing,Brian Namutebi,Spouse,+256 718121707
+HIE-DEMO-00062,Irene Okello,41,Female,Tororo,FAC-0034,Tororo North HC II,2026-05-20,Pregnancy,None,Care sharing only,Moses Nakitende,Mother,+256 737115092
+HIE-DEMO-00063,Amina Otim,55,Male,Napak,FAC-0049,Napak General Hospital,2026-03-31,Pregnancy,None,Full care sharing,Mercy Tumusiime,Mother,+256 767463702
+HIE-DEMO-00064,Agnes Namutebi,32,Male,Ntungamo,FAC-0088,Ntungamo South HC II,2026-05-14,None,None,Care sharing only,Agnes Okello,Guardian,+256 743925255
+HIE-DEMO-00065,Paul Achieng,35,Female,Kanungu,FAC-0095,Kanungu HC IV,2026-03-11,TB follow-up,Sulfa drugs,Emergency only,Esther Wasswa,Father,+256 779243929
+HIE-DEMO-00066,Brian Mukasa,1,Male,Moroto,FAC-0044,Moroto South HC III,2026-03-20,None,None,Emergency only,Daniel Kiconco,Father,+256 794285026
+HIE-DEMO-00067,Agnes Kisembo,19,Female,Iganga,FAC-0025,Iganga General Hospital,2026-04-23,None,None,Emergency only,Ruth Mukasa,Father,+256 708773238
+HIE-DEMO-00068,Daniel Kiconco,38,Male,Mbarara,FAC-0084,Mbarara South HC III,2026-03-24,Diabetes,Sulfa drugs,Emergency only,Allen Mugisha,Spouse,+256 718146510
+HIE-DEMO-00069,Patricia Mugisha,14,Male,Mbarara,FAC-0083,Mbarara Regional Referral Hospital,2026-02-14,HIV care,None,Care sharing only,Paul Kisembo,Brother,+256 747310015
+HIE-DEMO-00070,Allen Wasswa,9,Female,Bushenyi,FAC-0086,Bushenyi Rural HC III,2026-02-19,Asthma,None,Care sharing only,David Kiconco,Mother,+256 721535003
+HIE-DEMO-00071,Irene Nsubuga,15,Male,Hoima,FAC-0069,Hoima General Hospital,2026-03-31,Diabetes,None,Emergency only,Samuel Kisembo,Father,+256 795647367
+HIE-DEMO-00072,Moses Nsubuga,6,Male,Kisoro,FAC-0093,Kisoro General Hospital,2026-04-13,Hypertension,None,Emergency only,Irene Tumusiime,Sister,+256 797774559
+HIE-DEMO-00073,John Namugga,45,Female,Nebbi,FAC-0065,Nebbi General Hospital,2026-05-25,Asthma,None,Emergency only,Daniel Ocen,Father,+256 779833580
+HIE-DEMO-00074,Kevin Namutebi,83,Male,Masaka,FAC-0008,Masaka Central HC III,2026-04-02,Pregnancy,Penicillin,Care sharing only,Sarah Nabirye,Spouse,+256 709065128
+HIE-DEMO-00075,Allen Nsubuga,65,Female,Kumi,FAC-0040,Kumi North HC II,2026-05-30,Asthma,None,Emergency only,Samuel Wasswa,Sister,+256 753688627
+HIE-DEMO-00076,Irene Nsubuga,15,Male,Adjumani,FAC-0061,Adjumani General Hospital,2026-02-10,None,None,Full care sharing,Grace Nambi,Spouse,+256 713629210
+HIE-DEMO-00077,Mercy Wasswa,46,Male,Kampala,FAC-0001,Kampala Regional Referral Hospital,2026-04-24,Diabetes,None,Full care sharing,Esther Kiconco,Father,+256 787617514
+HIE-DEMO-00078,Mercy Nakitende,39,Male,Nebbi,FAC-0066,Nebbi Island HC III,2026-02-12,Hypertension,Sulfa drugs,Care sharing only,Irene Wasswa,Father,+256 706044778
+HIE-DEMO-00079,Kevin Byaruhanga,49,Male,Iganga,FAC-0026,Iganga Border HC III,2026-04-29,Hypertension,None,Emergency only,Joseph Mukasa,Father,+256 724551710
+HIE-DEMO-00080,Amina Kato,62,Male,Mubende,FAC-0013,Mubende HC IV,2026-03-21,Diabetes,None,Care sharing only,Joseph Nakitende,Brother,+256 735617112
+HIE-DEMO-00081,Brian Kato,82,Female,Masaka,FAC-0008,Masaka Central HC III,2026-04-29,Pregnancy,None,Care sharing only,Patricia Kisembo,Mother,+256 712573684
+HIE-DEMO-00082,Allen Mugisha,49,Male,Arua,FAC-0056,Arua Island HC IV,2026-05-04,None,None,Full care sharing,Irene Tumusiime,Guardian,+256 736374955
+HIE-DEMO-00083,Sarah Nabirye,24,Male,Masindi,FAC-0067,Masindi HC IV,2026-02-27,TB follow-up,None,Emergency only,Daniel Kiconco,Guardian,+256 768660881
+HIE-DEMO-00084,Kevin Ocen,12,Female,Busia,FAC-0035,Busia HC IV,2026-03-28,Asthma,None,Full care sharing,Mercy Byaruhanga,Guardian,+256 798354368
+HIE-DEMO-00085,Joseph Byaruhanga,71,Male,Bushenyi,FAC-0085,Bushenyi General Hospital,2026-03-02,TB follow-up,Penicillin,Full care sharing,John Nakitende,Brother,+256 742237575
+HIE-DEMO-00086,David Namugga,53,Female,Isingiro,FAC-0097,Isingiro HC IV,2026-05-28,Hypertension,None,Full care sharing,Peter Namutebi,Mother,+256 757067520
+HIE-DEMO-00087,Amina Nambi,81,Female,Wakiso,FAC-0004,Wakiso Border HC II,2026-05-04,Pregnancy,Sulfa drugs,Care sharing only,Daniel Okello,Brother,+256 786565065
+HIE-DEMO-00088,Kevin Wasswa,13,Male,Buvuma,FAC-0021,Buvuma General Hospital,2026-02-16,Asthma,Sulfa drugs,Full care sharing,Paul Mugisha,Sister,+256 777166753
+HIE-DEMO-00089,Agnes Nakitende,79,Male,Kaabong,FAC-0047,Kaabong General Hospital,2026-04-13,TB follow-up,Sulfa drugs,Full care sharing,Patricia Nabirye,Mother,+256 793506081
+HIE-DEMO-00090,Mercy Kato,40,Male,Kotido,FAC-0045,Kotido General Hospital,2026-05-06,None,None,Full care sharing,Ruth Nsubuga,Mother,+256 722410082
+HIE-DEMO-00091,Grace Nambi,76,Male,Ntungamo,FAC-0087,Ntungamo General Hospital,2026-05-17,Hypertension,None,Full care sharing,Amina Wasswa,Brother,+256 717425575
+HIE-DEMO-00092,Mercy Okello,50,Male,Sembabule,FAC-0100,Sembabule Border HC II,2026-02-27,Asthma,None,Full care sharing,Patricia Wasswa,Mother,+256 769237771
+HIE-DEMO-00093,Kevin Kisembo,23,Male,Kumi,FAC-0039,Kumi General Hospital,2026-03-05,Diabetes,None,Full care sharing,Samuel Namugga,Guardian,+256 774806149
+HIE-DEMO-00094,Irene Namutebi,50,Female,Gulu,FAC-0051,Gulu Regional Referral Hospital,2026-03-09,HIV care,None,Emergency only,Esther Tumusiime,Brother,+256 736218806
+HIE-DEMO-00095,Joseph Byaruhanga,41,Male,Sembabule,FAC-0099,Sembabule HC IV,2026-03-22,Diabetes,None,Care sharing only,Samuel Nsubuga,Mother,+256 744144982
+HIE-DEMO-00096,Peter Wasswa,59,Female,Kisoro,FAC-0093,Kisoro General Hospital,2026-03-04,TB follow-up,Penicillin,Full care sharing,Daniel Mugisha,Sister,+256 701346704
+HIE-DEMO-00097,Agnes Byaruhanga,10,Female,Isingiro,FAC-0097,Isingiro HC IV,2026-05-25,TB follow-up,Sulfa drugs,Emergency only,John Tumusiime,Mother,+256 763419683
+HIE-DEMO-00098,Mercy Tumusiime,6,Male,Busia,FAC-0036,Busia North HC III,2026-04-16,None,None,Care sharing only,Kevin Kato,Mother,+256 735732510
+HIE-DEMO-00099,Moses Ocen,68,Male,Mbarara,FAC-0083,Mbarara Regional Referral Hospital,2026-03-18,Hypertension,None,Full care sharing,Kevin Kisembo,Father,+256 791716905
+HIE-DEMO-00100,Daniel Akello,55,Male,Ntungamo,FAC-0087,Ntungamo General Hospital,2026-05-05,Asthma,Sulfa drugs,Care sharing only,Agnes Wasswa,Sister,+256 756562884
+HIE-DEMO-00101,Allen Nabirye,21,Male,Arua,FAC-0055,Arua Regional Referral Hospital,2026-04-20,Diabetes,Penicillin,Care sharing only,David Nakitende,Father,+256 758495467
+HIE-DEMO-00102,Agnes Atim,81,Male,Mbale,FAC-0031,Mbale Regional Referral Hospital,2026-06-01,Asthma,None,Full care sharing,Allen Kiconco,Guardian,+256 755004088
+HIE-DEMO-00103,Joseph Ocen,61,Female,Moyo,FAC-0064,Moyo Island HC IV,2026-02-28,HIV care,None,Care sharing only,Sarah Kiconco,Father,+256 756548673
+HIE-DEMO-00104,Daniel Mukasa,22,Female,Iganga,FAC-0026,Iganga Border HC III,2026-05-12,Diabetes,None,Emergency only,Mercy Achieng,Sister,+256 789258451
+HIE-DEMO-00105,John Mugisha,57,Female,Kalangala,FAC-0020,Kalangala North HC IV,2026-05-12,Asthma,None,Full care sharing,Kevin Mukasa,Mother,+256 745579202
+HIE-DEMO-00106,Patricia Ocen,28,Male,Sembabule,FAC-0099,Sembabule HC IV,2026-03-25,TB follow-up,Penicillin,Care sharing only,Allen Kisembo,Spouse,+256 795740224
+HIE-DEMO-00107,Joseph Kisembo,39,Female,Kampala,FAC-0001,Kampala Regional Referral Hospital,2026-04-28,Pregnancy,None,Full care sharing,Grace Atim,Guardian,+256 779552065
+HIE-DEMO-00108,Peter Byaruhanga,63,Female,Luwero,FAC-0009,Luwero HC IV,2026-05-15,TB follow-up,Penicillin,Emergency only,Kevin Namugga,Mother,+256 783306981
+HIE-DEMO-00109,Irene Nakitende,50,Female,Ntoroko,FAC-0081,Ntoroko General Hospital,2026-05-14,HIV care,None,Full care sharing,Brian Wasswa,Mother,+256 798900128
+HIE-DEMO-00110,Patricia Otim,6,Female,Kapchorwa,FAC-0042,Kapchorwa Central HC II,2026-04-02,HIV care,None,Full care sharing,Grace Namutebi,Mother,+256 738177341
+HIE-DEMO-00111,Patricia Byaruhanga,74,Male,Fort Portal,FAC-0073,Fort Portal Regional Referral Hospital,2026-03-10,HIV care,Sulfa drugs,Emergency only,Allen Namugga,Sister,+256 729737103
+HIE-DEMO-00112,David Nabirye,55,Male,Mityana,FAC-0011,Mityana HC IV,2026-04-10,HIV care,None,Full care sharing,Esther Achieng,Guardian,+256 718956095
+HIE-DEMO-00113,Daniel Byaruhanga,58,Male,Ntoroko,FAC-0082,Ntoroko Rural HC II,2026-03-10,Diabetes,None,Care sharing only,Agnes Nakitende,Guardian,+256 746825676
+HIE-DEMO-00114,Sarah Akello,7,Female,Kaabong,FAC-0048,Kaabong South HC IV,2026-04-17,TB follow-up,Penicillin,Full care sharing,Brian Kisembo,Spouse,+256 791763216
+HIE-DEMO-00115,Kevin Namugga,77,Female,Kaabong,FAC-0047,Kaabong General Hospital,2026-05-25,Diabetes,Penicillin,Full care sharing,David Nambi,Brother,+256 744557325
+HIE-DEMO-00116,Irene Namugga,42,Female,Hoima,FAC-0070,Hoima Rural HC II,2026-04-30,TB follow-up,None,Care sharing only,Samuel Okello,Father,+256 798978431
+HIE-DEMO-00117,Allen Ocen,67,Female,Lira,FAC-0054,Lira Border HC IV,2026-03-19,TB follow-up,Penicillin,Care sharing only,Patricia Mukasa,Guardian,+256 736320461
+HIE-DEMO-00118,Amina Mugisha,23,Female,Kabale,FAC-0092,Kabale South HC IV,2026-03-28,Diabetes,Penicillin,Full care sharing,John Kato,Guardian,+256 791266932
+HIE-DEMO-00119,Samuel Atim,50,Female,Mubende,FAC-0014,Mubende South HC III,2026-05-26,Asthma,None,Care sharing only,Samuel Akello,Brother,+256 711244688
+HIE-DEMO-00120,Peter Nambi,41,Male,Yumbe,FAC-0058,Yumbe Central HC II,2026-04-29,TB follow-up,Sulfa drugs,Care sharing only,John Namugga,Mother,+256 708535036

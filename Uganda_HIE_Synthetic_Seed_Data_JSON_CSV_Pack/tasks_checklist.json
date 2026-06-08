@@ -1,0 +1,152 @@
+[
+  {
+    "day": "Day 1 AM",
+    "owner": "John",
+    "workstream": "District/map foundation",
+    "task": "Collect/confirm 50 demo districts, regions, subregions, map join names, lat/lng and remote flag.",
+    "expected_output": "Districts_50 sheet complete",
+    "dependency": "None",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 1 AM",
+    "owner": "John",
+    "workstream": "Map assets",
+    "task": "Find/download Uganda district GeoJSON boundary source and confirm district name field used for joins.",
+    "expected_output": "/public/maps/uganda-districts.geojson",
+    "dependency": "Districts list",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 1 PM",
+    "owner": "John",
+    "workstream": "Facility metadata",
+    "task": "Create at least 2 synthetic government facilities per district with type, ownership, beds, location, lab/maternity flags.",
+    "expected_output": "Facilities sheet complete",
+    "dependency": "Districts_50",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 1 PM",
+    "owner": "Moses",
+    "workstream": "Disease catalogue",
+    "task": "Finalize disease list, severity categories, chart colors and dashboard KPI formulas.",
+    "expected_output": "Diseases + severity logic",
+    "dependency": "None",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 1 PM",
+    "owner": "Moses",
+    "workstream": "Synthetic health stats",
+    "task": "Populate district weekly disease, births, deaths, immunisation, bed occupancy, reporting completeness and timeliness.",
+    "expected_output": "District disease and monthly indicators",
+    "dependency": "Districts_50",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 2 AM",
+    "owner": "Moses",
+    "workstream": "Stock data",
+    "task": "Generate commodity stock levels for all demo facilities: days of stock, stockout status, alert flags.",
+    "expected_output": "Stock_Inventory sheet complete",
+    "dependency": "Facilities",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 2 AM",
+    "owner": "Moses",
+    "workstream": "Patient sharing data",
+    "task": "Generate 80-120 synthetic patient records with HIE IDs, consent status, next of kin, allergies, last visit.",
+    "expected_output": "Patient_Demo_Records",
+    "dependency": "Facilities",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 2 AM",
+    "owner": "John",
+    "workstream": "Data QA",
+    "task": "Check district names match map join names; verify no missing lat/lng, duplicate IDs, or broken facility-district links.",
+    "expected_output": "QA checklist marked done",
+    "dependency": "Districts + Facilities",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 2 PM",
+    "owner": "John + Moses",
+    "workstream": "Map integration",
+    "task": "Wire disease data to map layer: select disease -> show hotspots -> color/marker legend -> top district list.",
+    "expected_output": "Working map demo",
+    "dependency": "GeoJSON + district disease reports",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Day 2 PM",
+    "owner": "John + Moses",
+    "workstream": "Final data freeze",
+    "task": "Export JSON seed files and one XLSX workbook. Lock filenames and schema before front-end build.",
+    "expected_output": "/src/data/*.json + workbook",
+    "dependency": "All data sheets",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Build Day 1",
+    "owner": "John",
+    "workstream": "Frontend shell + map",
+    "task": "Build Next.js shell, navigation, MoH dashboard map, filter panel, district search and legend.",
+    "expected_output": "App shell + map route",
+    "dependency": "Seed JSON",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Build Day 1",
+    "owner": "Moses",
+    "workstream": "Dashboards + stats",
+    "task": "Build MoH KPI cards, disease intelligence, top districts, stock alerts, births/deaths/immunisation panels.",
+    "expected_output": "MoH command center screens",
+    "dependency": "Seed JSON",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Build Day 2",
+    "owner": "John",
+    "workstream": "Facility workflow",
+    "task": "Build remote facility tablet reporting screen and facility daily report summary.",
+    "expected_output": "Facility reporting screen",
+    "dependency": "Facility + daily report JSON",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Build Day 2",
+    "owner": "Moses",
+    "workstream": "Patient/insurer flows",
+    "task": "Build patient sharing, next-of-kin, emergency access, and insurer claims screens.",
+    "expected_output": "Patient/claims routes",
+    "dependency": "Patient + claims JSON",
+    "priority": "High",
+    "status": "Not started"
+  },
+  {
+    "day": "Build Day 2",
+    "owner": "John + Moses",
+    "workstream": "Demo polish",
+    "task": "Add transitions, loading states, realistic timestamps, AI insight cards and final judge demo script.",
+    "expected_output": "Final Vercel demo",
+    "dependency": "All routes",
+    "priority": "High",
+    "status": "Not started"
+  }
+]

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { format, parseISO } from 'date-fns'
 import { Shield, AlertTriangle } from 'lucide-react'
 import { AUDIT_LOGS, type AuditLog } from '@/data/audit-logs'
+import { EmptyState } from '@/components/dashboard/empty-state'
 import { formatDate } from '@/lib/utils'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
@@ -153,9 +154,15 @@ export function AccessLog({
           </table>
         </div>
       ) : (
-        <p className="text-sm text-muted-foreground">
-          No access history{patientHieId ? ' for this patient' : ''}.
-        </p>
+        <EmptyState
+          icon={Shield}
+          title="No access history"
+          subtitle={
+            patientHieId
+              ? 'No access events recorded for this patient yet.'
+              : 'No access events recorded yet.'
+          }
+        />
       )}
 
       {/* Show more */}

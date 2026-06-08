@@ -2,9 +2,10 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { Search, X, Lock, Info } from 'lucide-react'
+import { Search, X, Lock, Info, SearchX } from 'lucide-react'
 import { PATIENTS, searchPatients } from '@/data/patients'
 import { PatientCard } from '@/components/patient/patient-card'
+import { EmptyState } from '@/components/dashboard/empty-state'
 import { Input } from '@/components/ui/input'
 
 export default function DoctorSearchPage() {
@@ -70,14 +71,12 @@ export default function DoctorSearchPage() {
           })}
         </div>
       ) : (
-        <div className="rounded-xl border border-dashed bg-gray-50 px-6 py-10 text-center">
-          <p className="text-sm font-medium text-gray-700">
-            No patients found matching “{query}”
-          </p>
-          <p className="mt-1 text-xs text-muted-foreground">
-            Check the HIE ID format (e.g. HIE-2024-00142) or try a name or phone
-            number.
-          </p>
+        <div className="rounded-xl border border-dashed bg-gray-50">
+          <EmptyState
+            icon={SearchX}
+            title={`No patients found matching “${query}”`}
+            subtitle="Check the HIE ID format (e.g. HIE-2024-00142) or try a name or phone number."
+          />
         </div>
       )}
 

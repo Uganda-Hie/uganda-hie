@@ -1,0 +1,81 @@
+claim_id,patient_id,facility_id,district_name,insurer_demo,service_date,service_category,diagnosis_code_demo,amount_ugx,claim_status,hie_supporting_summary_available
+CLM-DEMO-00001,HIE-DEMO-00028,FAC-0076,Kabarole,Employer Scheme B,2026-05-15,Lab panel,B54,1162828,Flagged for anomaly,Yes
+CLM-DEMO-00002,HIE-DEMO-00031,FAC-0022,Buvuma,National Insurance Demo,2026-05-25,Imaging,J06,237921,Under review,No
+CLM-DEMO-00003,HIE-DEMO-00110,FAC-0042,Kapchorwa,Private Health Plan A,2026-04-26,Lab panel,A15,1542094,Under review,Yes
+CLM-DEMO-00004,HIE-DEMO-00017,FAC-0055,Arua,Community Health Fund,2026-05-08,OPD consultation,J06,774374,Rejected - missing code,No
+CLM-DEMO-00005,HIE-DEMO-00014,FAC-0019,Kalangala,National Insurance Demo,2026-05-21,Emergency care,B54,1137002,Flagged for anomaly,Yes
+CLM-DEMO-00006,HIE-DEMO-00114,FAC-0048,Kaabong,Private Health Plan A,2026-06-06,Malaria treatment,B54,1153237,Flagged for anomaly,Yes
+CLM-DEMO-00007,HIE-DEMO-00073,FAC-0065,Nebbi,National Insurance Demo,2026-04-29,Emergency care,A09,372593,Flagged for anomaly,No
+CLM-DEMO-00008,HIE-DEMO-00002,FAC-0091,Kabale,Employer Scheme B,2026-04-30,Malaria treatment,O80,1445193,Under review,Yes
+CLM-DEMO-00009,HIE-DEMO-00008,FAC-0037,Soroti,Private Health Plan A,2026-06-05,OPD consultation,O80,504102,Under review,Yes
+CLM-DEMO-00010,HIE-DEMO-00081,FAC-0008,Masaka,Private Health Plan A,2026-04-23,TB review,A15,169574,Submitted,Yes
+CLM-DEMO-00011,HIE-DEMO-00117,FAC-0054,Lira,National Insurance Demo,2026-05-28,Caesarean section,O80,943668,Approved,Yes
+CLM-DEMO-00012,HIE-DEMO-00061,FAC-0088,Ntungamo,Community Health Fund,2026-06-03,Inpatient admission,E11,1465161,Flagged for anomaly,Yes
+CLM-DEMO-00013,HIE-DEMO-00094,FAC-0051,Gulu,Community Health Fund,2026-05-26,Lab panel,A15,809106,Rejected - missing code,Yes
+CLM-DEMO-00014,HIE-DEMO-00053,FAC-0056,Arua,Employer Scheme B,2026-06-05,Emergency care,A09,1347525,Rejected - missing code,Yes
+CLM-DEMO-00015,HIE-DEMO-00003,FAC-0002,Kampala,Community Health Fund,2026-05-14,Inpatient admission,B54,424543,Under review,Yes
+CLM-DEMO-00016,HIE-DEMO-00035,FAC-0027,Mayuge,Community Health Fund,2026-05-21,Imaging,A09,1225098,Under review,Yes
+CLM-DEMO-00017,HIE-DEMO-00068,FAC-0084,Mbarara,National Insurance Demo,2026-05-03,Imaging,A15,210130,Rejected - missing code,Yes
+CLM-DEMO-00018,HIE-DEMO-00005,FAC-0032,Mbale,National Insurance Demo,2026-05-31,Malaria treatment,O80,146975,Submitted,No
+CLM-DEMO-00019,HIE-DEMO-00036,FAC-0032,Mbale,National Insurance Demo,2026-05-20,Caesarean section,B54,922956,Under review,No
+CLM-DEMO-00020,HIE-DEMO-00048,FAC-0091,Kabale,Community Health Fund,2026-05-01,Malaria treatment,A15,106239,Under review,Yes
+CLM-DEMO-00021,HIE-DEMO-00027,FAC-0021,Buvuma,Employer Scheme B,2026-05-14,Emergency care,B54,1250418,Under review,No
+CLM-DEMO-00022,HIE-DEMO-00021,FAC-0029,Kamuli,National Insurance Demo,2026-05-22,TB review,I10,109540,Flagged for anomaly,Yes
+CLM-DEMO-00023,HIE-DEMO-00043,FAC-0039,Kumi,Community Health Fund,2026-05-26,Malaria treatment,E11,176277,Rejected - missing code,Yes
+CLM-DEMO-00024,HIE-DEMO-00018,FAC-0034,Tororo,Employer Scheme B,2026-04-30,Caesarean section,I10,689219,Rejected - missing code,Yes
+CLM-DEMO-00025,HIE-DEMO-00005,FAC-0032,Mbale,National Insurance Demo,2026-05-15,Imaging,A15,222714,Flagged for anomaly,No
+CLM-DEMO-00026,HIE-DEMO-00080,FAC-0013,Mubende,Employer Scheme B,2026-04-29,Imaging,J06,1260417,Submitted,Yes
+CLM-DEMO-00027,HIE-DEMO-00032,FAC-0071,Kiryandongo,National Insurance Demo,2026-04-24,OPD consultation,E11,1101995,Rejected - missing code,Yes
+CLM-DEMO-00028,HIE-DEMO-00001,FAC-0092,Kabale,National Insurance Demo,2026-05-05,OPD consultation,O80,297510,Under review,Yes
+CLM-DEMO-00029,HIE-DEMO-00001,FAC-0092,Kabale,Employer Scheme B,2026-05-23,Malaria treatment,O80,1117068,Approved,Yes
+CLM-DEMO-00030,HIE-DEMO-00038,FAC-0001,Kampala,Private Health Plan A,2026-05-30,OPD consultation,A09,807019,Rejected - missing code,Yes
+CLM-DEMO-00031,HIE-DEMO-00033,FAC-0055,Arua,Employer Scheme B,2026-05-10,Lab panel,E11,1316618,Approved,No
+CLM-DEMO-00032,HIE-DEMO-00013,FAC-0091,Kabale,National Insurance Demo,2026-05-16,Lab panel,I10,542659,Submitted,Yes
+CLM-DEMO-00033,HIE-DEMO-00044,FAC-0026,Iganga,Community Health Fund,2026-04-30,Emergency care,O80,1591096,Approved,No
+CLM-DEMO-00034,HIE-DEMO-00052,FAC-0082,Ntoroko,Employer Scheme B,2026-05-08,OPD consultation,I10,60567,Flagged for anomaly,Yes
+CLM-DEMO-00035,HIE-DEMO-00102,FAC-0031,Mbale,Employer Scheme B,2026-06-01,Lab panel,A09,244943,Under review,Yes
+CLM-DEMO-00036,HIE-DEMO-00005,FAC-0032,Mbale,Community Health Fund,2026-04-24,Emergency care,A15,660313,Submitted,Yes
+CLM-DEMO-00037,HIE-DEMO-00083,FAC-0067,Masindi,National Insurance Demo,2026-04-29,Malaria treatment,O80,456152,Submitted,Yes
+CLM-DEMO-00038,HIE-DEMO-00026,FAC-0071,Kiryandongo,National Insurance Demo,2026-05-22,Emergency care,A15,823715,Rejected - missing code,Yes
+CLM-DEMO-00039,HIE-DEMO-00023,FAC-0012,Mityana,National Insurance Demo,2026-06-04,Lab panel,E11,467161,Under review,Yes
+CLM-DEMO-00040,HIE-DEMO-00034,FAC-0045,Kotido,Private Health Plan A,2026-04-29,Caesarean section,B54,1545288,Submitted,Yes
+CLM-DEMO-00041,HIE-DEMO-00034,FAC-0045,Kotido,Private Health Plan A,2026-05-30,Lab panel,O80,988896,Approved,Yes
+CLM-DEMO-00042,HIE-DEMO-00067,FAC-0025,Iganga,Community Health Fund,2026-05-20,TB review,A09,317936,Under review,Yes
+CLM-DEMO-00043,HIE-DEMO-00094,FAC-0051,Gulu,National Insurance Demo,2026-04-24,Imaging,J06,1205171,Approved,Yes
+CLM-DEMO-00044,HIE-DEMO-00057,FAC-0028,Mayuge,Private Health Plan A,2026-05-15,Emergency care,A09,925283,Flagged for anomaly,Yes
+CLM-DEMO-00045,HIE-DEMO-00092,FAC-0100,Sembabule,Private Health Plan A,2026-05-29,OPD consultation,A09,126462,Under review,No
+CLM-DEMO-00046,HIE-DEMO-00069,FAC-0083,Mbarara,Employer Scheme B,2026-05-24,Lab panel,A15,1117723,Approved,Yes
+CLM-DEMO-00047,HIE-DEMO-00024,FAC-0020,Kalangala,Private Health Plan A,2026-05-07,TB review,O80,1551481,Approved,No
+CLM-DEMO-00048,HIE-DEMO-00087,FAC-0004,Wakiso,Community Health Fund,2026-05-16,TB review,A15,165055,Submitted,Yes
+CLM-DEMO-00049,HIE-DEMO-00098,FAC-0036,Busia,Community Health Fund,2026-05-09,Imaging,A15,569510,Flagged for anomaly,Yes
+CLM-DEMO-00050,HIE-DEMO-00046,FAC-0042,Kapchorwa,Private Health Plan A,2026-06-02,Lab panel,J06,251967,Rejected - missing code,No
+CLM-DEMO-00051,HIE-DEMO-00004,FAC-0053,Lira,Community Health Fund,2026-05-17,Inpatient admission,I10,501686,Approved,Yes
+CLM-DEMO-00052,HIE-DEMO-00105,FAC-0020,Kalangala,Community Health Fund,2026-05-31,OPD consultation,I10,223530,Rejected - missing code,Yes
+CLM-DEMO-00053,HIE-DEMO-00029,FAC-0088,Ntungamo,Employer Scheme B,2026-05-23,Emergency care,J06,1176188,Flagged for anomaly,Yes
+CLM-DEMO-00054,HIE-DEMO-00099,FAC-0083,Mbarara,Community Health Fund,2026-04-26,Inpatient admission,O80,1208992,Approved,Yes
+CLM-DEMO-00055,HIE-DEMO-00012,FAC-0093,Kisoro,Community Health Fund,2026-05-21,Imaging,B54,1012941,Approved,Yes
+CLM-DEMO-00056,HIE-DEMO-00083,FAC-0067,Masindi,National Insurance Demo,2026-05-26,Malaria treatment,O80,1162490,Rejected - missing code,Yes
+CLM-DEMO-00057,HIE-DEMO-00034,FAC-0045,Kotido,National Insurance Demo,2026-05-28,OPD consultation,O80,60274,Submitted,Yes
+CLM-DEMO-00058,HIE-DEMO-00079,FAC-0026,Iganga,National Insurance Demo,2026-05-09,Imaging,B54,860004,Approved,Yes
+CLM-DEMO-00059,HIE-DEMO-00085,FAC-0085,Bushenyi,Private Health Plan A,2026-05-17,Lab panel,I10,1562751,Flagged for anomaly,No
+CLM-DEMO-00060,HIE-DEMO-00027,FAC-0021,Buvuma,Community Health Fund,2026-04-24,Caesarean section,A15,668800,Approved,No
+CLM-DEMO-00061,HIE-DEMO-00042,FAC-0016,Mpigi,National Insurance Demo,2026-05-13,Lab panel,A09,326381,Rejected - missing code,No
+CLM-DEMO-00062,HIE-DEMO-00043,FAC-0039,Kumi,National Insurance Demo,2026-04-23,Caesarean section,I10,664290,Under review,Yes
+CLM-DEMO-00063,HIE-DEMO-00108,FAC-0009,Luwero,Private Health Plan A,2026-05-30,Emergency care,E11,236789,Approved,No
+CLM-DEMO-00064,HIE-DEMO-00061,FAC-0088,Ntungamo,Private Health Plan A,2026-04-23,Emergency care,I10,1005361,Flagged for anomaly,No
+CLM-DEMO-00065,HIE-DEMO-00094,FAC-0051,Gulu,Community Health Fund,2026-05-02,Caesarean section,J06,1199098,Under review,Yes
+CLM-DEMO-00066,HIE-DEMO-00054,FAC-0035,Busia,Private Health Plan A,2026-05-16,Emergency care,J06,1139461,Under review,Yes
+CLM-DEMO-00067,HIE-DEMO-00110,FAC-0042,Kapchorwa,Community Health Fund,2026-05-14,Emergency care,J06,693324,Flagged for anomaly,Yes
+CLM-DEMO-00068,HIE-DEMO-00097,FAC-0097,Isingiro,Employer Scheme B,2026-05-26,TB review,J06,1489532,Rejected - missing code,No
+CLM-DEMO-00069,HIE-DEMO-00072,FAC-0093,Kisoro,National Insurance Demo,2026-04-26,Malaria treatment,B54,546559,Approved,Yes
+CLM-DEMO-00070,HIE-DEMO-00075,FAC-0040,Kumi,National Insurance Demo,2026-05-14,Emergency care,J06,585445,Rejected - missing code,Yes
+CLM-DEMO-00071,HIE-DEMO-00036,FAC-0032,Mbale,Private Health Plan A,2026-05-14,OPD consultation,E11,1275144,Rejected - missing code,Yes
+CLM-DEMO-00072,HIE-DEMO-00033,FAC-0055,Arua,Community Health Fund,2026-05-03,Imaging,J06,242425,Rejected - missing code,Yes
+CLM-DEMO-00073,HIE-DEMO-00054,FAC-0035,Busia,National Insurance Demo,2026-04-26,Caesarean section,A09,316100,Rejected - missing code,Yes
+CLM-DEMO-00074,HIE-DEMO-00088,FAC-0021,Buvuma,Community Health Fund,2026-05-29,OPD consultation,I10,1510742,Approved,No
+CLM-DEMO-00075,HIE-DEMO-00012,FAC-0093,Kisoro,Employer Scheme B,2026-05-18,Caesarean section,A09,564966,Rejected - missing code,Yes
+CLM-DEMO-00076,HIE-DEMO-00052,FAC-0082,Ntoroko,National Insurance Demo,2026-06-02,OPD consultation,E11,1062764,Flagged for anomaly,No
+CLM-DEMO-00077,HIE-DEMO-00001,FAC-0092,Kabale,Community Health Fund,2026-04-27,OPD consultation,A09,421569,Rejected - missing code,Yes
+CLM-DEMO-00078,HIE-DEMO-00049,FAC-0095,Kanungu,Community Health Fund,2026-05-13,Lab panel,O80,451208,Rejected - missing code,Yes
+CLM-DEMO-00079,HIE-DEMO-00056,FAC-0044,Moroto,Private Health Plan A,2026-05-01,Caesarean section,B54,864627,Approved,Yes
+CLM-DEMO-00080,HIE-DEMO-00107,FAC-0001,Kampala,Community Health Fund,2026-05-28,Imaging,I10,917414,Approved,Yes

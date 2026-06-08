@@ -1,0 +1,101 @@
+report_date,facility_id,facility_name,district_name,staff_shift_owner,opd_attendance,admissions,referrals_out,births,deaths,malaria_cases,ari_cases,diarrhoea_cases,immunisations_given,stockout_flags,submitted_to_moh_queue,report_generated_at
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Records Officer,233,34,12,0,3,48,33,8,79,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Records Officer,92,30,11,0,5,30,41,2,32,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Nurse In-Charge,136,30,12,15,1,11,13,16,5,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Nurse In-Charge,97,4,3,16,0,34,5,22,22,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Clinical Officer,245,3,11,0,0,27,31,1,56,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Clinical Officer,210,24,2,0,2,19,0,1,55,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Nurse In-Charge,128,29,11,11,2,52,55,10,67,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Nurse In-Charge,163,32,3,10,2,38,3,23,17,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Clinical Officer,229,18,10,0,3,48,53,4,6,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Nurse In-Charge,141,9,12,9,0,3,50,15,57,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Records Officer,90,0,11,0,1,56,12,18,46,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Clinical Officer,186,34,4,18,5,16,15,4,73,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Clinical Officer,234,35,5,14,4,49,26,1,21,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Clinical Officer,271,17,1,9,3,52,31,20,38,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Nurse In-Charge,192,34,7,8,1,54,13,25,46,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Clinical Officer,99,23,7,0,1,54,53,2,9,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Records Officer,97,28,7,0,3,59,35,2,80,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Nurse In-Charge,182,10,9,0,2,19,40,19,80,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Clinical Officer,61,29,7,15,0,39,8,13,4,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Nurse In-Charge,226,4,9,17,4,41,11,8,65,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Records Officer,146,3,4,3,0,31,33,17,21,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Clinical Officer,195,18,5,17,2,23,45,22,20,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Nurse In-Charge,180,13,2,2,4,42,53,23,34,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Records Officer,94,28,4,0,4,36,13,6,26,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Records Officer,210,3,9,6,1,32,1,18,53,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Clinical Officer,28,18,4,6,2,8,21,15,68,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Records Officer,246,18,6,0,1,48,26,22,53,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Records Officer,164,24,0,0,3,53,38,21,80,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Records Officer,123,14,7,0,5,20,35,23,23,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Nurse In-Charge,277,30,12,17,5,65,21,18,22,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Records Officer,256,15,4,14,1,54,47,20,70,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Nurse In-Charge,57,34,11,11,3,14,13,3,74,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Records Officer,137,14,1,4,3,38,42,16,4,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Nurse In-Charge,117,16,11,0,1,21,47,18,20,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0035,Busia HC IV,Busia,Clinical Officer,79,26,4,15,0,27,21,18,56,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0036,Busia North HC III,Busia,Clinical Officer,73,13,5,11,5,42,36,1,43,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Nurse In-Charge,139,23,9,17,0,23,0,13,45,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Clinical Officer,159,29,0,0,4,20,40,21,79,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Nurse In-Charge,132,31,5,0,1,8,38,24,2,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Nurse In-Charge,175,28,2,0,5,4,45,23,11,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Clinical Officer,60,32,4,0,0,7,44,18,39,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Clinical Officer,209,17,0,0,5,16,43,0,39,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Records Officer,192,27,9,7,1,11,14,12,78,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Nurse In-Charge,172,25,0,17,0,49,15,16,40,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Records Officer,92,8,2,8,0,64,18,12,53,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Records Officer,78,31,0,9,4,53,34,18,80,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Nurse In-Charge,216,31,1,0,1,2,36,7,68,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Records Officer,87,30,8,16,4,31,47,18,68,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Nurse In-Charge,56,10,3,0,1,16,43,10,47,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Nurse In-Charge,277,13,4,2,4,59,15,20,51,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Records Officer,135,24,4,7,5,65,17,14,64,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Nurse In-Charge,228,9,6,0,4,12,44,23,78,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Clinical Officer,188,7,1,2,4,6,36,15,30,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Records Officer,131,35,8,5,0,7,2,14,80,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Clinical Officer,208,0,11,7,5,54,40,1,72,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Records Officer,218,9,3,0,5,14,12,1,53,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Clinical Officer,189,3,5,13,3,34,18,19,5,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Nurse In-Charge,219,8,0,9,2,42,41,3,69,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Clinical Officer,237,10,9,0,5,34,1,3,61,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Records Officer,249,27,11,11,3,35,5,12,29,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Records Officer,130,1,4,0,5,28,20,3,33,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Clinical Officer,123,18,9,6,1,10,34,9,40,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Records Officer,96,1,4,0,2,13,21,5,46,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Clinical Officer,64,6,12,11,2,1,28,4,41,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Nurse In-Charge,100,19,10,16,3,46,19,8,61,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Nurse In-Charge,239,11,1,13,1,60,35,22,43,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Nurse In-Charge,142,11,8,0,3,9,12,15,62,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Clinical Officer,212,10,0,0,4,23,34,11,44,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Clinical Officer,222,35,5,5,1,45,14,3,13,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Clinical Officer,176,9,4,2,0,55,10,21,4,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Records Officer,144,2,0,0,3,2,55,14,7,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Nurse In-Charge,228,10,6,4,3,18,13,1,13,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Records Officer,185,23,5,3,2,56,42,8,34,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Clinical Officer,142,21,9,0,5,3,6,10,47,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Records Officer,160,23,4,8,1,45,24,24,17,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Records Officer,211,25,3,0,0,49,10,5,47,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Nurse In-Charge,236,12,11,1,4,22,29,20,29,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Nurse In-Charge,180,0,5,4,1,15,55,23,41,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Clinical Officer,80,9,8,4,0,57,10,9,39,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Clinical Officer,87,22,1,11,1,31,30,3,72,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Nurse In-Charge,148,21,1,5,1,21,45,3,15,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Records Officer,223,31,5,17,1,63,32,14,29,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Records Officer,98,4,11,0,3,65,10,23,71,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Clinical Officer,72,16,12,12,2,24,16,18,45,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Records Officer,167,29,0,11,1,57,13,7,17,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Nurse In-Charge,163,16,7,1,2,1,23,24,61,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Nurse In-Charge,214,5,12,0,5,55,38,3,48,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Clinical Officer,247,27,10,5,2,64,3,17,37,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Clinical Officer,197,10,0,0,4,54,25,19,10,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Records Officer,133,1,0,0,3,26,28,1,31,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Records Officer,65,21,9,10,1,38,15,21,49,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Records Officer,68,31,1,8,1,30,42,19,59,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Records Officer,105,25,7,14,0,17,0,23,10,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Nurse In-Charge,125,2,2,0,4,29,11,4,52,4,Yes,2026-06-07 18:05
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Records Officer,83,4,10,3,3,54,36,15,32,2,Yes,2026-06-07 18:05
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Clinical Officer,79,0,10,0,3,28,15,3,41,0,Yes,2026-06-07 18:05
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Nurse In-Charge,218,35,10,0,5,37,19,12,52,3,Yes,2026-06-07 18:05
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Nurse In-Charge,176,12,12,1,3,27,35,7,26,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Records Officer,92,28,7,0,2,20,33,20,25,1,Yes,2026-06-07 18:05
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Records Officer,124,34,4,0,3,21,42,4,30,3,Yes,2026-06-07 18:05

@@ -1,0 +1,51 @@
+district_id,district_name,map_join_name,region,subregion,latitude,longitude,population_2026_est,urbanicity,remote_level_1_to_5,demo_priority,notes
+UG-D001,Kampala,KAMPALA,Central,Kampala,0.3476,32.5825,1900000,Urban,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D002,Wakiso,WAKISO,Central,Buganda,0.4044,32.4594,2600000,Peri-urban,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D003,Mukono,MUKONO,Central,Buganda,0.3533,32.7553,700000,Peri-urban,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D004,Masaka,MASAKA,Central,Buganda,-0.3338,31.7341,420000,Urban-rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D005,Luwero,LUWERO,Central,Buganda,0.8492,32.4731,520000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D006,Mityana,MITYANA,Central,Buganda,0.4175,32.0228,390000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D007,Mubende,MUBENDE,Central,Buganda,0.5897,31.3712,680000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D008,Mpigi,MPIGI,Central,Buganda,0.225,32.3136,310000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D009,Kayunga,KAYUNGA,Central,Buganda,0.7025,32.8886,420000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D010,Kalangala,KALANGALA,Central,Buvuma/Kalangala Islands,-0.32,32.29,65000,Island/remote,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D011,Buvuma,BUVUMA,Central,Buvuma Islands,0.09,33.25,120000,Island/remote,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D012,Jinja,JINJA,Eastern,Busoga,0.4244,33.2042,520000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D013,Iganga,IGANGA,Eastern,Busoga,0.6092,33.4686,620000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D014,Mayuge,MAYUGE,Eastern,Busoga,0.4597,33.4806,570000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D015,Kamuli,KAMULI,Eastern,Busoga,0.945,33.125,600000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D016,Mbale,MBALE,Eastern,Bugisu,1.0806,34.175,580000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D017,Tororo,TORORO,Eastern,Bukedi,0.6928,34.18,650000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D018,Busia,BUSIA,Eastern,Bukedi,0.4659,34.0922,420000,Border,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D019,Soroti,SOROTI,Eastern,Teso,1.7146,33.6111,420000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D020,Kumi,KUMI,Eastern,Teso,1.4608,33.9361,310000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D021,Kapchorwa,KAPCHORWA,Eastern,Sebei,1.3965,34.45,130000,Highland/remote,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D022,Moroto,MOROTO,Northern,Karamoja,2.5345,34.6666,150000,Remote,5,1,Synthetic demo district metadata; population rounded for demo.
+UG-D023,Kotido,KOTIDO,Northern,Karamoja,2.9806,34.1331,260000,Remote,5,1,Synthetic demo district metadata; population rounded for demo.
+UG-D024,Kaabong,KAABONG,Northern,Karamoja,3.52,34.13,180000,Remote,5,1,Synthetic demo district metadata; population rounded for demo.
+UG-D025,Napak,NAPAK,Northern,Karamoja,2.25,34.25,210000,Remote,5,1,Synthetic demo district metadata; population rounded for demo.
+UG-D026,Gulu,GULU,Northern,Acholi,2.7746,32.299,560000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D027,Lira,LIRA,Northern,Lango,2.2499,32.8998,540000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D028,Arua,ARUA,Northern,West Nile,3.0201,30.9111,650000,Urban-rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D029,Yumbe,YUMBE,Northern,West Nile,3.465,31.246,700000,Refugee-hosting,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D030,Koboko,KOBOKO,Northern,West Nile,3.4128,30.9599,330000,Border,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D031,Adjumani,ADJUMANI,Northern,Madi,3.3779,31.7909,420000,Refugee-hosting,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D032,Moyo,MOYO,Northern,Madi,3.6609,31.7247,150000,Border/remote,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D033,Nebbi,NEBBI,Northern,West Nile,2.4783,31.0889,320000,Rural,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D034,Masindi,MASINDI,Western,Bunyoro,1.6836,32.47,470000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D035,Hoima,HOIMA,Western,Bunyoro,1.4319,31.3525,430000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D036,Kiryandongo,KIRYANDONGO,Western,Bunyoro,1.8763,32.0622,370000,Refugee-hosting,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D037,Fort Portal,FORT PORTAL,Western,Tooro,0.671,30.2748,290000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D038,Kabarole,KABAROLE,Western,Tooro,0.6025,30.292,360000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D039,Kasese,KASESE,Western,Rwenzori,0.1833,30.0833,850000,Mountain/border,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D040,Bundibugyo,BUNDIBUGYO,Western,Rwenzori,0.7086,30.063,300000,Mountain/remote,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D041,Ntoroko,NTOROKO,Western,Rwenzori,1.05,30.4,100000,Remote,4,1,Synthetic demo district metadata; population rounded for demo.
+UG-D042,Mbarara,MBARARA,Western,Ankole,-0.6072,30.6545,500000,Urban-rural,1,1,Synthetic demo district metadata; population rounded for demo.
+UG-D043,Bushenyi,BUSHENYI,Western,Ankole,-0.5417,30.1856,250000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D044,Ntungamo,NTUNGAMO,Western,Ankole,-0.8794,30.2642,600000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D045,Rukungiri,RUKUNGIRI,Western,Kigezi,-0.8411,29.9419,360000,Rural,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D046,Kabale,KABALE,Western,Kigezi,-1.2483,29.9899,280000,Highland,2,1,Synthetic demo district metadata; population rounded for demo.
+UG-D047,Kisoro,KISORO,Western,Kigezi,-1.2854,29.684,340000,Border/highland,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D048,Kanungu,KANUNGU,Western,Kigezi,-0.9575,29.7897,280000,Remote/highland,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D049,Isingiro,ISINGIRO,Western,Ankole,-0.8435,30.8039,620000,Refugee-hosting,3,1,Synthetic demo district metadata; population rounded for demo.
+UG-D050,Sembabule,SEMBABULE,Central,Buganda,-0.0772,31.4567,310000,Rural,3,1,Synthetic demo district metadata; population rounded for demo.

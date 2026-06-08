@@ -1,0 +1,11 @@
+dataset,field,type,required,description
+districts.json,district_id,string,Yes,Stable demo key for joining district metrics and facilities.
+districts.json,map_join_name,string,Yes,Uppercase district name used to join with GeoJSON boundary properties.
+districts.json,remote_level_1_to_5,integer,Yes,Demo accessibility score; 5 means remote/hard-to-reach.
+district_monthly_summary.json,births_30d,integer,Yes,Synthetic births in last 30 days; used on MoH population/MCH cards.
+district_monthly_summary.json,reporting_timeliness_pct,number,Yes,Used to compare near-real-time HIE reporting against delayed routine reports.
+district_disease_weekly.json,severity,enum,Yes,"No signal, Rare, Watch, Moderate, High, Critical; drives map color and alert state."
+facilities.json,beds_occupied,integer,Yes,Used to calculate occupancy and referral pressure.
+stock_inventory.json,estimated_days_of_stock,integer,Yes,Used for stockout alerts and MoH commodity planning.
+patient_demo_records.json,next_of_kin_phone_demo,string,Yes,Fake phone number for emergency contact demo; no real personal data.
+claims.json,hie_supporting_summary_available,enum,Yes,Shows how HIE can speed claims verification with minimum necessary clinical data.

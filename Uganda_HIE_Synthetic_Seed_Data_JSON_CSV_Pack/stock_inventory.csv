@@ -1,0 +1,1201 @@
+snapshot_date,facility_id,facility_name,district_name,commodity_name,program_area,quantity_on_hand,estimated_days_of_stock,stock_status,last_updated_by_role,demo_alert
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,ACT Artemether-Lumefantrine,malaria treatment,4260,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Malaria RDTs,malaria diagnostics,3256,10,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Amoxicillin dispersible,childhood infection,2927,9,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Ceftriaxone injection,severe infection,2308,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,ORS + Zinc,diarrhoea,1633,52,OK,Stores Assistant,No
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Oxytocin,maternal health,1657,105,OK,Nurse In-Charge,No
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,DPT-HepB-Hib vaccine,immunisation,3360,60,OK,Stores Assistant,No
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Measles-Rubella vaccine,immunisation,2341,52,OK,Stores Assistant,No
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,HIV rapid test kits,HIV testing,614,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,ARV first-line regimen,HIV treatment,398,11,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,TB fixed-dose combination,TB treatment,3735,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0001,Kampala Regional Referral Hospital,Kampala,Insulin vials,NCD care,2595,12,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,ACT Artemether-Lumefantrine,malaria treatment,4453,43,OK,Stores Assistant,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Malaria RDTs,malaria diagnostics,2736,103,OK,Pharmacist,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Amoxicillin dispersible,childhood infection,4264,48,OK,Nurse In-Charge,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Ceftriaxone injection,severe infection,3153,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,ORS + Zinc,diarrhoea,4528,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Oxytocin,maternal health,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,DPT-HepB-Hib vaccine,immunisation,2198,81,OK,Nurse In-Charge,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Measles-Rubella vaccine,immunisation,2594,32,OK,Stores Assistant,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,HIV rapid test kits,HIV testing,4087,41,OK,Stores Assistant,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,ARV first-line regimen,HIV treatment,180,44,OK,Stores Assistant,No
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,TB fixed-dose combination,TB treatment,3856,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0002,Kampala South HC II,Kampala,Insulin vials,NCD care,1573,66,OK,Stores Assistant,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,ACT Artemether-Lumefantrine,malaria treatment,1462,48,OK,Stores Assistant,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Malaria RDTs,malaria diagnostics,292,78,OK,Pharmacist,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Amoxicillin dispersible,childhood infection,299,56,OK,Pharmacist,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Ceftriaxone injection,severe infection,1287,31,OK,Pharmacist,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,ORS + Zinc,diarrhoea,2789,29,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Oxytocin,maternal health,894,41,OK,Stores Assistant,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,DPT-HepB-Hib vaccine,immunisation,2618,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Measles-Rubella vaccine,immunisation,1817,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,HIV rapid test kits,HIV testing,4308,74,OK,Stores Assistant,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,ARV first-line regimen,HIV treatment,2975,77,OK,Pharmacist,No
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,TB fixed-dose combination,TB treatment,1533,13,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0003,Wakiso General Hospital,Wakiso,Insulin vials,NCD care,342,36,OK,Nurse In-Charge,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,ACT Artemether-Lumefantrine,malaria treatment,3629,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Malaria RDTs,malaria diagnostics,1823,57,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Amoxicillin dispersible,childhood infection,3024,43,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Ceftriaxone injection,severe infection,1601,127,OK,Pharmacist,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,ORS + Zinc,diarrhoea,3841,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Oxytocin,maternal health,3135,54,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,DPT-HepB-Hib vaccine,immunisation,4237,43,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Measles-Rubella vaccine,immunisation,1061,77,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,HIV rapid test kits,HIV testing,523,42,OK,Stores Assistant,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,ARV first-line regimen,HIV treatment,3949,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,TB fixed-dose combination,TB treatment,3630,68,OK,Pharmacist,No
+2026-06-07,FAC-0004,Wakiso Border HC II,Wakiso,Insulin vials,NCD care,3237,36,OK,Stores Assistant,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,ACT Artemether-Lumefantrine,malaria treatment,3197,56,OK,Stores Assistant,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Malaria RDTs,malaria diagnostics,4922,46,OK,Stores Assistant,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Amoxicillin dispersible,childhood infection,2317,32,OK,Stores Assistant,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Ceftriaxone injection,severe infection,31,92,OK,Nurse In-Charge,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,ORS + Zinc,diarrhoea,4322,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Oxytocin,maternal health,4488,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Measles-Rubella vaccine,immunisation,2136,29,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,HIV rapid test kits,HIV testing,2477,95,OK,Pharmacist,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,ARV first-line regimen,HIV treatment,4469,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,TB fixed-dose combination,TB treatment,2598,62,OK,Pharmacist,No
+2026-06-07,FAC-0005,Mukono HC IV,Mukono,Insulin vials,NCD care,3466,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,ACT Artemether-Lumefantrine,malaria treatment,4849,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Malaria RDTs,malaria diagnostics,4649,27,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Amoxicillin dispersible,childhood infection,2092,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Ceftriaxone injection,severe infection,225,71,OK,Pharmacist,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,ORS + Zinc,diarrhoea,3618,1,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Oxytocin,maternal health,1514,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,DPT-HepB-Hib vaccine,immunisation,1432,57,OK,Pharmacist,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Measles-Rubella vaccine,immunisation,2513,47,OK,Pharmacist,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,HIV rapid test kits,HIV testing,280,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,ARV first-line regimen,HIV treatment,4094,49,OK,Pharmacist,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,TB fixed-dose combination,TB treatment,2693,70,OK,Pharmacist,No
+2026-06-07,FAC-0006,Mukono Rural HC IV,Mukono,Insulin vials,NCD care,4375,30,OK,Stores Assistant,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,ACT Artemether-Lumefantrine,malaria treatment,3757,9,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Malaria RDTs,malaria diagnostics,2527,58,OK,Stores Assistant,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Amoxicillin dispersible,childhood infection,1586,35,OK,Pharmacist,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Ceftriaxone injection,severe infection,1175,34,OK,Pharmacist,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,ORS + Zinc,diarrhoea,4204,90,OK,Pharmacist,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Oxytocin,maternal health,1964,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,DPT-HepB-Hib vaccine,immunisation,2420,24,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Measles-Rubella vaccine,immunisation,3464,20,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,HIV rapid test kits,HIV testing,2150,43,OK,Pharmacist,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,ARV first-line regimen,HIV treatment,3979,84,OK,Nurse In-Charge,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,TB fixed-dose combination,TB treatment,4956,59,OK,Pharmacist,No
+2026-06-07,FAC-0007,Masaka General Hospital,Masaka,Insulin vials,NCD care,608,57,OK,Pharmacist,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,ACT Artemether-Lumefantrine,malaria treatment,1727,86,OK,Pharmacist,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Malaria RDTs,malaria diagnostics,1386,1,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Amoxicillin dispersible,childhood infection,360,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Ceftriaxone injection,severe infection,449,1,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,ORS + Zinc,diarrhoea,802,66,OK,Stores Assistant,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Oxytocin,maternal health,3391,7,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,DPT-HepB-Hib vaccine,immunisation,3048,4,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Measles-Rubella vaccine,immunisation,1675,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,HIV rapid test kits,HIV testing,2992,55,OK,Stores Assistant,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,ARV first-line regimen,HIV treatment,3536,67,OK,Pharmacist,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,TB fixed-dose combination,TB treatment,4184,58,OK,Stores Assistant,No
+2026-06-07,FAC-0008,Masaka Central HC III,Masaka,Insulin vials,NCD care,2217,72,OK,Pharmacist,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,ACT Artemether-Lumefantrine,malaria treatment,2950,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Malaria RDTs,malaria diagnostics,3,53,OK,Pharmacist,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Amoxicillin dispersible,childhood infection,2204,50,OK,Pharmacist,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Ceftriaxone injection,severe infection,1354,38,OK,Stores Assistant,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,ORS + Zinc,diarrhoea,3078,29,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Oxytocin,maternal health,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,DPT-HepB-Hib vaccine,immunisation,1294,81,OK,Nurse In-Charge,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Measles-Rubella vaccine,immunisation,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,HIV rapid test kits,HIV testing,787,66,OK,Stores Assistant,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,ARV first-line regimen,HIV treatment,2885,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,TB fixed-dose combination,TB treatment,1276,58,OK,Stores Assistant,No
+2026-06-07,FAC-0009,Luwero HC IV,Luwero,Insulin vials,NCD care,4715,19,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,ACT Artemether-Lumefantrine,malaria treatment,13,33,OK,Stores Assistant,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Malaria RDTs,malaria diagnostics,3600,133,OK,Pharmacist,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Amoxicillin dispersible,childhood infection,2927,54,OK,Nurse In-Charge,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Ceftriaxone injection,severe infection,4444,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,ORS + Zinc,diarrhoea,3051,52,OK,Pharmacist,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Oxytocin,maternal health,3416,48,OK,Pharmacist,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,DPT-HepB-Hib vaccine,immunisation,3676,54,OK,Stores Assistant,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Measles-Rubella vaccine,immunisation,2895,65,OK,Nurse In-Charge,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,HIV rapid test kits,HIV testing,642,43,OK,Stores Assistant,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,ARV first-line regimen,HIV treatment,2416,49,OK,Nurse In-Charge,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,TB fixed-dose combination,TB treatment,1952,62,OK,Pharmacist,No
+2026-06-07,FAC-0010,Luwero Rural HC II,Luwero,Insulin vials,NCD care,3483,44,OK,Stores Assistant,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,ACT Artemether-Lumefantrine,malaria treatment,4686,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Malaria RDTs,malaria diagnostics,2938,58,OK,Pharmacist,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Amoxicillin dispersible,childhood infection,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Ceftriaxone injection,severe infection,232,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,ORS + Zinc,diarrhoea,4758,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Oxytocin,maternal health,4492,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,DPT-HepB-Hib vaccine,immunisation,279,43,OK,Stores Assistant,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Measles-Rubella vaccine,immunisation,1515,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,HIV rapid test kits,HIV testing,4365,81,OK,Pharmacist,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,ARV first-line regimen,HIV treatment,4932,20,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,TB fixed-dose combination,TB treatment,1616,59,OK,Stores Assistant,No
+2026-06-07,FAC-0011,Mityana HC IV,Mityana,Insulin vials,NCD care,746,86,OK,Nurse In-Charge,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,ACT Artemether-Lumefantrine,malaria treatment,1287,65,OK,Stores Assistant,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Malaria RDTs,malaria diagnostics,4087,53,OK,Stores Assistant,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Amoxicillin dispersible,childhood infection,1230,4,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Ceftriaxone injection,severe infection,4175,62,OK,Stores Assistant,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,ORS + Zinc,diarrhoea,2934,54,OK,Pharmacist,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Oxytocin,maternal health,2923,92,OK,Pharmacist,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,DPT-HepB-Hib vaccine,immunisation,2802,15,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Measles-Rubella vaccine,immunisation,2544,11,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,HIV rapid test kits,HIV testing,2538,80,OK,Stores Assistant,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,ARV first-line regimen,HIV treatment,973,1,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,TB fixed-dose combination,TB treatment,4543,51,OK,Stores Assistant,No
+2026-06-07,FAC-0012,Mityana Border HC II,Mityana,Insulin vials,NCD care,4849,93,OK,Stores Assistant,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,ACT Artemether-Lumefantrine,malaria treatment,47,41,OK,Nurse In-Charge,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Malaria RDTs,malaria diagnostics,1131,79,OK,Nurse In-Charge,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Amoxicillin dispersible,childhood infection,2605,72,OK,Pharmacist,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Ceftriaxone injection,severe infection,1523,39,OK,Pharmacist,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,ORS + Zinc,diarrhoea,3026,79,OK,Pharmacist,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Oxytocin,maternal health,745,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,DPT-HepB-Hib vaccine,immunisation,4927,86,OK,Stores Assistant,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Measles-Rubella vaccine,immunisation,3635,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,HIV rapid test kits,HIV testing,2146,105,OK,Nurse In-Charge,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,ARV first-line regimen,HIV treatment,2678,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,TB fixed-dose combination,TB treatment,786,57,OK,Stores Assistant,No
+2026-06-07,FAC-0013,Mubende HC IV,Mubende,Insulin vials,NCD care,2255,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,ACT Artemether-Lumefantrine,malaria treatment,718,37,OK,Stores Assistant,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Malaria RDTs,malaria diagnostics,3797,92,OK,Nurse In-Charge,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Amoxicillin dispersible,childhood infection,2141,29,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Ceftriaxone injection,severe infection,1505,70,OK,Stores Assistant,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,ORS + Zinc,diarrhoea,3176,55,OK,Stores Assistant,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Oxytocin,maternal health,4666,52,OK,Stores Assistant,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,DPT-HepB-Hib vaccine,immunisation,748,104,OK,Pharmacist,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Measles-Rubella vaccine,immunisation,2610,99,OK,Nurse In-Charge,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,HIV rapid test kits,HIV testing,4689,79,OK,Pharmacist,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,ARV first-line regimen,HIV treatment,4899,64,OK,Stores Assistant,No
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,TB fixed-dose combination,TB treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0014,Mubende South HC III,Mubende,Insulin vials,NCD care,3104,36,OK,Pharmacist,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,ACT Artemether-Lumefantrine,malaria treatment,466,43,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Malaria RDTs,malaria diagnostics,4444,73,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Amoxicillin dispersible,childhood infection,2949,30,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Ceftriaxone injection,severe infection,3211,82,OK,Pharmacist,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,ORS + Zinc,diarrhoea,2594,14,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Oxytocin,maternal health,3655,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,DPT-HepB-Hib vaccine,immunisation,2896,55,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Measles-Rubella vaccine,immunisation,2109,78,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,HIV rapid test kits,HIV testing,4364,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,ARV first-line regimen,HIV treatment,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,TB fixed-dose combination,TB treatment,3039,120,OK,Stores Assistant,No
+2026-06-07,FAC-0015,Mpigi General Hospital,Mpigi,Insulin vials,NCD care,197,56,OK,Stores Assistant,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,ACT Artemether-Lumefantrine,malaria treatment,4359,34,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Malaria RDTs,malaria diagnostics,4946,62,OK,Stores Assistant,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Amoxicillin dispersible,childhood infection,4191,31,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Ceftriaxone injection,severe infection,778,53,OK,Stores Assistant,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,ORS + Zinc,diarrhoea,1290,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Oxytocin,maternal health,192,59,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,DPT-HepB-Hib vaccine,immunisation,681,63,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Measles-Rubella vaccine,immunisation,4526,61,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,HIV rapid test kits,HIV testing,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,ARV first-line regimen,HIV treatment,611,89,OK,Nurse In-Charge,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,TB fixed-dose combination,TB treatment,1731,51,OK,Pharmacist,No
+2026-06-07,FAC-0016,Mpigi South HC IV,Mpigi,Insulin vials,NCD care,321,67,OK,Stores Assistant,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,ACT Artemether-Lumefantrine,malaria treatment,2108,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Malaria RDTs,malaria diagnostics,1325,59,OK,Pharmacist,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Amoxicillin dispersible,childhood infection,354,42,OK,Stores Assistant,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Ceftriaxone injection,severe infection,3852,71,OK,Pharmacist,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,ORS + Zinc,diarrhoea,2450,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Oxytocin,maternal health,2510,23,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,DPT-HepB-Hib vaccine,immunisation,2324,52,OK,Stores Assistant,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Measles-Rubella vaccine,immunisation,1838,46,OK,Pharmacist,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,HIV rapid test kits,HIV testing,830,40,OK,Pharmacist,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,ARV first-line regimen,HIV treatment,536,19,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,TB fixed-dose combination,TB treatment,584,88,OK,Nurse In-Charge,No
+2026-06-07,FAC-0017,Kayunga General Hospital,Kayunga,Insulin vials,NCD care,1812,36,OK,Nurse In-Charge,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,ACT Artemether-Lumefantrine,malaria treatment,3807,82,OK,Stores Assistant,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Malaria RDTs,malaria diagnostics,3701,36,OK,Pharmacist,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Amoxicillin dispersible,childhood infection,2937,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Ceftriaxone injection,severe infection,1342,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,ORS + Zinc,diarrhoea,273,46,OK,Pharmacist,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Oxytocin,maternal health,2562,42,OK,Pharmacist,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,DPT-HepB-Hib vaccine,immunisation,1530,79,OK,Nurse In-Charge,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Measles-Rubella vaccine,immunisation,1057,97,OK,Pharmacist,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,HIV rapid test kits,HIV testing,3454,61,OK,Stores Assistant,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,ARV first-line regimen,HIV treatment,510,1,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,TB fixed-dose combination,TB treatment,283,44,OK,Pharmacist,No
+2026-06-07,FAC-0018,Kayunga South HC IV,Kayunga,Insulin vials,NCD care,967,84,OK,Pharmacist,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,ACT Artemether-Lumefantrine,malaria treatment,3814,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Malaria RDTs,malaria diagnostics,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Amoxicillin dispersible,childhood infection,1219,88,OK,Nurse In-Charge,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Ceftriaxone injection,severe infection,2965,66,OK,Nurse In-Charge,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,ORS + Zinc,diarrhoea,168,46,OK,Pharmacist,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Oxytocin,maternal health,545,98,OK,Nurse In-Charge,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,DPT-HepB-Hib vaccine,immunisation,875,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Measles-Rubella vaccine,immunisation,4700,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,HIV rapid test kits,HIV testing,2369,28,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,ARV first-line regimen,HIV treatment,3676,41,OK,Stores Assistant,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,TB fixed-dose combination,TB treatment,4758,41,OK,Pharmacist,No
+2026-06-07,FAC-0019,Kalangala HC IV,Kalangala,Insulin vials,NCD care,403,104,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,ACT Artemether-Lumefantrine,malaria treatment,4081,62,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Malaria RDTs,malaria diagnostics,2022,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Amoxicillin dispersible,childhood infection,43,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Ceftriaxone injection,severe infection,2115,43,OK,Pharmacist,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,ORS + Zinc,diarrhoea,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Oxytocin,maternal health,800,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,DPT-HepB-Hib vaccine,immunisation,106,43,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Measles-Rubella vaccine,immunisation,1979,83,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,HIV rapid test kits,HIV testing,4140,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,ARV first-line regimen,HIV treatment,1928,39,OK,Stores Assistant,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,TB fixed-dose combination,TB treatment,2612,67,OK,Stores Assistant,No
+2026-06-07,FAC-0020,Kalangala North HC IV,Kalangala,Insulin vials,NCD care,2776,81,OK,Nurse In-Charge,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,ACT Artemether-Lumefantrine,malaria treatment,2188,53,OK,Stores Assistant,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Malaria RDTs,malaria diagnostics,1994,59,OK,Nurse In-Charge,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Amoxicillin dispersible,childhood infection,3222,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Ceftriaxone injection,severe infection,1266,62,OK,Pharmacist,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,ORS + Zinc,diarrhoea,4166,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Oxytocin,maternal health,4598,44,OK,Pharmacist,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,DPT-HepB-Hib vaccine,immunisation,2986,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Measles-Rubella vaccine,immunisation,4027,74,OK,Nurse In-Charge,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,HIV rapid test kits,HIV testing,3453,40,OK,Pharmacist,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,ARV first-line regimen,HIV treatment,167,56,OK,Pharmacist,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,TB fixed-dose combination,TB treatment,1341,42,OK,Pharmacist,No
+2026-06-07,FAC-0021,Buvuma General Hospital,Buvuma,Insulin vials,NCD care,4009,48,OK,Pharmacist,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,ACT Artemether-Lumefantrine,malaria treatment,318,49,OK,Nurse In-Charge,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Malaria RDTs,malaria diagnostics,3325,74,OK,Stores Assistant,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Amoxicillin dispersible,childhood infection,1958,35,OK,Stores Assistant,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Ceftriaxone injection,severe infection,3381,33,OK,Stores Assistant,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,ORS + Zinc,diarrhoea,3301,59,OK,Stores Assistant,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Oxytocin,maternal health,4044,33,OK,Stores Assistant,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,DPT-HepB-Hib vaccine,immunisation,4339,29,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Measles-Rubella vaccine,immunisation,40,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,HIV rapid test kits,HIV testing,1039,30,OK,Pharmacist,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,ARV first-line regimen,HIV treatment,2753,15,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,TB fixed-dose combination,TB treatment,2644,49,OK,Nurse In-Charge,No
+2026-06-07,FAC-0022,Buvuma Border HC III,Buvuma,Insulin vials,NCD care,2536,62,OK,Pharmacist,No
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,ACT Artemether-Lumefantrine,malaria treatment,22,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Malaria RDTs,malaria diagnostics,3140,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Amoxicillin dispersible,childhood infection,1895,23,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Ceftriaxone injection,severe infection,1970,69,OK,Pharmacist,No
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,ORS + Zinc,diarrhoea,1638,49,OK,Stores Assistant,No
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Oxytocin,maternal health,508,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,DPT-HepB-Hib vaccine,immunisation,1600,9,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Measles-Rubella vaccine,immunisation,4586,6,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,HIV rapid test kits,HIV testing,1964,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,ARV first-line regimen,HIV treatment,1638,69,OK,Nurse In-Charge,No
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,TB fixed-dose combination,TB treatment,3755,6,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0023,Jinja Regional Referral Hospital,Jinja,Insulin vials,NCD care,1228,1,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,ACT Artemether-Lumefantrine,malaria treatment,346,69,OK,Nurse In-Charge,No
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Malaria RDTs,malaria diagnostics,507,117,OK,Stores Assistant,No
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Amoxicillin dispersible,childhood infection,3615,12,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Ceftriaxone injection,severe infection,446,67,OK,Pharmacist,No
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,ORS + Zinc,diarrhoea,2411,15,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Oxytocin,maternal health,2109,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,DPT-HepB-Hib vaccine,immunisation,2918,26,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Measles-Rubella vaccine,immunisation,1902,32,OK,Pharmacist,No
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,HIV rapid test kits,HIV testing,4331,1,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,ARV first-line regimen,HIV treatment,3693,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,TB fixed-dose combination,TB treatment,1821,31,OK,Pharmacist,No
+2026-06-07,FAC-0024,Jinja Island HC III,Jinja,Insulin vials,NCD care,4199,5,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,ACT Artemether-Lumefantrine,malaria treatment,978,101,OK,Stores Assistant,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Malaria RDTs,malaria diagnostics,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Amoxicillin dispersible,childhood infection,1961,27,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Ceftriaxone injection,severe infection,1417,69,OK,Pharmacist,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,ORS + Zinc,diarrhoea,3921,46,OK,Stores Assistant,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Oxytocin,maternal health,1754,16,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,DPT-HepB-Hib vaccine,immunisation,243,58,OK,Nurse In-Charge,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Measles-Rubella vaccine,immunisation,4734,81,OK,Pharmacist,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,HIV rapid test kits,HIV testing,1940,70,OK,Pharmacist,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,ARV first-line regimen,HIV treatment,4984,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,TB fixed-dose combination,TB treatment,4968,34,OK,Stores Assistant,No
+2026-06-07,FAC-0025,Iganga General Hospital,Iganga,Insulin vials,NCD care,3537,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,ACT Artemether-Lumefantrine,malaria treatment,1570,66,OK,Stores Assistant,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Malaria RDTs,malaria diagnostics,1235,48,OK,Pharmacist,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Amoxicillin dispersible,childhood infection,1065,20,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Ceftriaxone injection,severe infection,1789,93,OK,Pharmacist,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,ORS + Zinc,diarrhoea,1351,62,OK,Nurse In-Charge,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Oxytocin,maternal health,1304,40,OK,Pharmacist,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,DPT-HepB-Hib vaccine,immunisation,2290,40,OK,Stores Assistant,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Measles-Rubella vaccine,immunisation,655,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,HIV rapid test kits,HIV testing,4652,88,OK,Pharmacist,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,ARV first-line regimen,HIV treatment,3643,50,OK,Pharmacist,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,TB fixed-dose combination,TB treatment,4143,67,OK,Nurse In-Charge,No
+2026-06-07,FAC-0026,Iganga Border HC III,Iganga,Insulin vials,NCD care,158,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,ACT Artemether-Lumefantrine,malaria treatment,85,57,OK,Pharmacist,No
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Malaria RDTs,malaria diagnostics,2819,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Amoxicillin dispersible,childhood infection,2969,23,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Ceftriaxone injection,severe infection,4197,9,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,ORS + Zinc,diarrhoea,4101,14,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Oxytocin,maternal health,2277,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,DPT-HepB-Hib vaccine,immunisation,4200,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Measles-Rubella vaccine,immunisation,1625,74,OK,Pharmacist,No
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,HIV rapid test kits,HIV testing,1366,62,OK,Pharmacist,No
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,ARV first-line regimen,HIV treatment,4470,66,OK,Stores Assistant,No
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,TB fixed-dose combination,TB treatment,4784,14,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0027,Mayuge General Hospital,Mayuge,Insulin vials,NCD care,1146,76,OK,Nurse In-Charge,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,ACT Artemether-Lumefantrine,malaria treatment,4432,66,OK,Pharmacist,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Malaria RDTs,malaria diagnostics,518,84,OK,Pharmacist,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Amoxicillin dispersible,childhood infection,2175,40,OK,Stores Assistant,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Ceftriaxone injection,severe infection,3436,2,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,ORS + Zinc,diarrhoea,4759,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Oxytocin,maternal health,3217,51,OK,Stores Assistant,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,DPT-HepB-Hib vaccine,immunisation,4153,4,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Measles-Rubella vaccine,immunisation,4225,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,HIV rapid test kits,HIV testing,3979,48,OK,Stores Assistant,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,ARV first-line regimen,HIV treatment,701,58,OK,Stores Assistant,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,TB fixed-dose combination,TB treatment,3064,47,OK,Stores Assistant,No
+2026-06-07,FAC-0028,Mayuge South HC IV,Mayuge,Insulin vials,NCD care,1862,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,ACT Artemether-Lumefantrine,malaria treatment,2504,7,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Malaria RDTs,malaria diagnostics,1280,65,OK,Pharmacist,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Amoxicillin dispersible,childhood infection,2439,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Ceftriaxone injection,severe infection,3412,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,ORS + Zinc,diarrhoea,100,56,OK,Stores Assistant,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Oxytocin,maternal health,1744,59,OK,Stores Assistant,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,DPT-HepB-Hib vaccine,immunisation,4541,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Measles-Rubella vaccine,immunisation,1410,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,HIV rapid test kits,HIV testing,1249,41,OK,Nurse In-Charge,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,ARV first-line regimen,HIV treatment,3799,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,TB fixed-dose combination,TB treatment,4614,72,OK,Nurse In-Charge,No
+2026-06-07,FAC-0029,Kamuli HC IV,Kamuli,Insulin vials,NCD care,4196,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,ACT Artemether-Lumefantrine,malaria treatment,230,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Malaria RDTs,malaria diagnostics,2874,63,OK,Stores Assistant,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Amoxicillin dispersible,childhood infection,741,78,OK,Pharmacist,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Ceftriaxone injection,severe infection,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,ORS + Zinc,diarrhoea,1007,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Oxytocin,maternal health,263,40,OK,Nurse In-Charge,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,DPT-HepB-Hib vaccine,immunisation,3835,64,OK,Pharmacist,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Measles-Rubella vaccine,immunisation,4797,35,OK,Stores Assistant,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,HIV rapid test kits,HIV testing,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,ARV first-line regimen,HIV treatment,1551,45,OK,Stores Assistant,No
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,TB fixed-dose combination,TB treatment,1416,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0030,Kamuli South HC IV,Kamuli,Insulin vials,NCD care,202,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,ACT Artemether-Lumefantrine,malaria treatment,2530,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Malaria RDTs,malaria diagnostics,554,38,OK,Stores Assistant,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Amoxicillin dispersible,childhood infection,4349,81,OK,Stores Assistant,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Ceftriaxone injection,severe infection,403,49,OK,Pharmacist,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,ORS + Zinc,diarrhoea,3356,36,OK,Nurse In-Charge,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Oxytocin,maternal health,2328,89,OK,Nurse In-Charge,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,DPT-HepB-Hib vaccine,immunisation,1916,84,OK,Stores Assistant,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Measles-Rubella vaccine,immunisation,3942,110,OK,Nurse In-Charge,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,HIV rapid test kits,HIV testing,1737,33,OK,Pharmacist,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,ARV first-line regimen,HIV treatment,4509,72,OK,Stores Assistant,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,TB fixed-dose combination,TB treatment,2138,57,OK,Pharmacist,No
+2026-06-07,FAC-0031,Mbale Regional Referral Hospital,Mbale,Insulin vials,NCD care,59,54,OK,Nurse In-Charge,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,ACT Artemether-Lumefantrine,malaria treatment,3259,45,OK,Pharmacist,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Malaria RDTs,malaria diagnostics,280,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Amoxicillin dispersible,childhood infection,1505,49,OK,Pharmacist,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Ceftriaxone injection,severe infection,1359,44,OK,Nurse In-Charge,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,ORS + Zinc,diarrhoea,3054,76,OK,Stores Assistant,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Oxytocin,maternal health,2825,29,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,DPT-HepB-Hib vaccine,immunisation,4194,26,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Measles-Rubella vaccine,immunisation,3650,38,OK,Stores Assistant,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,HIV rapid test kits,HIV testing,668,76,OK,Pharmacist,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,ARV first-line regimen,HIV treatment,77,66,OK,Stores Assistant,No
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,TB fixed-dose combination,TB treatment,2112,22,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0032,Mbale Border HC II,Mbale,Insulin vials,NCD care,3587,55,OK,Stores Assistant,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,ACT Artemether-Lumefantrine,malaria treatment,3883,33,OK,Stores Assistant,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Malaria RDTs,malaria diagnostics,4104,81,OK,Nurse In-Charge,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Amoxicillin dispersible,childhood infection,1478,77,OK,Pharmacist,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Ceftriaxone injection,severe infection,975,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,ORS + Zinc,diarrhoea,2814,62,OK,Pharmacist,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Oxytocin,maternal health,2108,77,OK,Pharmacist,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,DPT-HepB-Hib vaccine,immunisation,4289,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Measles-Rubella vaccine,immunisation,3167,20,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,HIV rapid test kits,HIV testing,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,ARV first-line regimen,HIV treatment,4673,39,OK,Pharmacist,No
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,TB fixed-dose combination,TB treatment,3298,5,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0033,Tororo HC IV,Tororo,Insulin vials,NCD care,2423,44,OK,Nurse In-Charge,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,ACT Artemether-Lumefantrine,malaria treatment,2479,25,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Malaria RDTs,malaria diagnostics,4469,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Amoxicillin dispersible,childhood infection,3477,51,OK,Pharmacist,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Ceftriaxone injection,severe infection,4025,94,OK,Stores Assistant,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,ORS + Zinc,diarrhoea,2594,47,OK,Pharmacist,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Oxytocin,maternal health,1186,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,DPT-HepB-Hib vaccine,immunisation,3292,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Measles-Rubella vaccine,immunisation,1245,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,HIV rapid test kits,HIV testing,2426,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,ARV first-line regimen,HIV treatment,2814,38,OK,Stores Assistant,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,TB fixed-dose combination,TB treatment,2566,57,OK,Stores Assistant,No
+2026-06-07,FAC-0034,Tororo North HC II,Tororo,Insulin vials,NCD care,4212,35,OK,Stores Assistant,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,ACT Artemether-Lumefantrine,malaria treatment,4762,43,OK,Stores Assistant,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,Malaria RDTs,malaria diagnostics,1176,72,OK,Stores Assistant,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,Amoxicillin dispersible,childhood infection,1772,17,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,Ceftriaxone injection,severe infection,3172,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,ORS + Zinc,diarrhoea,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,Oxytocin,maternal health,3125,77,OK,Nurse In-Charge,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,DPT-HepB-Hib vaccine,immunisation,928,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,Measles-Rubella vaccine,immunisation,1205,23,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,HIV rapid test kits,HIV testing,1628,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,ARV first-line regimen,HIV treatment,427,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0035,Busia HC IV,Busia,TB fixed-dose combination,TB treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0035,Busia HC IV,Busia,Insulin vials,NCD care,1982,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0036,Busia North HC III,Busia,ACT Artemether-Lumefantrine,malaria treatment,3677,36,OK,Pharmacist,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,Malaria RDTs,malaria diagnostics,3538,54,OK,Pharmacist,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,Amoxicillin dispersible,childhood infection,1945,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,Ceftriaxone injection,severe infection,3238,34,OK,Pharmacist,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,ORS + Zinc,diarrhoea,1272,16,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0036,Busia North HC III,Busia,Oxytocin,maternal health,2552,21,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0036,Busia North HC III,Busia,DPT-HepB-Hib vaccine,immunisation,1175,37,OK,Stores Assistant,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,Measles-Rubella vaccine,immunisation,4843,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,HIV rapid test kits,HIV testing,3770,31,OK,Stores Assistant,No
+2026-06-07,FAC-0036,Busia North HC III,Busia,ARV first-line regimen,HIV treatment,1353,20,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0036,Busia North HC III,Busia,TB fixed-dose combination,TB treatment,1258,21,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0036,Busia North HC III,Busia,Insulin vials,NCD care,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,ACT Artemether-Lumefantrine,malaria treatment,4933,52,OK,Stores Assistant,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Malaria RDTs,malaria diagnostics,3941,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Amoxicillin dispersible,childhood infection,2780,36,OK,Stores Assistant,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Ceftriaxone injection,severe infection,3741,49,OK,Stores Assistant,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,ORS + Zinc,diarrhoea,786,23,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Oxytocin,maternal health,4455,13,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,DPT-HepB-Hib vaccine,immunisation,4512,70,OK,Stores Assistant,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Measles-Rubella vaccine,immunisation,2066,1,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,HIV rapid test kits,HIV testing,3578,65,OK,Pharmacist,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,ARV first-line regimen,HIV treatment,18,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,TB fixed-dose combination,TB treatment,3042,35,OK,Stores Assistant,No
+2026-06-07,FAC-0037,Soroti General Hospital,Soroti,Insulin vials,NCD care,456,23,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,ACT Artemether-Lumefantrine,malaria treatment,306,45,OK,Pharmacist,No
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Malaria RDTs,malaria diagnostics,1940,27,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Amoxicillin dispersible,childhood infection,2925,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Ceftriaxone injection,severe infection,3246,37,OK,Pharmacist,No
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,ORS + Zinc,diarrhoea,3272,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Oxytocin,maternal health,4136,73,OK,Nurse In-Charge,No
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,DPT-HepB-Hib vaccine,immunisation,1372,22,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Measles-Rubella vaccine,immunisation,4180,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,HIV rapid test kits,HIV testing,2137,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,ARV first-line regimen,HIV treatment,2792,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,TB fixed-dose combination,TB treatment,2253,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0038,Soroti Island HC II,Soroti,Insulin vials,NCD care,4223,59,OK,Pharmacist,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,ACT Artemether-Lumefantrine,malaria treatment,1891,61,OK,Pharmacist,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Malaria RDTs,malaria diagnostics,3339,86,OK,Nurse In-Charge,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Amoxicillin dispersible,childhood infection,844,21,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Ceftriaxone injection,severe infection,87,24,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,ORS + Zinc,diarrhoea,3670,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Oxytocin,maternal health,374,34,OK,Stores Assistant,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,DPT-HepB-Hib vaccine,immunisation,1165,15,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Measles-Rubella vaccine,immunisation,4223,73,OK,Pharmacist,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,HIV rapid test kits,HIV testing,3136,43,OK,Nurse In-Charge,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,ARV first-line regimen,HIV treatment,3041,71,OK,Pharmacist,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,TB fixed-dose combination,TB treatment,1403,85,OK,Nurse In-Charge,No
+2026-06-07,FAC-0039,Kumi General Hospital,Kumi,Insulin vials,NCD care,331,49,OK,Pharmacist,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,ACT Artemether-Lumefantrine,malaria treatment,4699,23,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Malaria RDTs,malaria diagnostics,54,32,OK,Nurse In-Charge,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Amoxicillin dispersible,childhood infection,1963,71,OK,Nurse In-Charge,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Ceftriaxone injection,severe infection,68,14,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,ORS + Zinc,diarrhoea,2474,28,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Oxytocin,maternal health,747,22,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,DPT-HepB-Hib vaccine,immunisation,348,37,OK,Nurse In-Charge,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Measles-Rubella vaccine,immunisation,853,18,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,HIV rapid test kits,HIV testing,2319,81,OK,Stores Assistant,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,ARV first-line regimen,HIV treatment,826,62,OK,Pharmacist,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,TB fixed-dose combination,TB treatment,4159,45,OK,Pharmacist,No
+2026-06-07,FAC-0040,Kumi North HC II,Kumi,Insulin vials,NCD care,119,112,OK,Nurse In-Charge,No
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,ACT Artemether-Lumefantrine,malaria treatment,4757,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Malaria RDTs,malaria diagnostics,413,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Amoxicillin dispersible,childhood infection,1490,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Ceftriaxone injection,severe infection,1141,1,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,ORS + Zinc,diarrhoea,4232,2,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Oxytocin,maternal health,3000,89,OK,Stores Assistant,No
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,DPT-HepB-Hib vaccine,immunisation,2481,4,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Measles-Rubella vaccine,immunisation,624,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,HIV rapid test kits,HIV testing,2326,74,OK,Pharmacist,No
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,ARV first-line regimen,HIV treatment,3233,10,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,TB fixed-dose combination,TB treatment,819,7,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0041,Kapchorwa HC IV,Kapchorwa,Insulin vials,NCD care,4036,85,OK,Pharmacist,No
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,ACT Artemether-Lumefantrine,malaria treatment,3068,31,OK,Pharmacist,No
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Malaria RDTs,malaria diagnostics,366,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Amoxicillin dispersible,childhood infection,1941,6,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Ceftriaxone injection,severe infection,3441,14,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,ORS + Zinc,diarrhoea,655,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Oxytocin,maternal health,3966,54,OK,Stores Assistant,No
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,DPT-HepB-Hib vaccine,immunisation,4243,8,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Measles-Rubella vaccine,immunisation,625,6,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,HIV rapid test kits,HIV testing,2789,19,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,ARV first-line regimen,HIV treatment,3462,79,OK,Stores Assistant,No
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,TB fixed-dose combination,TB treatment,3644,64,OK,Stores Assistant,No
+2026-06-07,FAC-0042,Kapchorwa Central HC II,Kapchorwa,Insulin vials,NCD care,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,ACT Artemether-Lumefantrine,malaria treatment,774,40,OK,Pharmacist,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Malaria RDTs,malaria diagnostics,3604,72,OK,Stores Assistant,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Amoxicillin dispersible,childhood infection,1614,67,OK,Nurse In-Charge,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Ceftriaxone injection,severe infection,3938,26,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,ORS + Zinc,diarrhoea,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Oxytocin,maternal health,3228,16,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Measles-Rubella vaccine,immunisation,991,44,OK,Pharmacist,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,HIV rapid test kits,HIV testing,3642,46,OK,Pharmacist,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,ARV first-line regimen,HIV treatment,4817,33,OK,Pharmacist,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,TB fixed-dose combination,TB treatment,2251,89,OK,Stores Assistant,No
+2026-06-07,FAC-0043,Moroto HC IV,Moroto,Insulin vials,NCD care,2440,62,OK,Nurse In-Charge,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,ACT Artemether-Lumefantrine,malaria treatment,3106,14,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Malaria RDTs,malaria diagnostics,3949,77,OK,Pharmacist,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Amoxicillin dispersible,childhood infection,424,24,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Ceftriaxone injection,severe infection,2402,67,OK,Pharmacist,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,ORS + Zinc,diarrhoea,4346,37,OK,Nurse In-Charge,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Oxytocin,maternal health,895,67,OK,Pharmacist,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,DPT-HepB-Hib vaccine,immunisation,2180,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Measles-Rubella vaccine,immunisation,2981,47,OK,Stores Assistant,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,HIV rapid test kits,HIV testing,388,59,OK,Stores Assistant,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,ARV first-line regimen,HIV treatment,3476,68,OK,Stores Assistant,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,TB fixed-dose combination,TB treatment,658,73,OK,Nurse In-Charge,No
+2026-06-07,FAC-0044,Moroto South HC III,Moroto,Insulin vials,NCD care,2854,114,OK,Pharmacist,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Malaria RDTs,malaria diagnostics,173,95,OK,Stores Assistant,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Amoxicillin dispersible,childhood infection,19,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Ceftriaxone injection,severe infection,2066,57,OK,Pharmacist,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,ORS + Zinc,diarrhoea,1666,65,OK,Nurse In-Charge,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Oxytocin,maternal health,2516,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,DPT-HepB-Hib vaccine,immunisation,4717,62,OK,Pharmacist,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Measles-Rubella vaccine,immunisation,904,13,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,HIV rapid test kits,HIV testing,415,49,OK,Nurse In-Charge,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,ARV first-line regimen,HIV treatment,450,31,OK,Pharmacist,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,TB fixed-dose combination,TB treatment,2392,95,OK,Nurse In-Charge,No
+2026-06-07,FAC-0045,Kotido General Hospital,Kotido,Insulin vials,NCD care,2799,74,OK,Stores Assistant,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,ACT Artemether-Lumefantrine,malaria treatment,3409,30,OK,Pharmacist,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Malaria RDTs,malaria diagnostics,687,73,OK,Pharmacist,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Amoxicillin dispersible,childhood infection,3862,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Ceftriaxone injection,severe infection,1040,35,OK,Pharmacist,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,ORS + Zinc,diarrhoea,1930,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Oxytocin,maternal health,3231,19,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,DPT-HepB-Hib vaccine,immunisation,1416,79,OK,Nurse In-Charge,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Measles-Rubella vaccine,immunisation,3524,36,OK,Nurse In-Charge,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,HIV rapid test kits,HIV testing,4658,59,OK,Nurse In-Charge,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,ARV first-line regimen,HIV treatment,1218,36,OK,Pharmacist,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,TB fixed-dose combination,TB treatment,4870,50,OK,Pharmacist,No
+2026-06-07,FAC-0046,Kotido South HC II,Kotido,Insulin vials,NCD care,3138,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,ACT Artemether-Lumefantrine,malaria treatment,4227,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Malaria RDTs,malaria diagnostics,3895,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Amoxicillin dispersible,childhood infection,3191,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Ceftriaxone injection,severe infection,1231,20,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,ORS + Zinc,diarrhoea,366,60,OK,Stores Assistant,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Oxytocin,maternal health,3384,42,OK,Stores Assistant,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,DPT-HepB-Hib vaccine,immunisation,1821,48,OK,Stores Assistant,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Measles-Rubella vaccine,immunisation,4578,54,OK,Stores Assistant,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,HIV rapid test kits,HIV testing,4580,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,ARV first-line regimen,HIV treatment,532,50,OK,Pharmacist,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,TB fixed-dose combination,TB treatment,1646,72,OK,Nurse In-Charge,No
+2026-06-07,FAC-0047,Kaabong General Hospital,Kaabong,Insulin vials,NCD care,3181,67,OK,Pharmacist,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Malaria RDTs,malaria diagnostics,1962,47,OK,Pharmacist,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Amoxicillin dispersible,childhood infection,2419,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Ceftriaxone injection,severe infection,2511,23,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,ORS + Zinc,diarrhoea,2711,30,OK,Pharmacist,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Oxytocin,maternal health,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,DPT-HepB-Hib vaccine,immunisation,2591,4,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Measles-Rubella vaccine,immunisation,4502,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,HIV rapid test kits,HIV testing,2414,96,OK,Stores Assistant,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,ARV first-line regimen,HIV treatment,2276,10,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,TB fixed-dose combination,TB treatment,2379,38,OK,Stores Assistant,No
+2026-06-07,FAC-0048,Kaabong South HC IV,Kaabong,Insulin vials,NCD care,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Malaria RDTs,malaria diagnostics,4032,14,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Amoxicillin dispersible,childhood infection,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Ceftriaxone injection,severe infection,404,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,ORS + Zinc,diarrhoea,4379,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Oxytocin,maternal health,1189,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0049,Napak General Hospital,Napak,DPT-HepB-Hib vaccine,immunisation,260,72,OK,Pharmacist,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Measles-Rubella vaccine,immunisation,3441,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,HIV rapid test kits,HIV testing,2782,37,OK,Nurse In-Charge,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,ARV first-line regimen,HIV treatment,2259,82,OK,Pharmacist,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,TB fixed-dose combination,TB treatment,2808,81,OK,Stores Assistant,No
+2026-06-07,FAC-0049,Napak General Hospital,Napak,Insulin vials,NCD care,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,ACT Artemether-Lumefantrine,malaria treatment,1398,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Malaria RDTs,malaria diagnostics,1804,39,OK,Pharmacist,No
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Amoxicillin dispersible,childhood infection,2079,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Ceftriaxone injection,severe infection,536,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,ORS + Zinc,diarrhoea,2964,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Oxytocin,maternal health,1515,69,OK,Pharmacist,No
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,DPT-HepB-Hib vaccine,immunisation,4151,1,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Measles-Rubella vaccine,immunisation,3528,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,HIV rapid test kits,HIV testing,1200,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,ARV first-line regimen,HIV treatment,704,7,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,TB fixed-dose combination,TB treatment,1663,72,OK,Nurse In-Charge,No
+2026-06-07,FAC-0050,Napak Rural HC II,Napak,Insulin vials,NCD care,1182,75,OK,Pharmacist,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,ACT Artemether-Lumefantrine,malaria treatment,3226,80,OK,Stores Assistant,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Malaria RDTs,malaria diagnostics,713,82,OK,Stores Assistant,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Amoxicillin dispersible,childhood infection,4998,52,OK,Pharmacist,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Ceftriaxone injection,severe infection,2852,58,OK,Nurse In-Charge,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,ORS + Zinc,diarrhoea,2891,49,OK,Stores Assistant,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Oxytocin,maternal health,4740,49,OK,Stores Assistant,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,DPT-HepB-Hib vaccine,immunisation,2639,52,OK,Stores Assistant,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Measles-Rubella vaccine,immunisation,181,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,HIV rapid test kits,HIV testing,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,ARV first-line regimen,HIV treatment,4728,30,OK,Pharmacist,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,TB fixed-dose combination,TB treatment,1406,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0051,Gulu Regional Referral Hospital,Gulu,Insulin vials,NCD care,3366,53,OK,Stores Assistant,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,ACT Artemether-Lumefantrine,malaria treatment,2742,23,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Malaria RDTs,malaria diagnostics,2909,43,OK,Nurse In-Charge,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Amoxicillin dispersible,childhood infection,2806,42,OK,Stores Assistant,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Ceftriaxone injection,severe infection,3993,61,OK,Pharmacist,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,ORS + Zinc,diarrhoea,251,69,OK,Pharmacist,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Oxytocin,maternal health,1064,61,OK,Stores Assistant,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,DPT-HepB-Hib vaccine,immunisation,3452,79,OK,Pharmacist,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Measles-Rubella vaccine,immunisation,3450,52,OK,Stores Assistant,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,HIV rapid test kits,HIV testing,1684,63,OK,Stores Assistant,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,ARV first-line regimen,HIV treatment,902,41,OK,Nurse In-Charge,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,TB fixed-dose combination,TB treatment,2685,37,OK,Nurse In-Charge,No
+2026-06-07,FAC-0052,Gulu Island HC III,Gulu,Insulin vials,NCD care,1705,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,ACT Artemether-Lumefantrine,malaria treatment,4809,83,OK,Nurse In-Charge,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Malaria RDTs,malaria diagnostics,3258,17,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Amoxicillin dispersible,childhood infection,2394,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Ceftriaxone injection,severe infection,3654,7,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,ORS + Zinc,diarrhoea,700,44,OK,Pharmacist,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Oxytocin,maternal health,3318,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,DPT-HepB-Hib vaccine,immunisation,3276,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Measles-Rubella vaccine,immunisation,4148,7,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,HIV rapid test kits,HIV testing,407,15,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,ARV first-line regimen,HIV treatment,2317,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,TB fixed-dose combination,TB treatment,1910,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0053,Lira Regional Referral Hospital,Lira,Insulin vials,NCD care,2335,89,OK,Stores Assistant,No
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,ACT Artemether-Lumefantrine,malaria treatment,4766,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Malaria RDTs,malaria diagnostics,3456,42,OK,Stores Assistant,No
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Amoxicillin dispersible,childhood infection,885,69,OK,Stores Assistant,No
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Ceftriaxone injection,severe infection,4146,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,ORS + Zinc,diarrhoea,2563,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Oxytocin,maternal health,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,DPT-HepB-Hib vaccine,immunisation,902,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Measles-Rubella vaccine,immunisation,3590,58,OK,Nurse In-Charge,No
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,HIV rapid test kits,HIV testing,544,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,ARV first-line regimen,HIV treatment,2131,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,TB fixed-dose combination,TB treatment,1400,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0054,Lira Border HC IV,Lira,Insulin vials,NCD care,651,30,OK,Pharmacist,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,ACT Artemether-Lumefantrine,malaria treatment,4563,22,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Malaria RDTs,malaria diagnostics,3532,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Amoxicillin dispersible,childhood infection,997,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Ceftriaxone injection,severe infection,1893,53,OK,Pharmacist,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,ORS + Zinc,diarrhoea,2126,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Oxytocin,maternal health,2904,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,DPT-HepB-Hib vaccine,immunisation,4052,32,OK,Stores Assistant,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Measles-Rubella vaccine,immunisation,1963,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,HIV rapid test kits,HIV testing,3148,69,OK,Pharmacist,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,ARV first-line regimen,HIV treatment,203,79,OK,Stores Assistant,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,TB fixed-dose combination,TB treatment,3391,77,OK,Nurse In-Charge,No
+2026-06-07,FAC-0055,Arua Regional Referral Hospital,Arua,Insulin vials,NCD care,4940,5,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,ACT Artemether-Lumefantrine,malaria treatment,1599,77,OK,Pharmacist,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Malaria RDTs,malaria diagnostics,1444,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Amoxicillin dispersible,childhood infection,2066,39,OK,Stores Assistant,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Ceftriaxone injection,severe infection,3705,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,ORS + Zinc,diarrhoea,1009,14,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Oxytocin,maternal health,2257,42,OK,Stores Assistant,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,DPT-HepB-Hib vaccine,immunisation,3498,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Measles-Rubella vaccine,immunisation,1390,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,HIV rapid test kits,HIV testing,431,52,OK,Nurse In-Charge,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,ARV first-line regimen,HIV treatment,1794,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,TB fixed-dose combination,TB treatment,4103,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0056,Arua Island HC IV,Arua,Insulin vials,NCD care,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,ACT Artemether-Lumefantrine,malaria treatment,298,2,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Malaria RDTs,malaria diagnostics,3134,51,OK,Stores Assistant,No
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Amoxicillin dispersible,childhood infection,506,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Ceftriaxone injection,severe infection,2341,11,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,ORS + Zinc,diarrhoea,2398,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Oxytocin,maternal health,3843,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,DPT-HepB-Hib vaccine,immunisation,885,75,OK,Pharmacist,No
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Measles-Rubella vaccine,immunisation,1365,43,OK,Nurse In-Charge,No
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,HIV rapid test kits,HIV testing,3790,55,OK,Pharmacist,No
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,ARV first-line regimen,HIV treatment,1325,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,TB fixed-dose combination,TB treatment,203,9,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0057,Yumbe General Hospital,Yumbe,Insulin vials,NCD care,2000,30,OK,Stores Assistant,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,ACT Artemether-Lumefantrine,malaria treatment,2783,25,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Malaria RDTs,malaria diagnostics,4858,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Amoxicillin dispersible,childhood infection,1159,42,OK,Stores Assistant,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Ceftriaxone injection,severe infection,3290,19,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,ORS + Zinc,diarrhoea,3859,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Oxytocin,maternal health,3325,59,OK,Nurse In-Charge,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,DPT-HepB-Hib vaccine,immunisation,1146,50,OK,Stores Assistant,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Measles-Rubella vaccine,immunisation,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,HIV rapid test kits,HIV testing,2372,56,OK,Nurse In-Charge,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,ARV first-line regimen,HIV treatment,2530,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,TB fixed-dose combination,TB treatment,2695,52,OK,Nurse In-Charge,No
+2026-06-07,FAC-0058,Yumbe Central HC II,Yumbe,Insulin vials,NCD care,2053,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,ACT Artemether-Lumefantrine,malaria treatment,3817,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Malaria RDTs,malaria diagnostics,3213,34,OK,Pharmacist,No
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Amoxicillin dispersible,childhood infection,1092,17,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Ceftriaxone injection,severe infection,4085,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,ORS + Zinc,diarrhoea,2930,18,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Oxytocin,maternal health,3853,66,OK,Stores Assistant,No
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,DPT-HepB-Hib vaccine,immunisation,3095,16,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Measles-Rubella vaccine,immunisation,4695,71,OK,Pharmacist,No
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,HIV rapid test kits,HIV testing,1967,50,OK,Pharmacist,No
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,ARV first-line regimen,HIV treatment,4963,10,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,TB fixed-dose combination,TB treatment,2881,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0059,Koboko HC IV,Koboko,Insulin vials,NCD care,2957,58,OK,Stores Assistant,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,ACT Artemether-Lumefantrine,malaria treatment,3999,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Malaria RDTs,malaria diagnostics,4463,59,OK,Pharmacist,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Amoxicillin dispersible,childhood infection,3669,32,OK,Nurse In-Charge,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Ceftriaxone injection,severe infection,3191,2,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,ORS + Zinc,diarrhoea,3554,48,OK,Pharmacist,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Oxytocin,maternal health,1257,60,OK,Stores Assistant,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,DPT-HepB-Hib vaccine,immunisation,2986,16,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Measles-Rubella vaccine,immunisation,484,31,OK,Stores Assistant,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,HIV rapid test kits,HIV testing,1338,77,OK,Pharmacist,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,ARV first-line regimen,HIV treatment,4819,37,OK,Stores Assistant,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,TB fixed-dose combination,TB treatment,3798,92,OK,Nurse In-Charge,No
+2026-06-07,FAC-0060,Koboko Central HC IV,Koboko,Insulin vials,NCD care,4634,37,OK,Nurse In-Charge,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,ACT Artemether-Lumefantrine,malaria treatment,4829,67,OK,Pharmacist,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Malaria RDTs,malaria diagnostics,4009,15,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Amoxicillin dispersible,childhood infection,175,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Ceftriaxone injection,severe infection,4002,35,OK,Stores Assistant,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,ORS + Zinc,diarrhoea,73,84,OK,Pharmacist,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Oxytocin,maternal health,4770,75,OK,Stores Assistant,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,DPT-HepB-Hib vaccine,immunisation,74,87,OK,Nurse In-Charge,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Measles-Rubella vaccine,immunisation,2581,108,OK,Nurse In-Charge,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,HIV rapid test kits,HIV testing,1459,67,OK,Pharmacist,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,ARV first-line regimen,HIV treatment,830,76,OK,Pharmacist,No
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,TB fixed-dose combination,TB treatment,1785,19,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0061,Adjumani General Hospital,Adjumani,Insulin vials,NCD care,3188,53,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,ACT Artemether-Lumefantrine,malaria treatment,2322,42,OK,Pharmacist,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Malaria RDTs,malaria diagnostics,3932,82,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Amoxicillin dispersible,childhood infection,2913,74,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Ceftriaxone injection,severe infection,1193,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,ORS + Zinc,diarrhoea,1974,28,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Oxytocin,maternal health,596,74,OK,Nurse In-Charge,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,DPT-HepB-Hib vaccine,immunisation,2771,87,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Measles-Rubella vaccine,immunisation,3225,18,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,HIV rapid test kits,HIV testing,1617,70,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,ARV first-line regimen,HIV treatment,781,70,OK,Stores Assistant,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,TB fixed-dose combination,TB treatment,230,100,OK,Pharmacist,No
+2026-06-07,FAC-0062,Adjumani Island HC II,Adjumani,Insulin vials,NCD care,3988,65,OK,Nurse In-Charge,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,ACT Artemether-Lumefantrine,malaria treatment,2974,69,OK,Stores Assistant,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Malaria RDTs,malaria diagnostics,4363,67,OK,Pharmacist,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Amoxicillin dispersible,childhood infection,1532,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Ceftriaxone injection,severe infection,4071,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,ORS + Zinc,diarrhoea,896,65,OK,Stores Assistant,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Oxytocin,maternal health,1316,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,DPT-HepB-Hib vaccine,immunisation,1285,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Measles-Rubella vaccine,immunisation,721,73,OK,Nurse In-Charge,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,HIV rapid test kits,HIV testing,3038,79,OK,Nurse In-Charge,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,ARV first-line regimen,HIV treatment,2905,17,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,TB fixed-dose combination,TB treatment,772,73,OK,Stores Assistant,No
+2026-06-07,FAC-0063,Moyo HC IV,Moyo,Insulin vials,NCD care,4749,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,ACT Artemether-Lumefantrine,malaria treatment,4797,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Malaria RDTs,malaria diagnostics,4495,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Amoxicillin dispersible,childhood infection,2523,95,OK,Pharmacist,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Ceftriaxone injection,severe infection,2958,34,OK,Stores Assistant,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,ORS + Zinc,diarrhoea,259,45,OK,Nurse In-Charge,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Oxytocin,maternal health,287,49,OK,Nurse In-Charge,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Measles-Rubella vaccine,immunisation,1014,63,OK,Pharmacist,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,HIV rapid test kits,HIV testing,4299,33,OK,Pharmacist,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,ARV first-line regimen,HIV treatment,2577,86,OK,Stores Assistant,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,TB fixed-dose combination,TB treatment,4614,34,OK,Pharmacist,No
+2026-06-07,FAC-0064,Moyo Island HC IV,Moyo,Insulin vials,NCD care,427,38,OK,Nurse In-Charge,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,ACT Artemether-Lumefantrine,malaria treatment,1943,85,OK,Stores Assistant,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Malaria RDTs,malaria diagnostics,4535,56,OK,Pharmacist,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Amoxicillin dispersible,childhood infection,480,105,OK,Stores Assistant,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Ceftriaxone injection,severe infection,1960,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,ORS + Zinc,diarrhoea,376,43,OK,Pharmacist,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Oxytocin,maternal health,3496,57,OK,Stores Assistant,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,DPT-HepB-Hib vaccine,immunisation,3646,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Measles-Rubella vaccine,immunisation,2101,91,OK,Pharmacist,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,HIV rapid test kits,HIV testing,4048,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,ARV first-line regimen,HIV treatment,979,47,OK,Pharmacist,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,TB fixed-dose combination,TB treatment,3255,63,OK,Nurse In-Charge,No
+2026-06-07,FAC-0065,Nebbi General Hospital,Nebbi,Insulin vials,NCD care,4927,50,OK,Pharmacist,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,ACT Artemether-Lumefantrine,malaria treatment,4652,20,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Malaria RDTs,malaria diagnostics,3063,86,OK,Pharmacist,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Amoxicillin dispersible,childhood infection,4703,24,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Ceftriaxone injection,severe infection,600,54,OK,Nurse In-Charge,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,ORS + Zinc,diarrhoea,1054,51,OK,Stores Assistant,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Oxytocin,maternal health,3328,94,OK,Stores Assistant,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,DPT-HepB-Hib vaccine,immunisation,824,46,OK,Stores Assistant,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Measles-Rubella vaccine,immunisation,4118,70,OK,Stores Assistant,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,HIV rapid test kits,HIV testing,4888,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,ARV first-line regimen,HIV treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,TB fixed-dose combination,TB treatment,1617,41,OK,Pharmacist,No
+2026-06-07,FAC-0066,Nebbi Island HC III,Nebbi,Insulin vials,NCD care,1304,57,OK,Pharmacist,No
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,ACT Artemether-Lumefantrine,malaria treatment,270,66,OK,Nurse In-Charge,No
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Malaria RDTs,malaria diagnostics,632,10,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Amoxicillin dispersible,childhood infection,826,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Ceftriaxone injection,severe infection,3947,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,ORS + Zinc,diarrhoea,3976,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Oxytocin,maternal health,4125,29,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,DPT-HepB-Hib vaccine,immunisation,943,40,OK,Stores Assistant,No
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Measles-Rubella vaccine,immunisation,4157,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,HIV rapid test kits,HIV testing,3630,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,ARV first-line regimen,HIV treatment,3573,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,TB fixed-dose combination,TB treatment,158,66,OK,Stores Assistant,No
+2026-06-07,FAC-0067,Masindi HC IV,Masindi,Insulin vials,NCD care,2753,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,ACT Artemether-Lumefantrine,malaria treatment,1347,10,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Malaria RDTs,malaria diagnostics,4728,45,OK,Nurse In-Charge,No
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Amoxicillin dispersible,childhood infection,420,47,OK,Stores Assistant,No
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Ceftriaxone injection,severe infection,3149,99,OK,Pharmacist,No
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,ORS + Zinc,diarrhoea,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Oxytocin,maternal health,2595,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,DPT-HepB-Hib vaccine,immunisation,3893,64,OK,Pharmacist,No
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Measles-Rubella vaccine,immunisation,994,15,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,HIV rapid test kits,HIV testing,2028,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,ARV first-line regimen,HIV treatment,945,57,OK,Pharmacist,No
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,TB fixed-dose combination,TB treatment,2503,7,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0068,Masindi Central HC III,Masindi,Insulin vials,NCD care,1424,58,OK,Stores Assistant,No
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,ACT Artemether-Lumefantrine,malaria treatment,3617,11,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Malaria RDTs,malaria diagnostics,945,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Amoxicillin dispersible,childhood infection,4747,2,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Ceftriaxone injection,severe infection,4934,56,OK,Pharmacist,No
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,ORS + Zinc,diarrhoea,2787,12,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Oxytocin,maternal health,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,DPT-HepB-Hib vaccine,immunisation,536,22,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Measles-Rubella vaccine,immunisation,3753,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,HIV rapid test kits,HIV testing,3719,79,OK,Nurse In-Charge,No
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,ARV first-line regimen,HIV treatment,1656,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,TB fixed-dose combination,TB treatment,31,23,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0069,Hoima General Hospital,Hoima,Insulin vials,NCD care,4456,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,ACT Artemether-Lumefantrine,malaria treatment,2081,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Malaria RDTs,malaria diagnostics,4496,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Amoxicillin dispersible,childhood infection,2882,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Ceftriaxone injection,severe infection,437,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,ORS + Zinc,diarrhoea,922,56,OK,Stores Assistant,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Oxytocin,maternal health,1652,33,OK,Stores Assistant,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,DPT-HepB-Hib vaccine,immunisation,3582,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Measles-Rubella vaccine,immunisation,1153,89,OK,Pharmacist,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,HIV rapid test kits,HIV testing,4955,16,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,ARV first-line regimen,HIV treatment,2269,35,OK,Stores Assistant,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,TB fixed-dose combination,TB treatment,3334,42,OK,Stores Assistant,No
+2026-06-07,FAC-0070,Hoima Rural HC II,Hoima,Insulin vials,NCD care,3645,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,ACT Artemether-Lumefantrine,malaria treatment,4201,33,OK,Pharmacist,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Malaria RDTs,malaria diagnostics,2452,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Amoxicillin dispersible,childhood infection,1390,69,OK,Nurse In-Charge,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Ceftriaxone injection,severe infection,3232,77,OK,Stores Assistant,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,ORS + Zinc,diarrhoea,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Oxytocin,maternal health,3941,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,DPT-HepB-Hib vaccine,immunisation,879,74,OK,Stores Assistant,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Measles-Rubella vaccine,immunisation,355,79,OK,Stores Assistant,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,HIV rapid test kits,HIV testing,894,75,OK,Nurse In-Charge,No
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,ARV first-line regimen,HIV treatment,2676,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,TB fixed-dose combination,TB treatment,94,29,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0071,Kiryandongo HC IV,Kiryandongo,Insulin vials,NCD care,2679,108,OK,Stores Assistant,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,ACT Artemether-Lumefantrine,malaria treatment,4187,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Malaria RDTs,malaria diagnostics,1431,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Amoxicillin dispersible,childhood infection,3376,102,OK,Stores Assistant,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Ceftriaxone injection,severe infection,2005,43,OK,Pharmacist,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,ORS + Zinc,diarrhoea,1480,64,OK,Nurse In-Charge,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Oxytocin,maternal health,330,59,OK,Pharmacist,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Measles-Rubella vaccine,immunisation,4360,61,OK,Stores Assistant,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,HIV rapid test kits,HIV testing,826,27,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,ARV first-line regimen,HIV treatment,4572,87,OK,Pharmacist,No
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,TB fixed-dose combination,TB treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0072,Kiryandongo Rural HC IV,Kiryandongo,Insulin vials,NCD care,450,53,OK,Stores Assistant,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,ACT Artemether-Lumefantrine,malaria treatment,46,8,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Malaria RDTs,malaria diagnostics,64,32,OK,Pharmacist,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Amoxicillin dispersible,childhood infection,311,9,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Ceftriaxone injection,severe infection,3233,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,ORS + Zinc,diarrhoea,62,53,OK,Nurse In-Charge,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Oxytocin,maternal health,989,35,OK,Stores Assistant,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,DPT-HepB-Hib vaccine,immunisation,1099,81,OK,Pharmacist,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Measles-Rubella vaccine,immunisation,2111,31,OK,Pharmacist,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,HIV rapid test kits,HIV testing,3196,23,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,ARV first-line regimen,HIV treatment,2104,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,TB fixed-dose combination,TB treatment,2450,12,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0073,Fort Portal Regional Referral Hospital,Fort Portal,Insulin vials,NCD care,1887,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,ACT Artemether-Lumefantrine,malaria treatment,2213,79,OK,Pharmacist,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Malaria RDTs,malaria diagnostics,309,85,OK,Pharmacist,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Amoxicillin dispersible,childhood infection,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Ceftriaxone injection,severe infection,1793,25,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,ORS + Zinc,diarrhoea,378,66,OK,Pharmacist,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Oxytocin,maternal health,2332,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Measles-Rubella vaccine,immunisation,3198,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,HIV rapid test kits,HIV testing,2772,46,OK,Stores Assistant,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,ARV first-line regimen,HIV treatment,2137,35,OK,Pharmacist,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,TB fixed-dose combination,TB treatment,229,62,OK,Pharmacist,No
+2026-06-07,FAC-0074,Fort Portal Rural HC IV,Fort Portal,Insulin vials,NCD care,3174,18,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,ACT Artemether-Lumefantrine,malaria treatment,3679,58,OK,Nurse In-Charge,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Malaria RDTs,malaria diagnostics,1632,51,OK,Stores Assistant,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Amoxicillin dispersible,childhood infection,343,4,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Ceftriaxone injection,severe infection,610,43,OK,Pharmacist,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,ORS + Zinc,diarrhoea,4799,12,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Oxytocin,maternal health,670,36,OK,Stores Assistant,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Measles-Rubella vaccine,immunisation,56,7,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,HIV rapid test kits,HIV testing,4242,94,OK,Stores Assistant,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,ARV first-line regimen,HIV treatment,153,28,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,TB fixed-dose combination,TB treatment,3412,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0075,Kabarole HC IV,Kabarole,Insulin vials,NCD care,2480,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,ACT Artemether-Lumefantrine,malaria treatment,2873,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Malaria RDTs,malaria diagnostics,990,2,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Amoxicillin dispersible,childhood infection,849,59,OK,Pharmacist,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Ceftriaxone injection,severe infection,133,64,OK,Stores Assistant,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,ORS + Zinc,diarrhoea,4097,82,OK,Pharmacist,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Oxytocin,maternal health,4471,17,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,DPT-HepB-Hib vaccine,immunisation,2118,3,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Measles-Rubella vaccine,immunisation,4675,37,OK,Pharmacist,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,HIV rapid test kits,HIV testing,1596,33,OK,Nurse In-Charge,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,ARV first-line regimen,HIV treatment,4633,1,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,TB fixed-dose combination,TB treatment,2614,55,OK,Pharmacist,No
+2026-06-07,FAC-0076,Kabarole Rural HC II,Kabarole,Insulin vials,NCD care,1560,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,ACT Artemether-Lumefantrine,malaria treatment,1675,22,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Malaria RDTs,malaria diagnostics,602,57,OK,Pharmacist,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Amoxicillin dispersible,childhood infection,2691,82,OK,Pharmacist,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Ceftriaxone injection,severe infection,1498,54,OK,Nurse In-Charge,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,ORS + Zinc,diarrhoea,3742,81,OK,Stores Assistant,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Oxytocin,maternal health,2479,133,OK,Pharmacist,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,DPT-HepB-Hib vaccine,immunisation,3872,56,OK,Pharmacist,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Measles-Rubella vaccine,immunisation,376,74,OK,Stores Assistant,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,HIV rapid test kits,HIV testing,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,ARV first-line regimen,HIV treatment,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,TB fixed-dose combination,TB treatment,491,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0077,Kasese HC IV,Kasese,Insulin vials,NCD care,4515,75,OK,Stores Assistant,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,ACT Artemether-Lumefantrine,malaria treatment,625,36,OK,Nurse In-Charge,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Malaria RDTs,malaria diagnostics,3588,32,OK,Nurse In-Charge,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Amoxicillin dispersible,childhood infection,3029,31,OK,Pharmacist,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Ceftriaxone injection,severe infection,3047,56,OK,Stores Assistant,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,ORS + Zinc,diarrhoea,4436,57,OK,Nurse In-Charge,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Oxytocin,maternal health,4875,56,OK,Pharmacist,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,DPT-HepB-Hib vaccine,immunisation,2871,57,OK,Stores Assistant,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Measles-Rubella vaccine,immunisation,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,HIV rapid test kits,HIV testing,926,40,OK,Stores Assistant,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,ARV first-line regimen,HIV treatment,1398,33,OK,Nurse In-Charge,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,TB fixed-dose combination,TB treatment,894,31,OK,Pharmacist,No
+2026-06-07,FAC-0078,Kasese Rural HC II,Kasese,Insulin vials,NCD care,4155,54,OK,Pharmacist,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,ACT Artemether-Lumefantrine,malaria treatment,3439,70,OK,Stores Assistant,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Malaria RDTs,malaria diagnostics,256,18,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Amoxicillin dispersible,childhood infection,1344,58,OK,Pharmacist,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Ceftriaxone injection,severe infection,3052,64,OK,Pharmacist,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,ORS + Zinc,diarrhoea,1182,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Oxytocin,maternal health,3326,8,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,DPT-HepB-Hib vaccine,immunisation,4398,30,OK,Stores Assistant,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Measles-Rubella vaccine,immunisation,2633,67,OK,Stores Assistant,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,HIV rapid test kits,HIV testing,3481,45,OK,Nurse In-Charge,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,ARV first-line regimen,HIV treatment,3829,80,OK,Stores Assistant,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,TB fixed-dose combination,TB treatment,2380,103,OK,Stores Assistant,No
+2026-06-07,FAC-0079,Bundibugyo General Hospital,Bundibugyo,Insulin vials,NCD care,2411,42,OK,Nurse In-Charge,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,ACT Artemether-Lumefantrine,malaria treatment,496,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Malaria RDTs,malaria diagnostics,4399,43,OK,Stores Assistant,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Amoxicillin dispersible,childhood infection,272,14,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Ceftriaxone injection,severe infection,871,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,ORS + Zinc,diarrhoea,2579,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Oxytocin,maternal health,2304,5,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,DPT-HepB-Hib vaccine,immunisation,4212,51,OK,Pharmacist,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Measles-Rubella vaccine,immunisation,3740,4,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,HIV rapid test kits,HIV testing,351,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,ARV first-line regimen,HIV treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,TB fixed-dose combination,TB treatment,4319,90,OK,Pharmacist,No
+2026-06-07,FAC-0080,Bundibugyo Border HC II,Bundibugyo,Insulin vials,NCD care,4008,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,ACT Artemether-Lumefantrine,malaria treatment,3420,40,OK,Stores Assistant,No
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Malaria RDTs,malaria diagnostics,4080,74,OK,Pharmacist,No
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Amoxicillin dispersible,childhood infection,2915,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Ceftriaxone injection,severe infection,4154,20,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,ORS + Zinc,diarrhoea,2757,27,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Oxytocin,maternal health,3701,21,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,DPT-HepB-Hib vaccine,immunisation,3962,101,OK,Stores Assistant,No
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Measles-Rubella vaccine,immunisation,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,HIV rapid test kits,HIV testing,647,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,ARV first-line regimen,HIV treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,TB fixed-dose combination,TB treatment,419,89,OK,Stores Assistant,No
+2026-06-07,FAC-0081,Ntoroko General Hospital,Ntoroko,Insulin vials,NCD care,544,32,OK,Stores Assistant,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,ACT Artemether-Lumefantrine,malaria treatment,3245,74,OK,Stores Assistant,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Malaria RDTs,malaria diagnostics,986,16,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Amoxicillin dispersible,childhood infection,4790,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Ceftriaxone injection,severe infection,935,44,OK,Pharmacist,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,ORS + Zinc,diarrhoea,142,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Oxytocin,maternal health,1750,38,OK,Stores Assistant,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,DPT-HepB-Hib vaccine,immunisation,2115,56,OK,Pharmacist,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Measles-Rubella vaccine,immunisation,1470,80,OK,Nurse In-Charge,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,HIV rapid test kits,HIV testing,2234,62,OK,Pharmacist,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,ARV first-line regimen,HIV treatment,4693,56,OK,Pharmacist,No
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,TB fixed-dose combination,TB treatment,4574,22,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0082,Ntoroko Rural HC II,Ntoroko,Insulin vials,NCD care,3054,59,OK,Pharmacist,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Malaria RDTs,malaria diagnostics,3342,79,OK,Stores Assistant,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Amoxicillin dispersible,childhood infection,1364,31,OK,Pharmacist,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Ceftriaxone injection,severe infection,2174,21,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,ORS + Zinc,diarrhoea,863,61,OK,Pharmacist,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Oxytocin,maternal health,1333,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,DPT-HepB-Hib vaccine,immunisation,3066,79,OK,Pharmacist,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Measles-Rubella vaccine,immunisation,1065,106,OK,Stores Assistant,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,HIV rapid test kits,HIV testing,1965,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,ARV first-line regimen,HIV treatment,133,38,OK,Nurse In-Charge,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,TB fixed-dose combination,TB treatment,1098,85,OK,Pharmacist,No
+2026-06-07,FAC-0083,Mbarara Regional Referral Hospital,Mbarara,Insulin vials,NCD care,4194,83,OK,Pharmacist,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,ACT Artemether-Lumefantrine,malaria treatment,1654,32,OK,Pharmacist,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Malaria RDTs,malaria diagnostics,1410,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Amoxicillin dispersible,childhood infection,2003,49,OK,Stores Assistant,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Ceftriaxone injection,severe infection,1653,58,OK,Nurse In-Charge,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,ORS + Zinc,diarrhoea,2513,53,OK,Stores Assistant,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Oxytocin,maternal health,1043,59,OK,Pharmacist,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,DPT-HepB-Hib vaccine,immunisation,1000,60,OK,Stores Assistant,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Measles-Rubella vaccine,immunisation,2768,46,OK,Stores Assistant,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,HIV rapid test kits,HIV testing,167,26,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,ARV first-line regimen,HIV treatment,2531,63,OK,Stores Assistant,No
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,TB fixed-dose combination,TB treatment,1099,20,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0084,Mbarara South HC III,Mbarara,Insulin vials,NCD care,1572,52,OK,Stores Assistant,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,ACT Artemether-Lumefantrine,malaria treatment,3671,67,OK,Pharmacist,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Malaria RDTs,malaria diagnostics,3777,36,OK,Stores Assistant,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Amoxicillin dispersible,childhood infection,1135,63,OK,Stores Assistant,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Ceftriaxone injection,severe infection,2284,41,OK,Pharmacist,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,ORS + Zinc,diarrhoea,2102,48,OK,Stores Assistant,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Oxytocin,maternal health,3207,28,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,DPT-HepB-Hib vaccine,immunisation,375,88,OK,Pharmacist,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Measles-Rubella vaccine,immunisation,4466,66,OK,Stores Assistant,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,HIV rapid test kits,HIV testing,4269,23,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,ARV first-line regimen,HIV treatment,2274,1,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,TB fixed-dose combination,TB treatment,2963,90,OK,Pharmacist,No
+2026-06-07,FAC-0085,Bushenyi General Hospital,Bushenyi,Insulin vials,NCD care,2021,75,OK,Nurse In-Charge,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Malaria RDTs,malaria diagnostics,4320,3,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Amoxicillin dispersible,childhood infection,820,44,OK,Pharmacist,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Ceftriaxone injection,severe infection,1797,12,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,ORS + Zinc,diarrhoea,3193,22,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Oxytocin,maternal health,1880,54,OK,Nurse In-Charge,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,DPT-HepB-Hib vaccine,immunisation,1914,38,OK,Nurse In-Charge,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Measles-Rubella vaccine,immunisation,605,5,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,HIV rapid test kits,HIV testing,2606,60,OK,Pharmacist,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,ARV first-line regimen,HIV treatment,827,65,OK,Stores Assistant,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,TB fixed-dose combination,TB treatment,1344,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0086,Bushenyi Rural HC III,Bushenyi,Insulin vials,NCD care,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,ACT Artemether-Lumefantrine,malaria treatment,4528,27,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Malaria RDTs,malaria diagnostics,1200,36,OK,Stores Assistant,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Amoxicillin dispersible,childhood infection,4019,48,OK,Nurse In-Charge,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Ceftriaxone injection,severe infection,3846,75,OK,Pharmacist,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,ORS + Zinc,diarrhoea,2438,19,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Oxytocin,maternal health,4746,58,OK,Stores Assistant,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,DPT-HepB-Hib vaccine,immunisation,2046,47,OK,Pharmacist,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Measles-Rubella vaccine,immunisation,1647,51,OK,Stores Assistant,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,HIV rapid test kits,HIV testing,4240,30,OK,Nurse In-Charge,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,ARV first-line regimen,HIV treatment,1317,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,TB fixed-dose combination,TB treatment,3585,59,OK,Stores Assistant,No
+2026-06-07,FAC-0087,Ntungamo General Hospital,Ntungamo,Insulin vials,NCD care,3092,51,OK,Stores Assistant,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,ACT Artemether-Lumefantrine,malaria treatment,3428,110,OK,Pharmacist,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Malaria RDTs,malaria diagnostics,3837,50,OK,Nurse In-Charge,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Amoxicillin dispersible,childhood infection,1993,54,OK,Stores Assistant,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Ceftriaxone injection,severe infection,3832,100,OK,Nurse In-Charge,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,ORS + Zinc,diarrhoea,2384,97,OK,Stores Assistant,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Oxytocin,maternal health,606,46,OK,Nurse In-Charge,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,DPT-HepB-Hib vaccine,immunisation,4011,20,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Measles-Rubella vaccine,immunisation,4532,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,HIV rapid test kits,HIV testing,0,0,Stock-out,Pharmacist,Yes
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,ARV first-line regimen,HIV treatment,2887,32,OK,Pharmacist,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,TB fixed-dose combination,TB treatment,3705,128,OK,Pharmacist,No
+2026-06-07,FAC-0088,Ntungamo South HC II,Ntungamo,Insulin vials,NCD care,4679,91,OK,Stores Assistant,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,ACT Artemether-Lumefantrine,malaria treatment,1382,24,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Malaria RDTs,malaria diagnostics,3350,39,OK,Nurse In-Charge,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Amoxicillin dispersible,childhood infection,2175,52,OK,Nurse In-Charge,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Ceftriaxone injection,severe infection,1143,9,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,ORS + Zinc,diarrhoea,2231,80,OK,Stores Assistant,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Oxytocin,maternal health,4972,12,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,DPT-HepB-Hib vaccine,immunisation,2628,8,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Measles-Rubella vaccine,immunisation,39,62,OK,Stores Assistant,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,HIV rapid test kits,HIV testing,4488,73,OK,Pharmacist,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,ARV first-line regimen,HIV treatment,3180,70,OK,Stores Assistant,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,TB fixed-dose combination,TB treatment,3993,40,OK,Nurse In-Charge,No
+2026-06-07,FAC-0089,Rukungiri General Hospital,Rukungiri,Insulin vials,NCD care,625,115,OK,Nurse In-Charge,No
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,ACT Artemether-Lumefantrine,malaria treatment,485,6,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Malaria RDTs,malaria diagnostics,391,8,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Amoxicillin dispersible,childhood infection,1185,20,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Ceftriaxone injection,severe infection,3995,39,OK,Pharmacist,No
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,ORS + Zinc,diarrhoea,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Oxytocin,maternal health,1596,57,OK,Stores Assistant,No
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,DPT-HepB-Hib vaccine,immunisation,2766,10,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Measles-Rubella vaccine,immunisation,4562,25,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,HIV rapid test kits,HIV testing,1937,69,OK,Stores Assistant,No
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,ARV first-line regimen,HIV treatment,1576,27,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,TB fixed-dose combination,TB treatment,4806,4,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0090,Rukungiri Rural HC IV,Rukungiri,Insulin vials,NCD care,4155,48,OK,Pharmacist,No
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,ACT Artemether-Lumefantrine,malaria treatment,2750,80,OK,Nurse In-Charge,No
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Malaria RDTs,malaria diagnostics,3009,44,OK,Nurse In-Charge,No
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Amoxicillin dispersible,childhood infection,1199,61,OK,Nurse In-Charge,No
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Ceftriaxone injection,severe infection,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,ORS + Zinc,diarrhoea,2546,3,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Oxytocin,maternal health,3151,45,OK,Nurse In-Charge,No
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,DPT-HepB-Hib vaccine,immunisation,4922,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Measles-Rubella vaccine,immunisation,1081,17,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,HIV rapid test kits,HIV testing,1491,16,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,ARV first-line regimen,HIV treatment,3786,20,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,TB fixed-dose combination,TB treatment,3311,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0091,Kabale General Hospital,Kabale,Insulin vials,NCD care,2423,6,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,ACT Artemether-Lumefantrine,malaria treatment,2387,73,OK,Pharmacist,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Malaria RDTs,malaria diagnostics,510,26,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Amoxicillin dispersible,childhood infection,3814,101,OK,Stores Assistant,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Ceftriaxone injection,severe infection,3303,38,OK,Stores Assistant,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,ORS + Zinc,diarrhoea,1791,43,OK,Nurse In-Charge,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Oxytocin,maternal health,2754,16,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,DPT-HepB-Hib vaccine,immunisation,2678,17,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Measles-Rubella vaccine,immunisation,493,63,OK,Nurse In-Charge,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,HIV rapid test kits,HIV testing,1631,34,OK,Pharmacist,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,ARV first-line regimen,HIV treatment,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,TB fixed-dose combination,TB treatment,4915,52,OK,Nurse In-Charge,No
+2026-06-07,FAC-0092,Kabale South HC IV,Kabale,Insulin vials,NCD care,2539,41,OK,Pharmacist,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,ACT Artemether-Lumefantrine,malaria treatment,4803,101,OK,Nurse In-Charge,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Malaria RDTs,malaria diagnostics,4090,33,OK,Nurse In-Charge,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Amoxicillin dispersible,childhood infection,3352,18,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Ceftriaxone injection,severe infection,1129,53,OK,Pharmacist,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,ORS + Zinc,diarrhoea,392,108,OK,Stores Assistant,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Oxytocin,maternal health,17,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,DPT-HepB-Hib vaccine,immunisation,4458,9,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Measles-Rubella vaccine,immunisation,3044,46,OK,Stores Assistant,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,HIV rapid test kits,HIV testing,2809,49,OK,Stores Assistant,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,ARV first-line regimen,HIV treatment,887,13,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,TB fixed-dose combination,TB treatment,520,33,OK,Nurse In-Charge,No
+2026-06-07,FAC-0093,Kisoro General Hospital,Kisoro,Insulin vials,NCD care,4674,66,OK,Stores Assistant,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,ACT Artemether-Lumefantrine,malaria treatment,2871,9,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Malaria RDTs,malaria diagnostics,1729,39,OK,Pharmacist,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Amoxicillin dispersible,childhood infection,3026,10,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Ceftriaxone injection,severe infection,1350,37,OK,Stores Assistant,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,ORS + Zinc,diarrhoea,2013,44,OK,Stores Assistant,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Oxytocin,maternal health,631,45,OK,Stores Assistant,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,DPT-HepB-Hib vaccine,immunisation,1603,82,OK,Nurse In-Charge,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Measles-Rubella vaccine,immunisation,611,32,OK,Stores Assistant,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,HIV rapid test kits,HIV testing,4174,8,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,ARV first-line regimen,HIV treatment,3227,6,Critical <7 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,TB fixed-dose combination,TB treatment,2236,109,OK,Nurse In-Charge,No
+2026-06-07,FAC-0094,Kisoro Rural HC IV,Kisoro,Insulin vials,NCD care,2442,68,OK,Nurse In-Charge,No
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,ACT Artemether-Lumefantrine,malaria treatment,2174,67,OK,Nurse In-Charge,No
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Malaria RDTs,malaria diagnostics,2964,2,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Amoxicillin dispersible,childhood infection,3230,32,OK,Pharmacist,No
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Ceftriaxone injection,severe infection,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,ORS + Zinc,diarrhoea,4521,11,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Oxytocin,maternal health,667,11,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,DPT-HepB-Hib vaccine,immunisation,1723,1,Critical <7 days,Pharmacist,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Measles-Rubella vaccine,immunisation,1950,4,Critical <7 days,Stores Assistant,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,HIV rapid test kits,HIV testing,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,ARV first-line regimen,HIV treatment,4117,34,OK,Nurse In-Charge,No
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,TB fixed-dose combination,TB treatment,3207,11,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0095,Kanungu HC IV,Kanungu,Insulin vials,NCD care,2129,54,OK,Stores Assistant,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,ACT Artemether-Lumefantrine,malaria treatment,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Malaria RDTs,malaria diagnostics,3165,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Amoxicillin dispersible,childhood infection,3043,84,OK,Pharmacist,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Ceftriaxone injection,severe infection,2406,71,OK,Pharmacist,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,ORS + Zinc,diarrhoea,3308,66,OK,Stores Assistant,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Oxytocin,maternal health,4532,35,OK,Stores Assistant,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,DPT-HepB-Hib vaccine,immunisation,371,7,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Measles-Rubella vaccine,immunisation,3648,17,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,HIV rapid test kits,HIV testing,2802,62,OK,Pharmacist,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,ARV first-line regimen,HIV treatment,3198,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,TB fixed-dose combination,TB treatment,4586,25,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0096,Kanungu South HC III,Kanungu,Insulin vials,NCD care,66,7,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,ACT Artemether-Lumefantrine,malaria treatment,1307,72,OK,Stores Assistant,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Malaria RDTs,malaria diagnostics,2418,113,OK,Pharmacist,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Amoxicillin dispersible,childhood infection,2871,61,OK,Stores Assistant,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Ceftriaxone injection,severe infection,3250,29,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,ORS + Zinc,diarrhoea,322,36,OK,Pharmacist,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Oxytocin,maternal health,1636,21,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,DPT-HepB-Hib vaccine,immunisation,4888,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Measles-Rubella vaccine,immunisation,2549,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,HIV rapid test kits,HIV testing,3538,111,OK,Pharmacist,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,ARV first-line regimen,HIV treatment,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,TB fixed-dose combination,TB treatment,4617,50,OK,Stores Assistant,No
+2026-06-07,FAC-0097,Isingiro HC IV,Isingiro,Insulin vials,NCD care,4545,64,OK,Stores Assistant,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,ACT Artemether-Lumefantrine,malaria treatment,2074,51,OK,Nurse In-Charge,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Malaria RDTs,malaria diagnostics,702,24,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Amoxicillin dispersible,childhood infection,1248,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Ceftriaxone injection,severe infection,574,44,OK,Pharmacist,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,ORS + Zinc,diarrhoea,597,44,OK,Pharmacist,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Oxytocin,maternal health,4736,85,OK,Nurse In-Charge,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,DPT-HepB-Hib vaccine,immunisation,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Measles-Rubella vaccine,immunisation,2175,55,OK,Nurse In-Charge,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,HIV rapid test kits,HIV testing,3676,45,OK,Stores Assistant,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,ARV first-line regimen,HIV treatment,488,103,OK,Stores Assistant,No
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,TB fixed-dose combination,TB treatment,1947,26,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0098,Isingiro Rural HC III,Isingiro,Insulin vials,NCD care,2329,62,OK,Nurse In-Charge,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,ACT Artemether-Lumefantrine,malaria treatment,1958,32,OK,Pharmacist,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Malaria RDTs,malaria diagnostics,0,0,Stock-out,Stores Assistant,Yes
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Amoxicillin dispersible,childhood infection,4251,14,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Ceftriaxone injection,severe infection,3139,60,OK,Nurse In-Charge,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,ORS + Zinc,diarrhoea,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Oxytocin,maternal health,1293,28,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,DPT-HepB-Hib vaccine,immunisation,2588,78,OK,Pharmacist,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Measles-Rubella vaccine,immunisation,679,29,Low <30 days,Stores Assistant,Yes
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,HIV rapid test kits,HIV testing,1023,69,OK,Nurse In-Charge,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,ARV first-line regimen,HIV treatment,29,78,OK,Nurse In-Charge,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,TB fixed-dose combination,TB treatment,382,47,OK,Nurse In-Charge,No
+2026-06-07,FAC-0099,Sembabule HC IV,Sembabule,Insulin vials,NCD care,0,0,Stock-out,Nurse In-Charge,Yes
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,ACT Artemether-Lumefantrine,malaria treatment,3821,51,OK,Pharmacist,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Malaria RDTs,malaria diagnostics,1261,58,OK,Stores Assistant,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Amoxicillin dispersible,childhood infection,1256,38,OK,Nurse In-Charge,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Ceftriaxone injection,severe infection,1702,35,OK,Nurse In-Charge,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,ORS + Zinc,diarrhoea,3765,20,Low <30 days,Pharmacist,Yes
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Oxytocin,maternal health,3903,76,OK,Pharmacist,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,DPT-HepB-Hib vaccine,immunisation,1554,31,OK,Nurse In-Charge,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Measles-Rubella vaccine,immunisation,4516,44,OK,Stores Assistant,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,HIV rapid test kits,HIV testing,2133,22,Low <30 days,Nurse In-Charge,Yes
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,ARV first-line regimen,HIV treatment,4093,73,OK,Stores Assistant,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,TB fixed-dose combination,TB treatment,2666,30,OK,Pharmacist,No
+2026-06-07,FAC-0100,Sembabule Border HC II,Sembabule,Insulin vials,NCD care,2386,54,OK,Nurse In-Charge,No

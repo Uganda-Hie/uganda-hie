@@ -1,0 +1,11 @@
+disease_code,disease_name,metric_unit,reporting_frequency,why_in_demo
+MAL,Malaria,cases,weekly,Very high public health relevance; seasonal peaks
+ARI,Acute respiratory infection,cases,weekly,Common outpatient syndrome
+DIA,Diarrhoeal disease,cases,weekly,Water/sanitation early warning
+TB,Tuberculosis,new/active cases,monthly,Program disease
+HIV,HIV positive tests,new positives,monthly,Program disease
+MEA,Measles,suspected/confirmed cases,weekly,Vaccine-preventable outbreak signal
+CHO,Cholera,suspected cases,weekly,Outbreak alert
+TYP,Typhoid,cases,weekly,WASH-related disease
+MAT,Maternal complications,cases,weekly,MCH quality indicator
+NEO,Neonatal sepsis,cases,weekly,Newborn survival indicator

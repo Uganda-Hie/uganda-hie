@@ -9,18 +9,18 @@ import { DEMO_USERS } from '@/types/user'
 
 // Map of route -> page title shown in the bar.
 const PAGE_TITLES: Record<string, string> = {
-  '/moh': 'National Snapshot',
+  '/moh': 'National Health Snapshot',
   '/moh/disease-map': 'Disease Intelligence & Hotspot Map',
-  '/moh/capacity': 'Hospital Capacity',
-  '/moh/stock': 'Medicine Stock',
-  '/moh/data-quality': 'Reporting Data Quality',
+  '/moh/capacity': 'Hospital Capacity & Referral Intelligence',
+  '/moh/stock': 'National Medicine Stock Intelligence',
+  '/moh/data-quality': 'Data Quality & Reporting Completeness',
   '/facility': 'Facility Overview',
   '/facility/report': 'Daily Facility Report',
-  '/doctor': 'Patient Search',
-  '/patient': 'My Health',
-  '/patient/sharing': 'Sharing & Access',
+  '/doctor': 'Patient Record Lookup',
+  '/patient': 'My Health Record',
+  '/patient/sharing': 'Sharing & Access Control',
   '/insurer': 'Claims Inbox',
-  '/admin/audit': 'Audit Logs',
+  '/admin/audit': 'System Audit Log',
 }
 
 function getPageTitle(pathname: string): string {

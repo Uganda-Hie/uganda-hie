@@ -1,0 +1,72 @@
+[
+  {
+    "disease_code": "MAL",
+    "disease_name": "Malaria",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Very high public health relevance; seasonal peaks"
+  },
+  {
+    "disease_code": "ARI",
+    "disease_name": "Acute respiratory infection",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Common outpatient syndrome"
+  },
+  {
+    "disease_code": "DIA",
+    "disease_name": "Diarrhoeal disease",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Water/sanitation early warning"
+  },
+  {
+    "disease_code": "TB",
+    "disease_name": "Tuberculosis",
+    "metric_unit": "new/active cases",
+    "reporting_frequency": "monthly",
+    "why_in_demo": "Program disease"
+  },
+  {
+    "disease_code": "HIV",
+    "disease_name": "HIV positive tests",
+    "metric_unit": "new positives",
+    "reporting_frequency": "monthly",
+    "why_in_demo": "Program disease"
+  },
+  {
+    "disease_code": "MEA",
+    "disease_name": "Measles",
+    "metric_unit": "suspected/confirmed cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Vaccine-preventable outbreak signal"
+  },
+  {
+    "disease_code": "CHO",
+    "disease_name": "Cholera",
+    "metric_unit": "suspected cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Outbreak alert"
+  },
+  {
+    "disease_code": "TYP",
+    "disease_name": "Typhoid",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "WASH-related disease"
+  },
+  {
+    "disease_code": "MAT",
+    "disease_name": "Maternal complications",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "MCH quality indicator"
+  },
+  {
+    "disease_code": "NEO",
+    "disease_name": "Neonatal sepsis",
+    "metric_unit": "cases",
+    "reporting_frequency": "weekly",
+    "why_in_demo": "Newborn survival indicator"
+  }
+]

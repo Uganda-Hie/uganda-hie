@@ -13,9 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Uganda HIE — National Health Information Exchange",
+  title: "Uganda HIE — Public Health Intelligence Platform",
   description:
-    "Interactive demo of Uganda's Health Information Exchange — disease surveillance, facility reporting, patient records, claims and audit. Synthetic data.",
+    "National Health Information Exchange — BoU@60 Hackathon Demo",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

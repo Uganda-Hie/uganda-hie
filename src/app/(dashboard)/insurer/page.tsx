@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { Search } from 'lucide-react'
+import { Search, Inbox } from 'lucide-react'
+import { EmptyState } from '@/components/dashboard/empty-state'
 import { CLAIMS } from '@/data/claims'
 import type { Claim } from '@/types/claim'
 import { ClaimCard } from '@/components/claims/claim-card'
@@ -92,9 +93,13 @@ export default function InsurerPage() {
                 />
               ))
             ) : (
-              <p className="rounded-xl border border-dashed bg-gray-50 px-4 py-8 text-center text-sm text-muted-foreground">
-                No claims matching this filter
-              </p>
+              <div className="rounded-xl border border-dashed bg-gray-50">
+                <EmptyState
+                  icon={Inbox}
+                  title="No claims matching this filter"
+                  subtitle="Try a different status tab or clear your search."
+                />
+              </div>
             )}
           </div>
         </div>

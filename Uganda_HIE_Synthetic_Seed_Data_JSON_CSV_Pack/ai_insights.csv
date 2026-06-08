@@ -1,0 +1,5 @@
+insight_id,category,insight,input_sources,confidence_demo_pct,owner_role
+AI-001,Outbreak early warning,"Cholera-like signal rising in Kasese, Bundibugyo and Kampala. Recommend WASH investigation and case verification within 24 hours.","district_weekly_disease_reports, facility_daily_reports",84,MoH Epidemiologist
+AI-002,Stock risk,"Malaria RDT and ACT stock pressure detected in Yumbe, Kiryandongo and Isingiro; projected shortage within 7-14 days if consumption continues.","stock_inventory, malaria_cases",79,MoH Pharmacy Unit
+AI-003,Immunisation gap,Karamoja districts show low DPT3/measles coverage and simultaneous measles alerts. Recommend targeted outreach micro-plan.,"district_monthly_summary, disease_reports",81,EPI Programme Manager
+AI-004,Hospital capacity,"High occupancy at RRH-level facilities in Kampala, Mbarara and Gulu suggests need for referral redistribution and bed status coordination.","facility_capacity, referrals",76,MoH Command Center

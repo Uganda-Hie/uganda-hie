@@ -23,13 +23,13 @@ import { cn } from '@/lib/utils'
 import { RoleSwitcher } from '@/components/layout/role-switcher'
 import { DemoBadge } from '@/components/layout/demo-badge'
 
-interface NavItem {
+export interface NavItem {
   label: string
   href: string
   icon: LucideIcon
 }
 
-const NAV_ITEMS: Record<DemoRole, NavItem[]> = {
+export const NAV_ITEMS: Record<DemoRole, NavItem[]> = {
   'moh-analyst': [
     { label: 'National Snapshot', href: '/moh', icon: LayoutDashboard },
     { label: 'Disease Map', href: '/moh/disease-map', icon: Map },
@@ -56,7 +56,7 @@ export function Sidebar() {
   const items = NAV_ITEMS[activeRole] ?? []
 
   return (
-    <aside className="flex h-screen w-64 shrink-0 flex-col border-r bg-white">
+    <aside className="hidden h-screen w-64 shrink-0 flex-col border-r bg-white md:flex">
       {/* Logo */}
       <div className="border-b px-5 py-4">
         <div className="text-lg font-bold leading-tight">Uganda HIE</div>

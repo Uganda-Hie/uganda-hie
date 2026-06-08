@@ -1,0 +1,101 @@
+facility_id,facility_name,district_id,district_name,region,ownership,facility_type,latitude,longitude,beds_total,beds_occupied,bed_occupancy_pct,oxygen_available,basic_lab_available,maternity_available,last_report_time,report_status
+FAC-0001,Kampala Regional Referral Hospital,UG-D001,Kampala,Central,GOV,Regional Referral Hospital,0.3648,32.6022,415,272,65.5,Yes,Yes,No,2026-06-07 18:00,Late
+FAC-0002,Kampala South HC II,UG-D001,Kampala,Central,GOV,HC II,0.3096,32.5,18,9,50.0,No,No,Yes,2026-06-06 18:00,Submitted
+FAC-0003,Wakiso General Hospital,UG-D002,Wakiso,Central,GOV,General Hospital,0.4253,32.4175,190,137,72.1,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0004,Wakiso Border HC II,UG-D002,Wakiso,Central,GOV,HC II,0.3644,32.438,15,12,80.0,Partial,No,Yes,2026-06-07 18:00,Submitted
+FAC-0005,Mukono HC IV,UG-D003,Mukono,Central,GOV,HC IV,0.3321,32.7318,48,44,91.7,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0006,Mukono Rural HC IV,UG-D003,Mukono,Central,GOV,HC IV,0.394,32.827,59,49,83.1,No,Yes,No,2026-06-07 18:00,Submitted
+FAC-0007,Masaka General Hospital,UG-D004,Masaka,Central,GOV,General Hospital,-0.3156,31.7757,151,140,92.7,Yes,Yes,Yes,2026-06-07 18:00,Draft
+FAC-0008,Masaka Central HC III,UG-D004,Masaka,Central,GOV,HC III,-0.2432,31.6758,26,21,80.8,Partial,No,Yes,Not submitted,Late
+FAC-0009,Luwero HC IV,UG-D005,Luwero,Central,GOV,HC IV,0.8429,32.4781,60,45,75.0,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0010,Luwero Rural HC II,UG-D005,Luwero,Central,GOV,HC II,0.9001,32.379,12,4,33.3,Yes,No,Yes,2026-06-07 18:00,Submitted
+FAC-0011,Mityana HC IV,UG-D006,Mityana,Central,GOV,HC IV,0.3823,32.036,71,34,47.9,Yes,Yes,No,2026-06-07 18:00,Draft
+FAC-0012,Mityana Border HC II,UG-D006,Mityana,Central,GOV,HC II,0.4264,32.0538,9,3,33.3,No,No,Yes,2026-06-07 20:30,Missing
+FAC-0013,Mubende HC IV,UG-D007,Mubende,Central,GOV,HC IV,0.6286,31.3265,77,51,66.2,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0014,Mubende South HC III,UG-D007,Mubende,Central,GOV,HC III,0.6387,31.477,29,10,34.5,No,No,Yes,2026-06-06 18:00,Submitted
+FAC-0015,Mpigi General Hospital,UG-D008,Mpigi,Central,GOV,General Hospital,0.2727,32.3207,168,80,47.6,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0016,Mpigi South HC IV,UG-D008,Mpigi,Central,GOV,HC IV,0.3272,32.2244,65,26,40.0,Partial,No,No,2026-06-07 20:30,Submitted
+FAC-0017,Kayunga General Hospital,UG-D009,Kayunga,Central,GOV,General Hospital,0.7185,32.8643,171,104,60.8,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0018,Kayunga South HC IV,UG-D009,Kayunga,Central,GOV,HC IV,0.6682,32.929,61,51,83.6,Partial,Yes,No,2026-06-06 18:00,Submitted
+FAC-0019,Kalangala HC IV,UG-D010,Kalangala,Central,GOV,HC IV,-0.3605,32.3196,59,37,62.7,Partial,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0020,Kalangala North HC IV,UG-D010,Kalangala,Central,GOV,HC IV,-0.2102,32.2645,56,35,62.5,Yes,Yes,Yes,2026-06-07 20:30,Submitted
+FAC-0021,Buvuma General Hospital,UG-D011,Buvuma,Central,GOV,General Hospital,0.0813,33.2171,152,105,69.1,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0022,Buvuma Border HC III,UG-D011,Buvuma,Central,GOV,HC III,-0.0011,33.2409,23,7,30.4,Partial,Yes,Yes,2026-06-07 20:30,Submitted
+FAC-0023,Jinja Regional Referral Hospital,UG-D012,Jinja,Eastern,GOV,Regional Referral Hospital,0.4407,33.2278,398,377,94.7,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0024,Jinja Island HC III,UG-D012,Jinja,Eastern,GOV,HC III,0.3306,33.2901,29,12,41.4,Partial,Yes,No,2026-06-07 18:00,Late
+FAC-0025,Iganga General Hospital,UG-D013,Iganga,Eastern,GOV,General Hospital,0.6373,33.4296,206,156,75.7,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0026,Iganga Border HC III,UG-D013,Iganga,Eastern,GOV,HC III,0.6643,33.4757,32,15,46.9,Partial,Yes,Yes,Not submitted,Submitted
+FAC-0027,Mayuge General Hospital,UG-D014,Mayuge,Eastern,GOV,General Hospital,0.4265,33.495,124,106,85.5,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0028,Mayuge South HC IV,UG-D014,Mayuge,Eastern,GOV,HC IV,0.4589,33.5686,64,35,54.7,Partial,Yes,No,Not submitted,Late
+FAC-0029,Kamuli HC IV,UG-D015,Kamuli,Eastern,GOV,HC IV,0.9681,33.1583,72,34,47.2,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0030,Kamuli South HC IV,UG-D015,Kamuli,Eastern,GOV,HC IV,0.8918,33.1493,55,27,49.1,No,Yes,Yes,2026-06-07 18:00,Late
+FAC-0031,Mbale Regional Referral Hospital,UG-D016,Mbale,Eastern,GOV,Regional Referral Hospital,1.0864,34.1662,581,311,53.5,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0032,Mbale Border HC II,UG-D016,Mbale,Eastern,GOV,HC II,1.1545,34.1589,9,8,88.9,No,No,Yes,2026-06-06 18:00,Submitted
+FAC-0033,Tororo HC IV,UG-D017,Tororo,Eastern,GOV,HC IV,0.7166,34.1374,75,39,52.0,Yes,Yes,Yes,2026-06-07 18:00,Draft
+FAC-0034,Tororo North HC II,UG-D017,Tororo,Eastern,GOV,HC II,0.8048,34.1856,6,3,50.0,Partial,No,No,Not submitted,Missing
+FAC-0035,Busia HC IV,UG-D018,Busia,Eastern,GOV,HC IV,0.4205,34.0936,77,40,51.9,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0036,Busia North HC III,UG-D018,Busia,Eastern,GOV,HC III,0.4956,34.1986,29,16,55.2,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0037,Soroti General Hospital,UG-D019,Soroti,Eastern,GOV,General Hospital,1.6746,33.5989,134,80,59.7,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0038,Soroti Island HC II,UG-D019,Soroti,Eastern,GOV,HC II,1.6643,33.6524,7,5,71.4,Yes,Yes,No,2026-06-06 18:00,Missing
+FAC-0039,Kumi General Hospital,UG-D020,Kumi,Eastern,GOV,General Hospital,1.4641,33.8913,123,76,61.8,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0040,Kumi North HC II,UG-D020,Kumi,Eastern,GOV,HC II,1.4928,33.839,20,15,75.0,Partial,No,No,Not submitted,Draft
+FAC-0041,Kapchorwa HC IV,UG-D021,Kapchorwa,Eastern,GOV,HC IV,1.4319,34.4965,76,68,89.5,Yes,Yes,No,2026-06-07 18:00,Late
+FAC-0042,Kapchorwa Central HC II,UG-D021,Kapchorwa,Eastern,GOV,HC II,1.3179,34.5625,11,9,81.8,Partial,Yes,Yes,2026-06-07 18:00,Late
+FAC-0043,Moroto HC IV,UG-D022,Moroto,Northern,GOV,HC IV,2.5825,34.6276,47,30,63.8,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0044,Moroto South HC III,UG-D022,Moroto,Northern,GOV,HC III,2.5098,34.6952,28,19,67.9,Yes,Yes,Yes,2026-06-06 18:00,Submitted
+FAC-0045,Kotido General Hospital,UG-D023,Kotido,Northern,GOV,General Hospital,3.0182,34.1588,137,69,50.4,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0046,Kotido South HC II,UG-D023,Kotido,Northern,GOV,HC II,2.9083,34.1298,5,3,60.0,No,No,Yes,2026-06-07 18:00,Submitted
+FAC-0047,Kaabong General Hospital,UG-D024,Kaabong,Northern,GOV,General Hospital,3.5608,34.0849,152,73,48.0,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0048,Kaabong South HC IV,UG-D024,Kaabong,Northern,GOV,HC IV,3.5421,34.2033,54,46,85.2,Partial,Yes,Yes,Not submitted,Missing
+FAC-0049,Napak General Hospital,UG-D025,Napak,Northern,GOV,General Hospital,2.2406,34.2079,197,168,85.3,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0050,Napak Rural HC II,UG-D025,Napak,Northern,GOV,HC II,2.3147,34.3634,6,4,66.7,Partial,No,Yes,2026-06-06 18:00,Missing
+FAC-0051,Gulu Regional Referral Hospital,UG-D026,Gulu,Northern,GOV,Regional Referral Hospital,2.7719,32.3159,391,246,62.9,Partial,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0052,Gulu Island HC III,UG-D026,Gulu,Northern,GOV,HC III,2.7363,32.2454,28,25,89.3,Yes,Yes,No,2026-06-06 18:00,Submitted
+FAC-0053,Lira Regional Referral Hospital,UG-D027,Lira,Northern,GOV,Regional Referral Hospital,2.2685,32.9098,567,288,50.8,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0054,Lira Border HC IV,UG-D027,Lira,Northern,GOV,HC IV,2.3015,32.8549,65,27,41.5,No,No,Yes,2026-06-06 18:00,Missing
+FAC-0055,Arua Regional Referral Hospital,UG-D028,Arua,Northern,GOV,Regional Referral Hospital,3.011,30.9188,447,217,48.5,Yes,Yes,Yes,2026-06-07 18:00,Draft
+FAC-0056,Arua Island HC IV,UG-D028,Arua,Northern,GOV,HC IV,3.1188,30.9632,64,24,37.5,No,Yes,No,2026-06-07 20:30,Submitted
+FAC-0057,Yumbe General Hospital,UG-D029,Yumbe,Northern,GOV,General Hospital,3.5055,31.271,164,129,78.7,Yes,Yes,Yes,2026-06-07 18:00,Draft
+FAC-0058,Yumbe Central HC II,UG-D029,Yumbe,Northern,GOV,HC II,3.3838,31.257,11,7,63.6,Partial,No,Yes,Not submitted,Submitted
+FAC-0059,Koboko HC IV,UG-D030,Koboko,Northern,GOV,HC IV,3.3826,30.9646,45,39,86.7,Yes,Yes,No,2026-06-07 18:00,Draft
+FAC-0060,Koboko Central HC IV,UG-D030,Koboko,Northern,GOV,HC IV,3.3586,30.9407,52,39,75.0,Partial,Yes,Yes,2026-06-07 18:00,Late
+FAC-0061,Adjumani General Hospital,UG-D031,Adjumani,Northern,GOV,General Hospital,3.3385,31.7927,123,64,52.0,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0062,Adjumani Island HC II,UG-D031,Adjumani,Northern,GOV,HC II,3.4333,31.9098,13,9,69.2,Partial,Yes,Yes,Not submitted,Draft
+FAC-0063,Moyo HC IV,UG-D032,Moyo,Northern,GOV,HC IV,3.6868,31.7157,80,58,72.5,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0064,Moyo Island HC IV,UG-D032,Moyo,Northern,GOV,HC IV,3.7049,31.6679,53,46,86.8,No,No,Yes,Not submitted,Submitted
+FAC-0065,Nebbi General Hospital,UG-D033,Nebbi,Northern,GOV,General Hospital,2.5104,31.1204,162,102,63.0,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0066,Nebbi Island HC III,UG-D033,Nebbi,Northern,GOV,HC III,2.5632,31.0215,29,13,44.8,Partial,Yes,Yes,2026-06-07 20:30,Draft
+FAC-0067,Masindi HC IV,UG-D034,Masindi,Western,GOV,HC IV,1.7243,32.4801,52,28,53.8,Yes,Yes,No,2026-06-07 18:00,Late
+FAC-0068,Masindi Central HC III,UG-D034,Masindi,Western,GOV,HC III,1.7012,32.3626,32,26,81.2,Yes,No,No,2026-06-06 18:00,Late
+FAC-0069,Hoima General Hospital,UG-D035,Hoima,Western,GOV,General Hospital,1.4453,31.3303,132,74,56.1,Partial,Yes,Yes,2026-06-07 18:00,Late
+FAC-0070,Hoima Rural HC II,UG-D035,Hoima,Western,GOV,HC II,1.3385,31.2384,8,7,87.5,Partial,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0071,Kiryandongo HC IV,UG-D036,Kiryandongo,Western,GOV,HC IV,1.8695,32.0231,75,55,73.3,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0072,Kiryandongo Rural HC IV,UG-D036,Kiryandongo,Western,GOV,HC IV,1.8285,31.9645,53,27,50.9,No,No,Yes,Not submitted,Draft
+FAC-0073,Fort Portal Regional Referral Hospital,UG-D037,Fort Portal,Western,GOV,Regional Referral Hospital,0.6295,30.2992,485,348,71.8,Partial,Yes,Yes,2026-06-07 18:00,Late
+FAC-0074,Fort Portal Rural HC IV,UG-D037,Fort Portal,Western,GOV,HC IV,0.6085,30.2133,63,43,68.3,Partial,Yes,No,2026-06-07 20:30,Submitted
+FAC-0075,Kabarole HC IV,UG-D038,Kabarole,Western,GOV,HC IV,0.5647,30.2985,76,47,61.8,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0076,Kabarole Rural HC II,UG-D038,Kabarole,Western,GOV,HC II,0.5103,30.2186,10,4,40.0,Yes,No,No,2026-06-06 18:00,Late
+FAC-0077,Kasese HC IV,UG-D039,Kasese,Western,GOV,HC IV,0.1831,30.0871,79,67,84.8,Partial,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0078,Kasese Rural HC II,UG-D039,Kasese,Western,GOV,HC II,0.2159,30.1189,7,3,42.9,Yes,No,Yes,Not submitted,Draft
+FAC-0079,Bundibugyo General Hospital,UG-D040,Bundibugyo,Western,GOV,General Hospital,0.6999,30.094,134,110,82.1,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0080,Bundibugyo Border HC II,UG-D040,Bundibugyo,Western,GOV,HC II,0.6496,30.1106,14,11,78.6,Partial,Yes,Yes,2026-06-07 20:30,Late
+FAC-0081,Ntoroko General Hospital,UG-D041,Ntoroko,Western,GOV,General Hospital,1.0774,30.3951,199,147,73.9,Partial,Yes,Yes,2026-06-07 18:00,Draft
+FAC-0082,Ntoroko Rural HC II,UG-D041,Ntoroko,Western,GOV,HC II,0.9921,30.372,6,3,50.0,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0083,Mbarara Regional Referral Hospital,UG-D042,Mbarara,Western,GOV,Regional Referral Hospital,-0.6137,30.6408,508,304,59.8,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0084,Mbarara South HC III,UG-D042,Mbarara,Western,GOV,HC III,-0.7198,30.7162,22,18,81.8,Yes,Yes,Yes,2026-06-07 20:30,Draft
+FAC-0085,Bushenyi General Hospital,UG-D043,Bushenyi,Western,GOV,General Hospital,-0.5054,30.1518,155,132,85.2,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0086,Bushenyi Rural HC III,UG-D043,Bushenyi,Western,GOV,HC III,-0.5435,30.2998,36,16,44.4,Yes,No,Yes,2026-06-07 18:00,Late
+FAC-0087,Ntungamo General Hospital,UG-D044,Ntungamo,Western,GOV,General Hospital,-0.9216,30.2338,145,95,65.5,Partial,Yes,No,2026-06-07 18:00,Submitted
+FAC-0088,Ntungamo South HC II,UG-D044,Ntungamo,Western,GOV,HC II,-0.9201,30.2358,13,6,46.2,Yes,No,Yes,2026-06-06 18:00,Submitted
+FAC-0089,Rukungiri General Hospital,UG-D045,Rukungiri,Western,GOV,General Hospital,-0.801,29.9647,200,131,65.5,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0090,Rukungiri Rural HC IV,UG-D045,Rukungiri,Western,GOV,HC IV,-0.9045,29.8448,58,26,44.8,No,Yes,No,2026-06-07 18:00,Missing
+FAC-0091,Kabale General Hospital,UG-D046,Kabale,Western,GOV,General Hospital,-1.2645,29.979,171,115,67.3,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0092,Kabale South HC IV,UG-D046,Kabale,Western,GOV,HC IV,-1.2549,29.9594,64,38,59.4,Partial,No,Yes,2026-06-07 20:30,Draft
+FAC-0093,Kisoro General Hospital,UG-D047,Kisoro,Western,GOV,General Hospital,-1.2923,29.7027,141,92,65.2,Yes,Yes,Yes,2026-06-07 18:00,Submitted
+FAC-0094,Kisoro Rural HC IV,UG-D047,Kisoro,Western,GOV,HC IV,-1.3093,29.7194,56,44,78.6,Yes,Yes,No,Not submitted,Missing
+FAC-0095,Kanungu HC IV,UG-D048,Kanungu,Western,GOV,HC IV,-0.9733,29.8101,74,64,86.5,Yes,Yes,Yes,2026-06-07 18:00,Late
+FAC-0096,Kanungu South HC III,UG-D048,Kanungu,Western,GOV,HC III,-0.9841,29.7288,31,22,71.0,Yes,Yes,No,Not submitted,Late
+FAC-0097,Isingiro HC IV,UG-D049,Isingiro,Western,GOV,HC IV,-0.8157,30.7988,45,36,80.0,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0098,Isingiro Rural HC III,UG-D049,Isingiro,Western,GOV,HC III,-0.7603,30.7783,35,16,45.7,Partial,No,Yes,Not submitted,Draft
+FAC-0099,Sembabule HC IV,UG-D050,Sembabule,Central,GOV,HC IV,-0.0351,31.4593,80,51,63.7,Yes,Yes,No,2026-06-07 18:00,Submitted
+FAC-0100,Sembabule Border HC II,UG-D050,Sembabule,Central,GOV,HC II,-0.0979,31.4424,17,5,29.4,Yes,Yes,No,2026-06-06 18:00,Draft

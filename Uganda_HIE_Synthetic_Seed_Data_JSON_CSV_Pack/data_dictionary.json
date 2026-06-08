@@ -1,0 +1,72 @@
+[
+  {
+    "dataset": "districts.json",
+    "field": "district_id",
+    "type": "string",
+    "required": "Yes",
+    "description": "Stable demo key for joining district metrics and facilities."
+  },
+  {
+    "dataset": "districts.json",
+    "field": "map_join_name",
+    "type": "string",
+    "required": "Yes",
+    "description": "Uppercase district name used to join with GeoJSON boundary properties."
+  },
+  {
+    "dataset": "districts.json",
+    "field": "remote_level_1_to_5",
+    "type": "integer",
+    "required": "Yes",
+    "description": "Demo accessibility score; 5 means remote/hard-to-reach."
+  },
+  {
+    "dataset": "district_monthly_summary.json",
+    "field": "births_30d",
+    "type": "integer",
+    "required": "Yes",
+    "description": "Synthetic births in last 30 days; used on MoH population/MCH cards."
+  },
+  {
+    "dataset": "district_monthly_summary.json",
+    "field": "reporting_timeliness_pct",
+    "type": "number",
+    "required": "Yes",
+    "description": "Used to compare near-real-time HIE reporting against delayed routine reports."
+  },
+  {
+    "dataset": "district_disease_weekly.json",
+    "field": "severity",
+    "type": "enum",
+    "required": "Yes",
+    "description": "No signal, Rare, Watch, Moderate, High, Critical; drives map color and alert state."
+  },
+  {
+    "dataset": "facilities.json",
+    "field": "beds_occupied",
+    "type": "integer",
+    "required": "Yes",
+    "description": "Used to calculate occupancy and referral pressure."
+  },
+  {
+    "dataset": "stock_inventory.json",
+    "field": "estimated_days_of_stock",
+    "type": "integer",
+    "required": "Yes",
+    "description": "Used for stockout alerts and MoH commodity planning."
+  },
+  {
+    "dataset": "patient_demo_records.json",
+    "field": "next_of_kin_phone_demo",
+    "type": "string",
+    "required": "Yes",
+    "description": "Fake phone number for emergency contact demo; no real personal data."
+  },
+  {
+    "dataset": "claims.json",
+    "field": "hie_supporting_summary_available",
+    "type": "enum",
+    "required": "Yes",
+    "description": "Shows how HIE can speed claims verification with minimum necessary clinical data."
+  }
+]

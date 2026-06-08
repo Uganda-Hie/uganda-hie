@@ -1,7 +1,8 @@
 'use client'
 
 import { format, parseISO } from 'date-fns'
-import { Activity, Pill, ArrowRight, AlertTriangle } from 'lucide-react'
+import { Activity, Pill, ArrowRight, AlertTriangle, FlaskConical, Shield } from 'lucide-react'
+import { EmptyState } from '@/components/dashboard/empty-state'
 import type { Patient } from '@/types/patient'
 import { AUDIT_LOGS } from '@/data/audit-logs'
 import { getFacilityById } from '@/data/facilities'
@@ -121,9 +122,11 @@ export function ClinicalSummary({
               </tbody>
             </table>
           ) : (
-            <p className="text-sm text-muted-foreground">
-              No lab results on record
-            </p>
+            <EmptyState
+              icon={FlaskConical}
+              title="No lab results on record"
+              subtitle="Lab results appear here once tests are recorded."
+            />
           )}
         </div>
       </TabsContent>
@@ -158,7 +161,11 @@ export function ClinicalSummary({
               ))}
             </ul>
           ) : (
-            <p className="text-sm text-muted-foreground">No referral history</p>
+            <EmptyState
+              icon={ArrowRight}
+              title="No referral history"
+              subtitle="This patient has no recorded referrals."
+            />
           )}
         </div>
       </TabsContent>
@@ -218,9 +225,11 @@ export function ClinicalSummary({
               </table>
             </div>
           ) : (
-            <p className="text-sm text-muted-foreground">
-              No access history for this patient
-            </p>
+            <EmptyState
+              icon={Shield}
+              title="No access history"
+              subtitle="No one has accessed this patient's record yet."
+            />
           )}
         </div>
       </TabsContent>
