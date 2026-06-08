@@ -12,6 +12,7 @@ interface AccessLogProps {
   patientHieId?: string
   showAll?: boolean
   limit?: number
+  title?: string
 }
 
 const ACTION_BADGE: Record<AuditLog['action'], string> = {
@@ -39,6 +40,7 @@ export function AccessLog({
   patientHieId,
   showAll = false,
   limit = 10,
+  title = 'Access History',
 }: AccessLogProps) {
   const [actionFilter, setActionFilter] = useState<AuditLog['action'] | 'all'>(
     'all'
@@ -68,7 +70,7 @@ export function AccessLog({
       {/* Header */}
       <div className="mb-4 flex items-center gap-2">
         <Shield className="size-4 text-gray-500" />
-        <h3 className="text-sm font-semibold text-gray-900">Access History</h3>
+        <h3 className="text-sm font-semibold text-gray-900">{title}</h3>
       </div>
 
       {/* Action filters (admin) */}
