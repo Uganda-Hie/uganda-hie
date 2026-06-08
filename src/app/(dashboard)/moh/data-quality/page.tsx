@@ -17,6 +17,7 @@ import {
 import { Clock, CheckSquare, AlertTriangle } from 'lucide-react'
 import { FACILITIES } from '@/data/facilities'
 import { DISTRICTS } from '@/data/districts'
+import { getNationalMonthlyKPIs } from '@/data/district-monthly'
 import { KpiCard } from '@/components/dashboard/kpi-card'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
@@ -110,11 +111,10 @@ export default function DataQualityPage() {
     setTimeout(() => setToast(''), 2500)
   }
 
-  // KPIs
-  const reportedToday = data.filter((d) => d.hasReportedToday).length
-  const reportingRate = Math.round((reportedToday / data.length) * 100)
-  const totalLate = data.reduce((s, d) => s + d.lateSubmissions, 0)
-  const onTimeRate = Math.round((1 - totalLate / (data.length * 30)) * 100)
+  // KPIs — reporting rate & on-time now come from real monthly seed data.
+  const realKpis = getNationalMonthlyKPIs()
+  const reportingRate = realKpis.avgReportingCompleteness
+  const onTimeRate = realKpis.avgReportingTimeliness
   const zeroInflation = data.filter((d) => d.zeroReportFlags > 5).length
   const avgCompleteness = Math.round(
     data.reduce((s, d) => s + d.completenessScore, 0) / data.length

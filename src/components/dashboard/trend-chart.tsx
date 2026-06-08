@@ -1,6 +1,7 @@
 'use client'
 
 import { useMemo } from 'react'
+import { format, parseISO, subWeeks } from 'date-fns'
 import {
   Area,
   AreaChart,
@@ -10,6 +11,7 @@ import {
   YAxis,
 } from 'recharts'
 import { DISEASES, type DiseaseKey } from '@/types/disease'
+import { getNationalWeeklyTrend } from '@/data/disease-weekly'
 
 interface TrendChartProps {
   disease: DiseaseKey
@@ -17,7 +19,22 @@ interface TrendChartProps {
   height?: number
 }
 
-// Deterministic pseudo-random seeded by the disease name.
+// Our disease keys -> a loose query string that matches the seed disease_name.
+const DISEASE_QUERY: Record<DiseaseKey, string> = {
+  malaria: 'Malaria',
+  cholera: 'Cholera',
+  measles: 'Measles',
+  tb: 'Tuberculosis',
+  respiratory: 'respiratory', // matches "Acute respiratory infection"
+  diarrhoeal: 'Diarrhoeal',
+  maternal: 'Maternal',
+  hiv: 'HIV',
+}
+
+// ── Synthetic prior-week generator. The seed pack ships only a single snapshot
+//    week, so when fewer than 2 real weeks exist we build a dated 8-week axis
+//    ending at the real latest week and anchor the final point to the real
+//    national total (earlier weeks are synthesized). ──
 function seededRandom(seed: number) {
   let s = seed
   return () => {
@@ -25,35 +42,45 @@ function seededRandom(seed: number) {
     return (s >>> 0) / 0xffffffff
   }
 }
-
 function hash(str: string): number {
   return [...str].reduce((h, c) => (h * 31 + c.charCodeAt(0)) & 0xffffffff, 7)
 }
-
-interface Point {
-  week: string
-  cases: number
-}
-
-function buildSeries(disease: DiseaseKey): Point[] {
+function buildDatedSeries(
+  disease: DiseaseKey,
+  anchorISO: string,
+  anchorCases?: number
+): { week: string; cases: number }[] {
   const rand = seededRandom(hash(disease))
   const base = 30 + Math.round(rand() * 60)
-
-  const points: Point[] = Array.from({ length: 8 }, (_, i) => ({
-    week: `W${i + 1}`,
+  const anchor = parseISO(anchorISO)
+  const points = Array.from({ length: 8 }, (_, i) => ({
+    week: format(subWeeks(anchor, 7 - i), 'MMM d'),
     cases: Math.max(1, Math.round(base * (0.7 + rand() * 0.6))),
   }))
-
-  // W8 (current week) should always read as a clear upward spike vs W6.
-  points[7].cases = Math.round(points[5].cases * (1.5 + rand() * 0.5))
-
+  // Final (latest) point uses the real national total when available.
+  points[7].cases =
+    anchorCases ?? Math.round(points[5].cases * (1.5 + rand() * 0.5))
   return points
 }
 
 export function TrendChart({ disease, title, height = 200 }: TrendChartProps) {
-  const data = useMemo(() => buildSeries(disease), [disease])
+  const data = useMemo(() => {
+    const real = getNationalWeeklyTrend(DISEASE_QUERY[disease] ?? disease)
+    if (real.length >= 2) {
+      // Genuine multi-week real series.
+      return real.map((r) => ({
+        week: format(parseISO(r.week), 'MMM d'),
+        cases: r.cases,
+      }))
+    }
+    // Single (or no) real week: dated axis anchored to the real latest value.
+    const latest = real[0]
+    return buildDatedSeries(disease, latest?.week ?? '2026-06-01', latest?.cases)
+  }, [disease])
+
   const color = DISEASES.find((d) => d.key === disease)?.color ?? '#3b82f6'
-  const label = title ?? `${DISEASES.find((d) => d.key === disease)?.label ?? 'Disease'} trend`
+  const label =
+    title ?? `${DISEASES.find((d) => d.key === disease)?.label ?? 'Disease'} trend`
   const gradientId = `trend-grad-${disease}`
 
   return (
@@ -84,7 +111,7 @@ export function TrendChart({ disease, title, height = 200 }: TrendChartProps) {
           <Tooltip
             cursor={{ stroke: color, strokeOpacity: 0.3 }}
             formatter={(value) => [`${value} cases`, 'Cases']}
-            labelFormatter={(label) => `Week ${String(label).replace('W', '')}`}
+            labelFormatter={(l) => `Week of ${String(l)}`}
             contentStyle={{
               borderRadius: 8,
               border: '1px solid #e5e7eb',

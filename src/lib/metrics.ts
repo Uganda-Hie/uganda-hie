@@ -1,6 +1,7 @@
 import { generateDistrictMetrics, getNationalSummary } from '@/data/districts'
 import { FACILITIES } from '@/data/facilities'
 import { DAILY_REPORTS, getLatestReport } from '@/data/daily-reports'
+import { getNationalMonthlyKPIs } from '@/data/district-monthly'
 
 export interface NationalKPIs {
   totalFacilitiesReporting: number
@@ -29,12 +30,10 @@ export function getNationalKPIs(): NationalKPIs {
   const complete = metrics.filter((m) => m.reportingComplete).length
   const reportingCompleteness = `${Math.round((complete / metrics.length) * 100)}%`
 
-  const totalBirthsToday = latestReports.reduce((s, r) => s + r.births, 0)
-  const totalDeathsToday = latestReports.reduce(
-    (s, r) =>
-      s + r.neonatalDeaths + r.under5Deaths + r.maternalDeaths + r.adultDeaths + r.stillbirths,
-    0
-  )
+  // Births/deaths "today" derived from real monthly seed totals (÷30).
+  const realMonthly = getNationalMonthlyKPIs()
+  const totalBirthsToday = Math.round(realMonthly.totalBirths30d / 30)
+  const totalDeathsToday = Math.round(realMonthly.totalAllCauseDeaths30d / 30)
 
   const summary = getNationalSummary('malaria')
 
@@ -53,7 +52,7 @@ export function getNationalKPIs(): NationalKPIs {
     totalDeathsToday,
     activeAlerts: summary.criticalDistricts + summary.highDistricts,
     avgBedOccupancy,
-    facilitiesWithStockRisk: summary.stockAtRisk,
+    facilitiesWithStockRisk: realMonthly.totalFacilitiesWithStockout,
   }
 }
 
