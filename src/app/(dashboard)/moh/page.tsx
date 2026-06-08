@@ -12,12 +12,15 @@ import {
   Package,
   ArrowRight,
   Map,
+  Syringe,
+  Shield,
 } from 'lucide-react'
 import { KpiCard } from '@/components/dashboard/kpi-card'
 import { TrendChart } from '@/components/dashboard/trend-chart'
 import { AlertBanner, type DashboardAlert } from '@/components/dashboard/alert-banner'
 import { AiBrief } from '@/components/dashboard/ai-brief'
 import { getNationalKPIs } from '@/lib/metrics'
+import { getNationalMonthlyKPIs } from '@/data/district-monthly'
 import { getNationalSummary, getTopDistricts } from '@/data/districts'
 import { getSeverityColor, getSeverityLabel } from '@/lib/severity'
 import { useDemoStore } from '@/store/demo-store'
@@ -96,6 +99,15 @@ export default function MohSnapshotPage() {
   const stockColor = kpis.facilitiesWithStockRisk > 5 ? 'text-red-600' : 'text-blue-600'
   const stockBg = kpis.facilitiesWithStockRisk > 5 ? 'bg-red-50' : 'bg-blue-50'
 
+  // Immunisation coverage (real monthly seed data).
+  const monthly = getNationalMonthlyKPIs()
+  const covText = (v: number) =>
+    v >= 80 ? 'text-green-600' : v >= 60 ? 'text-amber-500' : 'text-red-600'
+  const covBg = (v: number) =>
+    v >= 80 ? 'bg-green-50' : v >= 60 ? 'bg-amber-50' : 'bg-red-50'
+  const dpt3 = monthly.avgDpt3Coverage
+  const measles = monthly.avgMeasles1Coverage
+
   return (
     <div className="space-y-6">
       {/* Row 1 — Alert banner */}
@@ -133,7 +145,7 @@ export default function MohSnapshotPage() {
       </div>
 
       {/* Row 3 — KPI grid */}
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 xl:grid-cols-6">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <KpiCard
           title="Facilities Reporting"
           value={kpis.totalFacilitiesReporting}
@@ -174,6 +186,22 @@ export default function MohSnapshotPage() {
           icon={Package}
           iconColor={stockColor}
           iconBg={stockBg}
+        />
+        <KpiCard
+          title="DPT3 Coverage"
+          value={`${dpt3}%`}
+          subtitle="National immunisation target: 95%"
+          icon={Syringe}
+          iconColor={covText(dpt3)}
+          iconBg={covBg(dpt3)}
+        />
+        <KpiCard
+          title="Measles Coverage"
+          value={`${measles}%`}
+          subtitle="Target: 95% to prevent outbreaks"
+          icon={Shield}
+          iconColor={covText(measles)}
+          iconBg={covBg(measles)}
         />
       </div>
 

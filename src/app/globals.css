@@ -128,3 +128,19 @@
     @apply font-sans;
   }
 }
+
+/* Pulsing hotspot markers on the Uganda map (critical districts). */
+@keyframes hotspot-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    r: 8;
+  }
+  50% {
+    opacity: 0.5;
+    r: 12;
+  }
+}
+.hotspot-pulse {
+  animation: hotspot-pulse 1.5s ease-in-out infinite;
+}

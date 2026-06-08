@@ -74,6 +74,8 @@ export interface NationalMonthlyKPIs {
   avgReportingCompleteness: number
   avgReportingTimeliness: number
   avgBedOccupancy: number
+  avgDpt3Coverage: number
+  avgMeasles1Coverage: number
   totalFacilitiesWithStockout: number
   totalReferrals30d: number
 }
@@ -91,6 +93,8 @@ export function getNationalMonthlyKPIs(): NationalMonthlyKPIs {
     avgReportingCompleteness: Math.round(sum((d) => d.reportingCompletenessPct) / n),
     avgReportingTimeliness: Math.round(sum((d) => d.reportingTimelinessPct) / n),
     avgBedOccupancy: Math.round(sum((d) => d.avgBedOccupancyPct) / n),
+    avgDpt3Coverage: Math.round(sum((d) => d.dpt3CoveragePct) / n),
+    avgMeasles1Coverage: Math.round(sum((d) => d.measles1CoveragePct) / n),
     totalFacilitiesWithStockout: sum((d) => d.facilitiesWithStockout),
     totalReferrals30d: sum((d) => d.referralsOut30d),
   }

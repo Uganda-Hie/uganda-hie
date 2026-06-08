@@ -183,6 +183,38 @@ export function UgandaMap({
               )
             })}
           </g>
+
+          {/* Hotspot bubbles: critical (pulsing) + high districts */}
+          <g>
+            {DISTRICTS.map((dist) => {
+              const metric = metricByDistrict[dist.id]
+              if (!metric) return null
+              if (metric.severity !== 'critical' && metric.severity !== 'high')
+                return null
+              const [cx, cy] = project(dist.centroid)
+              const isCritical = metric.severity === 'critical'
+              return (
+                <circle
+                  key={`hotspot-${dist.id}`}
+                  cx={cx}
+                  cy={cy}
+                  r={isCritical ? 8 : 6}
+                  fill={isCritical ? '#dc2626' : '#f97316'}
+                  fillOpacity={0.55}
+                  className={isCritical ? 'hotspot-pulse' : undefined}
+                  style={{ cursor: 'pointer' }}
+                  onMouseEnter={(e) =>
+                    onDistrictHover?.(dist.id, e.clientX, e.clientY)
+                  }
+                  onMouseMove={(e) =>
+                    onDistrictHover?.(dist.id, e.clientX, e.clientY)
+                  }
+                  onMouseLeave={() => onDistrictHover?.(null, 0, 0)}
+                  onClick={() => onDistrictClick?.(dist.id)}
+                />
+              )
+            })}
+          </g>
         </svg>
       </div>
 
