@@ -45,16 +45,16 @@ export default function InsurerPage() {
       {/* Row 1 — header + KPIs */}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">Claims Inbox</h2>
+          <h2 className="text-xl font-bold text-foreground">Claims Inbox</h2>
           <p className="text-sm text-muted-foreground">
             UAP Uganda Health Insurance
           </p>
         </div>
-        <div className="flex flex-wrap gap-6 rounded-xl border bg-white px-5 py-3 shadow-sm">
+        <div className="flex flex-wrap gap-6 rounded-xl border bg-card px-5 py-3 shadow-sm">
           <Kpi label="Total Claims" value={String(countOf('all'))} />
-          <Kpi label="Pending" value={String(countOf('pending'))} color="text-amber-600" />
-          <Kpi label="Approved" value={String(countOf('approved'))} color="text-green-600" />
-          <Kpi label="Total Value" value={formatUGX(totalValue)} color="text-blue-600" />
+          <Kpi label="Pending" value={String(countOf('pending'))} color="text-amber-400" />
+          <Kpi label="Approved" value={String(countOf('approved'))} color="text-green-400" />
+          <Kpi label="Total Value" value={formatUGX(totalValue)} color="text-blue-400" />
         </div>
       </div>
 
@@ -93,7 +93,7 @@ export default function InsurerPage() {
                 />
               ))
             ) : (
-              <div className="rounded-xl border border-dashed bg-gray-50">
+              <div className="rounded-xl border border-dashed bg-muted">
                 <EmptyState
                   icon={Inbox}
                   title="No claims matching this filter"
@@ -120,7 +120,7 @@ export default function InsurerPage() {
 function Kpi({
   label,
   value,
-  color = 'text-gray-900',
+  color = 'text-foreground',
 }: {
   label: string
   value: string

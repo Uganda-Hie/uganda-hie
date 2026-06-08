@@ -13,8 +13,8 @@ export function EmptyState({ icon: Icon, title, subtitle, className }: EmptyStat
     <div
       className={`flex flex-col items-center justify-center px-6 py-10 text-center ${className ?? ''}`}
     >
-      <Icon className="size-10 text-gray-300" />
-      <p className="mt-3 text-sm font-medium text-gray-700">{title}</p>
+      <Icon className="size-10 text-muted-foreground" />
+      <p className="mt-3 text-sm font-medium text-foreground">{title}</p>
       {subtitle && <p className="mt-1 text-xs text-muted-foreground">{subtitle}</p>}
     </div>
   )

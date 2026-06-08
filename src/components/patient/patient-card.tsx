@@ -17,12 +17,12 @@ const CONSENT: Record<
   Patient['consentStatus'],
   { cls: string; label: string }
 > = {
-  full: { cls: 'bg-green-100 text-green-700', label: 'Consent: Full Access' },
+  full: { cls: 'bg-green-500/15 text-green-400', label: 'Consent: Full Access' },
   'emergency-only': {
-    cls: 'bg-amber-100 text-amber-800',
+    cls: 'bg-amber-500/15 text-amber-400',
     label: 'Consent: Emergency Only',
   },
-  none: { cls: 'bg-red-100 text-red-700', label: 'Consent: Not Given' },
+  none: { cls: 'bg-red-500/15 text-red-400', label: 'Consent: Not Given' },
 }
 
 export function PatientCard({
@@ -38,10 +38,10 @@ export function PatientCard({
   // Compact variant — used in search result grids.
   if (compact) {
     return (
-      <div className="rounded-xl border bg-white p-4 shadow-sm">
+      <div className="rounded-xl border bg-card p-4 shadow-sm">
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <h3 className="truncate font-semibold text-gray-900">
+            <h3 className="truncate font-semibold text-foreground">
               {patient.name}
             </h3>
             <p className="font-mono text-xs text-muted-foreground">
@@ -53,7 +53,7 @@ export function PatientCard({
           </span>
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          <span className="rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+          <span className="rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-foreground">
             {patient.age}
             {patient.sex}
           </span>
@@ -87,7 +87,7 @@ export function PatientCard({
   return (
     <div
       className={cn(
-        'overflow-hidden rounded-xl border bg-white shadow-sm',
+        'overflow-hidden rounded-xl border bg-card shadow-sm',
         emergencyMode && 'border-t-4 border-t-red-500'
       )}
     >
@@ -103,13 +103,13 @@ export function PatientCard({
         {/* Left */}
         <div className="space-y-2">
           <div>
-            <h2 className="text-xl font-bold text-gray-900">{patient.name}</h2>
+            <h2 className="text-xl font-bold text-foreground">{patient.name}</h2>
             <p className="font-mono text-xs text-muted-foreground">
               {patient.hieId}
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
-            <span className="rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+            <span className="rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-foreground">
               {patient.age}
               {patient.sex}
             </span>
@@ -144,17 +144,17 @@ export function PatientCard({
             className={cn(
               'rounded-lg text-xs sm:text-left',
               emergencyMode
-                ? 'bg-red-50 p-3 text-red-900'
+                ? 'bg-red-500/10 p-3 text-red-900'
                 : 'text-muted-foreground'
             )}
           >
-            <div className="font-medium text-gray-700">
+            <div className="font-medium text-foreground">
               Next of kin: {patient.nextOfKin.name} ({patient.nextOfKin.relationship})
             </div>
             {emergencyMode ? (
               <a
                 href={`tel:${patient.nextOfKin.phone.replace(/\s/g, '')}`}
-                className="mt-1 inline-flex items-center gap-1 font-semibold text-red-700"
+                className="mt-1 inline-flex items-center gap-1 font-semibold text-red-400"
               >
                 <Phone className="size-3.5" />
                 {patient.nextOfKin.phone} — Call Now

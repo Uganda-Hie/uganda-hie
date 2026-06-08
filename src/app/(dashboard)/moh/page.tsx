@@ -91,25 +91,25 @@ export default function MohSnapshotPage() {
   // Derived colour logic for KPI icons.
   const completeness = parseInt(kpis.reportingCompleteness, 10)
   const complColor =
-    completeness > 80 ? 'text-green-600' : completeness > 60 ? 'text-amber-500' : 'text-red-600'
+    completeness > 80 ? 'text-green-400' : completeness > 60 ? 'text-amber-500' : 'text-red-600'
   const complBg =
-    completeness > 80 ? 'bg-green-50' : completeness > 60 ? 'bg-amber-50' : 'bg-red-50'
+    completeness > 80 ? 'bg-green-500/10' : completeness > 60 ? 'bg-amber-500/10' : 'bg-red-500/10'
 
   const districtsOnAlert = summary.criticalDistricts + summary.highDistricts
   const alertColor =
-    districtsOnAlert > 3 ? 'text-red-600' : districtsOnAlert > 0 ? 'text-amber-500' : 'text-blue-600'
+    districtsOnAlert > 3 ? 'text-red-600' : districtsOnAlert > 0 ? 'text-amber-500' : 'text-blue-400'
   const alertBg =
-    districtsOnAlert > 3 ? 'bg-red-50' : districtsOnAlert > 0 ? 'bg-amber-50' : 'bg-blue-50'
+    districtsOnAlert > 3 ? 'bg-red-500/10' : districtsOnAlert > 0 ? 'bg-amber-500/10' : 'bg-blue-500/10'
 
-  const stockColor = kpis.facilitiesWithStockRisk > 5 ? 'text-red-600' : 'text-blue-600'
-  const stockBg = kpis.facilitiesWithStockRisk > 5 ? 'bg-red-50' : 'bg-blue-50'
+  const stockColor = kpis.facilitiesWithStockRisk > 5 ? 'text-red-600' : 'text-blue-400'
+  const stockBg = kpis.facilitiesWithStockRisk > 5 ? 'bg-red-500/10' : 'bg-blue-500/10'
 
   // Immunisation coverage (real monthly seed data).
   const monthly = getNationalMonthlyKPIs()
   const covText = (v: number) =>
-    v >= 80 ? 'text-green-600' : v >= 60 ? 'text-amber-500' : 'text-red-600'
+    v >= 80 ? 'text-green-400' : v >= 60 ? 'text-amber-500' : 'text-red-600'
   const covBg = (v: number) =>
-    v >= 80 ? 'bg-green-50' : v >= 60 ? 'bg-amber-50' : 'bg-red-50'
+    v >= 80 ? 'bg-green-500/10' : v >= 60 ? 'bg-amber-500/10' : 'bg-red-500/10'
   const dpt3 = monthly.avgDpt3Coverage
   const measles = monthly.avgMeasles1Coverage
 
@@ -124,13 +124,13 @@ export default function MohSnapshotPage() {
       {/* Row 2 — Section header */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">National Health Snapshot</h2>
+          <h2 className="text-xl font-bold text-foreground">National Health Snapshot</h2>
           <p className="text-xs text-muted-foreground">
             {today && `${today} · `}Last updated: just now
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <label className="text-sm font-medium text-gray-600">Scenario:</label>
+          <label className="text-sm font-medium text-muted-foreground">Scenario:</label>
           <Select
             value={scenario}
             onValueChange={(v) => {
@@ -150,7 +150,7 @@ export default function MohSnapshotPage() {
               ))}
             </SelectContent>
           </Select>
-          <label className="text-sm font-medium text-gray-600">Select Disease:</label>
+          <label className="text-sm font-medium text-muted-foreground">Select Disease:</label>
           <Select
             value={selectedDisease}
             onValueChange={(v) => setDisease(v as Disease)}
@@ -235,20 +235,20 @@ export default function MohSnapshotPage() {
         <div className="lg:col-span-2">
           <TrendChart disease={selectedDisease} height={240} />
         </div>
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Top Districts This Week
           </h3>
           <ul className="space-y-3">
             {topDistricts.map((d, i) => (
               <li key={d.id} className="flex items-center gap-3">
-                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-gray-100 text-xs font-semibold text-gray-600">
+                <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-muted text-xs font-semibold text-muted-foreground">
                   {i + 1}
                 </span>
-                <span className="flex-1 text-sm font-medium text-gray-900">
+                <span className="flex-1 text-sm font-medium text-foreground">
                   {d.name}
                 </span>
-                <span className="text-sm tabular-nums text-gray-600">
+                <span className="text-sm tabular-nums text-muted-foreground">
                   {d.cases.toLocaleString()}
                 </span>
                 <span
@@ -271,18 +271,18 @@ export default function MohSnapshotPage() {
           <Link
             key={link.href}
             href={link.href}
-            className="group flex items-start justify-between gap-3 rounded-xl border bg-white p-5 shadow-sm transition-all hover:border-blue-300 hover:shadow-md"
+            className="group flex items-start justify-between gap-3 rounded-xl border bg-card p-5 shadow-sm transition-all hover:border-blue-300 hover:shadow-md"
           >
             <div className="flex gap-3">
-              <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+              <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-blue-500/10 text-blue-400">
                 <Map className="size-4" />
               </span>
               <div>
-                <h4 className="text-sm font-semibold text-gray-900">{link.title}</h4>
+                <h4 className="text-sm font-semibold text-foreground">{link.title}</h4>
                 <p className="mt-1 text-xs text-muted-foreground">{link.description}</p>
               </div>
             </div>
-            <ArrowRight className="size-4 shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-blue-600" />
+            <ArrowRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5 group-hover:text-blue-400" />
           </Link>
         ))}
       </div>

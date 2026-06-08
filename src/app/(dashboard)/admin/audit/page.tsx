@@ -24,7 +24,7 @@ export default function AuditPage() {
       {/* Row 1 — header */}
       <div>
         <div className="flex items-center gap-2">
-          <h2 className="text-xl font-bold text-gray-900">System Audit Log</h2>
+          <h2 className="text-xl font-bold text-foreground">System Audit Log</h2>
           <span className="rounded-full bg-slate-200 px-2.5 py-0.5 text-xs font-medium text-slate-700">
             Data Protection Officer View
           </span>
@@ -43,7 +43,7 @@ export default function AuditPage() {
           icon={Siren}
           alert={emergencyCount > 0}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
         />
         <KpiCard
           title="Flagged for Review"
@@ -51,7 +51,7 @@ export default function AuditPage() {
           icon={AlertTriangle}
           alert={flagged.length > 0}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
         />
         <KpiCard
           title="Unique Patients Accessed"
@@ -62,25 +62,25 @@ export default function AuditPage() {
 
       {/* Row 3 — flagged events */}
       {flagged.length > 0 && (
-        <div className="rounded-xl border border-l-4 border-l-red-500 bg-white p-5 shadow-sm">
-          <h3 className="mb-3 text-sm font-semibold text-red-700">
+        <div className="rounded-xl border border-l-4 border-l-red-500 bg-card p-5 shadow-sm">
+          <h3 className="mb-3 text-sm font-semibold text-red-400">
             ⚠ Requires DPO Review
           </h3>
           <ul className="space-y-2">
             {flagged.map((log) => (
               <li
                 key={log.id}
-                className="flex flex-col gap-2 rounded-lg border bg-red-50/40 px-3 py-2 text-sm sm:flex-row sm:items-center sm:justify-between"
+                className="flex flex-col gap-2 rounded-lg border bg-red-500/10/40 px-3 py-2 text-sm sm:flex-row sm:items-center sm:justify-between"
               >
                 <div className="min-w-0">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className="text-xs text-muted-foreground">
                       {format(parseISO(log.timestamp), 'd MMM HH:mm')}
                     </span>
-                    <span className="font-medium text-gray-900">
+                    <span className="font-medium text-foreground">
                       {log.userName}
                     </span>
-                    <span className="rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-600">
+                    <span className="rounded bg-muted px-1.5 py-0.5 text-xs text-muted-foreground">
                       {log.action}
                     </span>
                     <span className="font-mono text-xs text-muted-foreground">

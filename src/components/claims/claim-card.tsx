@@ -10,10 +10,10 @@ interface ClaimCardProps {
 }
 
 const STATUS_BADGE: Record<Claim['status'], string> = {
-  pending: 'bg-amber-100 text-amber-800',
-  approved: 'bg-green-100 text-green-700',
-  rejected: 'bg-red-100 text-red-700',
-  queried: 'bg-purple-100 text-purple-700',
+  pending: 'bg-amber-500/15 text-amber-400',
+  approved: 'bg-green-500/15 text-green-400',
+  rejected: 'bg-red-500/15 text-red-400',
+  queried: 'bg-purple-500/15 text-purple-400',
 }
 
 export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) {
@@ -33,7 +33,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
           : undefined
       }
       className={cn(
-        'overflow-hidden rounded-xl border bg-white shadow-sm transition-shadow',
+        'overflow-hidden rounded-xl border bg-card shadow-sm transition-shadow',
         onClick && 'cursor-pointer hover:shadow-md',
         selected && 'border-l-4 border-l-blue-500'
       )}
@@ -43,7 +43,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <p className="font-mono text-xs text-muted-foreground">{claim.id}</p>
-            <p className="truncate font-semibold text-gray-900">
+            <p className="truncate font-semibold text-foreground">
               {claim.facilityName}
             </p>
           </div>
@@ -60,7 +60,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
         {/* Middle row */}
         <div className="mt-2">
           <div className="flex flex-wrap items-baseline gap-2">
-            <span className="text-sm font-medium text-gray-800">
+            <span className="text-sm font-medium text-foreground">
               {claim.diagnosis}
             </span>
             <span className="font-mono text-xs text-muted-foreground">
@@ -72,7 +72,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
 
         {/* Bottom row */}
         <div className="mt-3 flex items-center justify-between">
-          <span className="font-bold text-blue-600">
+          <span className="font-bold text-blue-400">
             {formatUGX(claim.amountUGX)}
           </span>
           <div className="flex items-center gap-2">
@@ -80,7 +80,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
               {formatDate(claim.submittedAt)}
             </span>
             {onClick && (
-              <ChevronRight className="size-4 text-gray-400" />
+              <ChevronRight className="size-4 text-muted-foreground" />
             )}
           </div>
         </div>
@@ -88,7 +88,7 @@ export function ClaimCard({ claim, onClick, selected = false }: ClaimCardProps) 
 
       {/* Rejection banner */}
       {claim.status === 'rejected' && claim.rejectionReason && (
-        <div className="bg-red-50 px-4 py-2 text-xs text-red-700">
+        <div className="bg-red-500/10 px-4 py-2 text-xs text-red-400">
           Reason: {claim.rejectionReason}
         </div>
       )}

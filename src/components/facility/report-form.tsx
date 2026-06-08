@@ -178,7 +178,7 @@ export function ReportForm({ facilityId, onSubmitSuccess }: ReportFormProps) {
             <NumField label="Malaria confirmed" reg={register('malariaConfirmed')} error={errors.malariaConfirmed?.message} />
             <NumField label="Malaria tests" reg={register('malariaTests')} error={errors.malariaTests?.message} />
           </div>
-          <div className="rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-900">
+          <div className="rounded-md bg-amber-500/10 px-3 py-2 text-sm text-amber-400">
             Test positivity rate:{' '}
             <span className="font-semibold tabular-nums">{positivity}%</span>
           </div>
@@ -204,12 +204,12 @@ export function ReportForm({ facilityId, onSubmitSuccess }: ReportFormProps) {
             <NumField label="Adult deaths" reg={register('adultDeaths')} error={errors.adultDeaths?.message} />
           </div>
           {maternalDeaths > 0 && (
-            <div className="rounded-md bg-red-50 px-3 py-2 text-sm font-medium text-red-700">
+            <div className="rounded-md bg-red-500/10 px-3 py-2 text-sm font-medium text-red-400">
               ⚠ Maternal death requires immediate notification to DHO
             </div>
           )}
           {under5Deaths > 2 && (
-            <div className="rounded-md bg-amber-50 px-3 py-2 text-sm text-amber-800">
+            <div className="rounded-md bg-amber-500/10 px-3 py-2 text-sm text-amber-400">
               Review under-5 cases for preventable causes
             </div>
           )}
@@ -224,7 +224,7 @@ export function ReportForm({ facilityId, onSubmitSuccess }: ReportFormProps) {
         <CardContent className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
             <Field label="Total beds (registry)">
-              <Input type="number" readOnly className="bg-gray-50" {...register('totalBeds')} />
+              <Input type="number" readOnly className="bg-muted" {...register('totalBeds')} />
             </Field>
             <NumField label="Occupied beds" reg={register('occupiedBeds')} error={errors.occupiedBeds?.message} />
           </div>

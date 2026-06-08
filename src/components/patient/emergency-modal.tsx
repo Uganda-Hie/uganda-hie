@@ -72,7 +72,7 @@ export function EmergencyModal({
 
         <div className="space-y-4">
           {/* Amber warning */}
-          <div className="rounded-lg bg-amber-50 px-4 py-3 text-sm text-amber-900">
+          <div className="rounded-lg bg-amber-500/10 px-4 py-3 text-sm text-amber-400">
             You are about to access a patient record without their prior consent.
             This is permitted under Uganda&apos;s Public Health Act for emergency
             care only.
@@ -95,7 +95,7 @@ export function EmergencyModal({
               <span
                 className={
                   reason.trim().length >= MIN_REASON
-                    ? 'text-green-600'
+                    ? 'text-green-400'
                     : 'text-muted-foreground'
                 }
               >

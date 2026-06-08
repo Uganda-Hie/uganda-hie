@@ -25,10 +25,10 @@ interface ClaimDetailProps {
 }
 
 const STATUS_BADGE: Record<Claim['status'], string> = {
-  pending: 'bg-amber-100 text-amber-800',
-  approved: 'bg-green-100 text-green-700',
-  rejected: 'bg-red-100 text-red-700',
-  queried: 'bg-purple-100 text-purple-700',
+  pending: 'bg-amber-500/15 text-amber-400',
+  approved: 'bg-green-500/15 text-green-400',
+  rejected: 'bg-red-500/15 text-red-400',
+  queried: 'bg-purple-500/15 text-purple-400',
 }
 
 /** "Aciro Grace" -> "Grace A." (given name + surname initial). */
@@ -64,8 +64,8 @@ export function ClaimDetail({
 
   if (!claim) {
     return (
-      <div className="flex h-full flex-col items-center justify-center rounded-xl border border-dashed bg-gray-50 px-6 py-16 text-center">
-        <FileText className="size-10 text-gray-300" />
+      <div className="flex h-full flex-col items-center justify-center rounded-xl border border-dashed bg-muted px-6 py-16 text-center">
+        <FileText className="size-10 text-muted-foreground" />
         <p className="mt-3 text-sm text-muted-foreground">
           Select a claim from the list to view details
         </p>
@@ -88,7 +88,7 @@ export function ClaimDetail({
       {/* Header */}
       <div className="flex items-start justify-between">
         <div className="flex items-center gap-3">
-          <span className="font-mono text-lg font-semibold text-gray-900">
+          <span className="font-mono text-lg font-semibold text-foreground">
             {claim.id}
           </span>
           <span
@@ -105,7 +105,7 @@ export function ClaimDetail({
             type="button"
             onClick={onClose}
             aria-label="Close"
-            className="rounded-md p-1 text-muted-foreground hover:bg-gray-100 hover:text-gray-900"
+            className="rounded-md p-1 text-muted-foreground hover:bg-muted hover:text-foreground"
           >
             <X className="size-4" />
           </button>
@@ -113,8 +113,8 @@ export function ClaimDetail({
       </div>
 
       {/* Section 1 — Claim Summary */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-3 text-sm font-semibold text-gray-900">Claim Summary</h3>
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-3 text-sm font-semibold text-foreground">Claim Summary</h3>
         <dl className="grid grid-cols-2 gap-3 text-sm">
           <Row label="Facility" value={`${claim.facilityName}${facility ? ` · ${facility.level}` : ''}`} />
           <Row label="Insurer" value={claim.insurer} />
@@ -123,7 +123,7 @@ export function ClaimDetail({
           <Row label="Submitted" value={formatDate(claim.submittedAt)} />
           <div>
             <dt className="text-xs text-muted-foreground">Amount claimed</dt>
-            <dd className="text-lg font-bold text-blue-600">
+            <dd className="text-lg font-bold text-blue-400">
               {formatUGX(claim.amountUGX)}
             </dd>
           </div>
@@ -131,18 +131,18 @@ export function ClaimDetail({
       </div>
 
       {/* Section 2 — Patient Clinical Summary */}
-      <div className="rounded-xl border bg-white shadow-sm">
+      <div className="rounded-xl border bg-card shadow-sm">
         <div className="p-5">
-          <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <h3 className="mb-3 text-sm font-semibold text-foreground">
             Patient Clinical Summary
           </h3>
           {patient ? (
             <>
               <div className="flex flex-wrap items-center gap-2 text-sm">
-                <span className="font-semibold text-gray-900">
+                <span className="font-semibold text-foreground">
                   {redactName(patient.name)}
                 </span>
-                <span className="rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+                <span className="rounded-md bg-muted px-2 py-0.5 text-xs font-medium text-foreground">
                   {patient.age}
                   {patient.sex}
                 </span>
@@ -151,7 +151,7 @@ export function ClaimDetail({
                 </span>
               </div>
               {primaryCondition && (
-                <p className="mt-2 text-sm text-gray-700">
+                <p className="mt-2 text-sm text-foreground">
                   Primary condition: {primaryCondition}
                 </p>
               )}
@@ -174,8 +174,8 @@ export function ClaimDetail({
       </div>
 
       {/* Section 3 — Supporting Documents */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-3 text-sm font-semibold text-gray-900">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-3 text-sm font-semibold text-foreground">
           Supporting Documents
         </h3>
         <ul className="space-y-2">
@@ -184,8 +184,8 @@ export function ClaimDetail({
               key={doc}
               className="flex items-center justify-between rounded-lg border px-3 py-2 text-sm"
             >
-              <span className="flex items-center gap-2 text-gray-700">
-                <FileText className="size-4 text-gray-400" />
+              <span className="flex items-center gap-2 text-foreground">
+                <FileText className="size-4 text-muted-foreground" />
                 {doc}
               </span>
               <Button
@@ -207,8 +207,8 @@ export function ClaimDetail({
 
       {/* Section 4 — Decision / outcome */}
       {(status === 'pending' || status === 'queried') && (
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-3 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-3 text-sm font-semibold text-foreground">
             Claim Decision
           </h3>
           {showQuery ? (
@@ -247,7 +247,7 @@ export function ClaimDetail({
               </Button>
               <Button
                 variant="outline"
-                className="border-amber-300 text-amber-700 hover:bg-amber-50"
+                className="border-amber-300 text-amber-400 hover:bg-amber-500/10"
                 onClick={() => setShowQuery(true)}
               >
                 Query Claim
@@ -258,12 +258,12 @@ export function ClaimDetail({
       )}
 
       {status === 'approved' && (
-        <div className="rounded-xl bg-green-50 px-5 py-4 text-sm font-medium text-green-800">
+        <div className="rounded-xl bg-green-500/10 px-5 py-4 text-sm font-medium text-green-400">
           Approved — Payment processing initiated.
         </div>
       )}
       {status === 'rejected' && (
-        <div className="rounded-xl bg-red-50 px-5 py-4 text-sm text-red-700">
+        <div className="rounded-xl bg-red-500/10 px-5 py-4 text-sm text-red-400">
           Rejected{claim.rejectionReason ? ` — ${claim.rejectionReason}` : ''}.
         </div>
       )}
@@ -319,7 +319,7 @@ function Row({
   return (
     <div>
       <dt className="text-xs text-muted-foreground">{label}</dt>
-      <dd className={cn('text-gray-800', mono && 'font-mono text-sm')}>{value}</dd>
+      <dd className={cn('text-foreground', mono && 'font-mono text-sm')}>{value}</dd>
     </div>
   )
 }

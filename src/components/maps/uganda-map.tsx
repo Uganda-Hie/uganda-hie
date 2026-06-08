@@ -15,8 +15,8 @@ interface UgandaMapProps {
   onDistrictClick?: (districtId: string) => void
 }
 
-const BASE_FILL = '#f1f5f9'
-const BASE_STROKE = '#cbd5e1'
+const BASE_FILL = '#202123'
+const BASE_STROKE = 'rgba(255,255,255,0.08)'
 const GEOJSON_URL = '/uganda-districts.geojson'
 const WIDTH = 800
 const HEIGHT = 600
@@ -104,7 +104,7 @@ function MapFallback({
   items: { id: string; name: string; severity: string }[]
 }) {
   return (
-    <div className="rounded-xl border bg-white p-5" style={{ minHeight: 600 }}>
+    <div className="rounded-xl border bg-card p-5" style={{ minHeight: 600 }}>
       <svg
         viewBox="0 0 100 100"
         className="mx-auto mb-3 h-24 w-24 text-slate-300"
@@ -115,7 +115,7 @@ function MapFallback({
           fill="currentColor"
         />
       </svg>
-      <h3 className="mb-4 text-center text-sm font-semibold text-gray-900">
+      <h3 className="mb-4 text-center text-sm font-semibold text-foreground">
         Uganda — Disease Severity Overview
       </h3>
       <div className="grid grid-cols-1 gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
@@ -125,7 +125,7 @@ function MapFallback({
               className="size-2.5 shrink-0 rounded-full"
               style={{ backgroundColor: getSeverityHex(it.severity) }}
             />
-            <span className="flex-1 truncate text-gray-700">{it.name}</span>
+            <span className="flex-1 truncate text-foreground">{it.name}</span>
             <span className="shrink-0 text-xs text-muted-foreground">
               {getSeverityLabel(it.severity)}
             </span>
@@ -196,14 +196,14 @@ export function UgandaMap({
 
   if (!geoData || !project) {
     return (
-      <div className="h-[600px] w-full animate-pulse rounded-xl bg-gray-100" />
+      <div className="h-[600px] w-full animate-pulse rounded-xl bg-muted" />
     )
   }
 
   return (
     <div>
       <MapErrorBoundary fallback={<MapFallback items={fallbackItems} />}>
-        <div className="overflow-hidden rounded-xl border bg-white">
+        <div className="overflow-hidden rounded-xl border border-white/8 bg-[#0f1011]">
         <svg
           viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
           className="h-auto w-full"
@@ -293,7 +293,7 @@ export function UgandaMap({
       {/* Footer row */}
       <div className="mt-2 flex items-center justify-between text-xs text-muted-foreground">
         <span>
-          <span className="font-medium text-gray-700">
+          <span className="font-medium text-foreground">
             {reportingCount} / {DISTRICTS.length}
           </span>{' '}
           districts reporting

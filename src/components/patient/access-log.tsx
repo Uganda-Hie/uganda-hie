@@ -17,11 +17,11 @@ interface AccessLogProps {
 }
 
 const ACTION_BADGE: Record<AuditLog['action'], string> = {
-  view: 'bg-blue-100 text-blue-700',
-  'emergency-access': 'bg-red-100 text-red-700 font-bold',
-  share: 'bg-green-100 text-green-700',
-  revoke: 'bg-orange-100 text-orange-700',
-  download: 'bg-purple-100 text-purple-700',
+  view: 'bg-blue-500/15 text-blue-400',
+  'emergency-access': 'bg-red-500/15 text-red-400 font-bold',
+  share: 'bg-green-500/15 text-green-400',
+  revoke: 'bg-orange-500/15 text-orange-400',
+  download: 'bg-purple-500/15 text-purple-400',
 }
 
 const ACTION_FILTERS: Array<AuditLog['action'] | 'all'> = [
@@ -67,11 +67,11 @@ export function AccessLog({
   const flaggedCount = filtered.filter((l) => l.flagged).length
 
   return (
-    <div className="rounded-xl border bg-white p-5 shadow-sm">
+    <div className="rounded-xl border bg-card p-5 shadow-sm">
       {/* Header */}
       <div className="mb-4 flex items-center gap-2">
-        <Shield className="size-4 text-gray-500" />
-        <h3 className="text-sm font-semibold text-gray-900">{title}</h3>
+        <Shield className="size-4 text-muted-foreground" />
+        <h3 className="text-sm font-semibold text-foreground">{title}</h3>
       </div>
 
       {/* Action filters (admin) */}
@@ -86,7 +86,7 @@ export function AccessLog({
                 'rounded-full px-2.5 py-1 text-xs font-medium capitalize transition-colors',
                 actionFilter === a
                   ? 'bg-gray-900 text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                  : 'bg-muted text-muted-foreground hover:bg-muted'
               )}
             >
               {a === 'all' ? 'All' : a.replace('-', ' ')}
@@ -113,13 +113,13 @@ export function AccessLog({
               {visible.map((log) => (
                 <tr key={log.id} className="border-b last:border-0 align-top">
                   <td className="py-2 whitespace-nowrap">
-                    <div className="text-gray-700">{formatDate(log.timestamp)}</div>
+                    <div className="text-foreground">{formatDate(log.timestamp)}</div>
                     <div className="text-xs text-muted-foreground">
                       {format(parseISO(log.timestamp), 'HH:mm')}
                     </div>
                   </td>
                   <td className="py-2">
-                    <div className="font-medium text-gray-700">{log.userName}</div>
+                    <div className="font-medium text-foreground">{log.userName}</div>
                     <div className="text-xs text-muted-foreground">{log.userRole}</div>
                   </td>
                   <td className="py-2">
@@ -142,7 +142,7 @@ export function AccessLog({
                   </td>
                   <td className="py-2">
                     {log.flagged && (
-                      <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-700">
+                      <span className="inline-flex items-center gap-1 whitespace-nowrap rounded-full bg-red-500/15 px-2 py-0.5 text-xs font-medium text-red-400">
                         <AlertTriangle className="size-3" />
                         Review Required
                       </span>
@@ -180,11 +180,11 @@ export function AccessLog({
 
       {/* Summary */}
       <p className="mt-4 border-t pt-3 text-xs text-muted-foreground">
-        <span className="font-medium text-gray-700">{filtered.length}</span> total
+        <span className="font-medium text-foreground">{filtered.length}</span> total
         accesses ·{' '}
         <span className="font-medium text-red-600">{emergencyCount}</span> emergency
         ·{' '}
-        <span className="font-medium text-amber-600">{flaggedCount}</span> flagged
+        <span className="font-medium text-amber-400">{flaggedCount}</span> flagged
         for review
       </p>
     </div>

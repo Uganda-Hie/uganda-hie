@@ -56,11 +56,13 @@ export function Sidebar() {
   const items = NAV_ITEMS[activeRole] ?? []
 
   return (
-    <aside className="hidden h-screen w-64 shrink-0 flex-col border-r bg-white md:flex">
+    <aside className="hidden h-screen w-64 shrink-0 flex-col border-r border-white/8 bg-[#0f1011] md:flex">
       {/* Logo */}
-      <div className="border-b px-5 py-4">
-        <div className="text-lg font-bold leading-tight">Uganda HIE</div>
-        <div className="text-xs text-muted-foreground">Public Health Platform</div>
+      <div className="border-b border-white/8 px-5 py-4">
+        <div className="text-lg font-[510] leading-tight tracking-[-0.24px] text-[#f7f8f8]">
+          Uganda HIE
+        </div>
+        <div className="text-xs text-[#62666d]">Public Health Platform</div>
       </div>
 
       {/* Nav */}
@@ -75,8 +77,8 @@ export function Sidebar() {
               className={cn(
                 'flex items-center gap-3 rounded-md px-3 py-2 text-sm font-medium transition-colors',
                 isActive
-                  ? 'bg-blue-50 text-blue-700'
-                  : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+                  ? 'bg-white/8 text-[#f7f8f8]'
+                  : 'text-[#8a8f98] hover:bg-white/5 hover:text-[#d0d6e0]'
               )}
             >
               <Icon className="size-4 shrink-0" />

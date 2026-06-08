@@ -53,40 +53,40 @@ export function Topbar() {
   }, [])
 
   return (
-    <header className="flex h-14 w-full items-center justify-between border-b bg-white px-6">
+    <header className="flex h-14 w-full items-center justify-between border-b border-white/8 bg-[#0f1011] px-6">
       {/* Left: page title */}
-      <h1 className="text-sm font-semibold text-gray-900">
+      <h1 className="text-sm font-[510] tracking-[-0.13px] text-[#f7f8f8]">
         {getPageTitle(pathname)}
       </h1>
 
       {/* Right */}
       <div className="flex items-center gap-4">
-        <span className="text-sm text-muted-foreground tabular-nums">
+        <span className="text-xs text-[#62666d] tabular-nums">
           {now ? format(now, 'd MMM yyyy, HH:mm') : ' '}
         </span>
 
-        <span className="h-6 w-px bg-border" aria-hidden />
+        <span className="h-6 w-px bg-white/8" aria-hidden />
 
         {/* Active user */}
         <div className="flex items-center gap-2">
           <span
-            className={`flex size-8 items-center justify-center rounded-full text-xs font-semibold text-white ${user.color}`}
+            className="flex size-8 items-center justify-center rounded-full bg-[#1a6b9a] text-xs font-semibold text-white"
             aria-hidden
           >
             {getInitials(user.name)}
           </span>
-          <span className="text-sm font-medium text-gray-700">{user.label}</span>
+          <span className="text-sm font-[510] text-[#d0d6e0]">{user.label}</span>
         </div>
 
         {/* Alerts bell */}
         <button
           type="button"
-          className="relative rounded-md p-1.5 text-gray-600 hover:bg-gray-100 hover:text-gray-900"
+          className="relative rounded-md p-1.5 text-[#8a8f98] hover:bg-white/5 hover:text-[#d0d6e0]"
           aria-label="3 alerts"
           title="3 alerts"
         >
           <Bell className="size-5" />
-          <span className="absolute right-1 top-1 size-2 rounded-full bg-red-500 ring-2 ring-white" />
+          <span className="absolute right-1 top-1 size-2 rounded-full bg-[#dc2626] ring-2 ring-[#0f1011]" />
         </button>
       </div>
     </header>

@@ -64,7 +64,7 @@ export function SyncAnimation({
           aria-live="polite"
         >
           <motion.div
-            className="w-full max-w-md rounded-2xl bg-white p-8 shadow-xl"
+            className="w-full max-w-md rounded-2xl bg-card p-8 shadow-xl"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
@@ -72,7 +72,7 @@ export function SyncAnimation({
           >
             {/* Facility + timestamp */}
             <div className="mb-6 text-center text-xs text-muted-foreground">
-              <div className="font-medium text-gray-600">{facilityName}</div>
+              <div className="font-medium text-muted-foreground">{facilityName}</div>
               <div>{timestamp}</div>
             </div>
 
@@ -81,7 +81,7 @@ export function SyncAnimation({
               {phase === 0 ? (
                 <>
                   <Loader2 className="size-12 animate-spin text-blue-500" />
-                  <p className="text-sm font-medium text-gray-700">
+                  <p className="text-sm font-medium text-foreground">
                     Syncing report to Uganda HIE…
                   </p>
                 </>
@@ -94,7 +94,7 @@ export function SyncAnimation({
                   >
                     <CheckCircle2 className="size-14 text-green-500" />
                   </motion.div>
-                  <p className="text-base font-semibold text-gray-900">
+                  <p className="text-base font-semibold text-foreground">
                     Report submitted successfully
                   </p>
                 </>
@@ -107,7 +107,7 @@ export function SyncAnimation({
                 {lines.map((line, i) => (
                   <motion.li
                     key={i}
-                    className="text-xs text-gray-600"
+                    className="text-xs text-muted-foreground"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: i * 0.15, duration: 0.3 }}

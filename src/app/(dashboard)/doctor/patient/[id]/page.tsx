@@ -35,7 +35,7 @@ export default function PatientRecordPage() {
   if (!patient) {
     return (
       <div className="mx-auto max-w-md space-y-4 py-16 text-center">
-        <p className="text-lg font-medium text-gray-900">Patient not found</p>
+        <p className="text-lg font-medium text-foreground">Patient not found</p>
         <p className="text-sm text-muted-foreground">
           No record matches “{id}”.
         </p>
@@ -84,7 +84,7 @@ export default function PatientRecordPage() {
       <button
         type="button"
         onClick={() => router.push('/doctor')}
-        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-gray-900"
+        className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
       >
         <ArrowLeft className="size-4" /> Back to search
       </button>
@@ -118,8 +118,8 @@ export default function PatientRecordPage() {
       ) : (
         <>
           {/* Minimal identity header */}
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900">{patient.name}</h2>
+          <div className="rounded-xl border bg-card p-5 shadow-sm">
+            <h2 className="text-xl font-bold text-foreground">{patient.name}</h2>
             <p className="font-mono text-xs text-muted-foreground">
               {patient.hieId}
             </p>
@@ -130,10 +130,10 @@ export default function PatientRecordPage() {
             <div className="pointer-events-none select-none blur-sm">
               <ClinicalSummary patient={patient} />
             </div>
-            <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-gray-100/60">
-              <div className="max-w-sm rounded-xl border bg-white p-6 text-center shadow-lg">
-                <Lock className="mx-auto size-8 text-gray-400" />
-                <p className="mt-3 text-sm font-medium text-gray-900">
+            <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-muted/60">
+              <div className="max-w-sm rounded-xl border bg-card p-6 text-center shadow-lg">
+                <Lock className="mx-auto size-8 text-muted-foreground" />
+                <p className="mt-3 text-sm font-medium text-foreground">
                   Patient has not granted general access to their record
                 </p>
                 <p className="mt-1 text-xs text-muted-foreground">

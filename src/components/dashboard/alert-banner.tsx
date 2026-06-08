@@ -24,7 +24,6 @@ export function AlertBanner({ alerts, onDismiss }: AlertBannerProps) {
   const visible = alerts.filter((a) => !dismissed.has(a.id))
   if (visible.length === 0) return null
 
-  // Highest severity present drives the banner colour.
   const isCritical = visible.some((a) => a.severity === 'critical')
 
   function dismissOne(id: string) {
@@ -32,7 +31,6 @@ export function AlertBanner({ alerts, onDismiss }: AlertBannerProps) {
     if (selected === id) setSelected(null)
     onDismiss?.(id)
   }
-
   function dismissAll() {
     visible.forEach((a) => dismissOne(a.id))
   }
@@ -43,14 +41,20 @@ export function AlertBanner({ alerts, onDismiss }: AlertBannerProps) {
     <div
       role="alert"
       className={cn(
-        'flex items-center gap-3 rounded-xl px-4 py-3 text-white shadow-sm',
-        isCritical ? 'bg-red-600' : 'bg-orange-500'
+        'flex items-center gap-3 rounded-xl border px-4 py-3 text-[#f7f8f8]',
+        isCritical
+          ? 'border-[rgba(220,38,38,0.2)] bg-[rgba(220,38,38,0.1)]'
+          : 'border-[rgba(249,115,22,0.2)] bg-[rgba(249,115,22,0.1)]'
       )}
     >
-      <Siren className="size-5 shrink-0 animate-pulse" />
-      <span className="shrink-0 text-sm font-semibold">Active Alerts:</span>
+      <Siren
+        className={cn(
+          'size-5 shrink-0 animate-pulse',
+          isCritical ? 'text-[#dc2626]' : 'text-[#f97316]'
+        )}
+      />
+      <span className="shrink-0 text-sm font-[510]">Active Alerts:</span>
 
-      {/* Scrolling pills */}
       <div className="flex flex-1 items-center gap-2 overflow-x-auto">
         {visible.map((alert) => {
           const isSel = alert.id === selected
@@ -61,32 +65,28 @@ export function AlertBanner({ alerts, onDismiss }: AlertBannerProps) {
               onClick={() => setSelected(isSel ? null : alert.id)}
               title={alert.message}
               className={cn(
-                'inline-flex shrink-0 items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium whitespace-nowrap transition-colors',
-                isSel
-                  ? 'bg-white/40 ring-2 ring-white/70'
-                  : 'bg-white/20 hover:bg-white/30'
+                'inline-flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-1 text-xs font-medium text-[#d0d6e0] transition-colors',
+                isSel ? 'bg-white/15 ring-1 ring-white/30' : 'bg-white/8 hover:bg-white/12'
               )}
             >
-              <span className="font-semibold">{alert.district}</span>
-              <span className="opacity-90">· {alert.disease}</span>
+              <span className="font-[510] text-[#f7f8f8]">{alert.district}</span>
+              <span className="opacity-80">· {alert.disease}</span>
             </button>
           )
         })}
       </div>
 
-      {/* Selected alert message (when a pill is highlighted) */}
       {selectedAlert && (
-        <span className="hidden shrink-0 max-w-xs truncate text-xs opacity-90 lg:inline">
+        <span className="hidden max-w-xs shrink-0 truncate text-xs text-[#8a8f98] lg:inline">
           {selectedAlert.message}
         </span>
       )}
 
-      {/* Dismiss */}
       <button
         type="button"
         onClick={dismissAll}
         aria-label="Dismiss all alerts"
-        className="shrink-0 rounded-md p-1 transition-colors hover:bg-white/20"
+        className="shrink-0 rounded-md p-1 text-[#8a8f98] transition-colors hover:bg-white/8 hover:text-[#f7f8f8]"
       >
         <X className="size-4" />
       </button>

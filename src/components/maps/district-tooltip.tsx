@@ -17,9 +17,9 @@ interface DistrictTooltipProps {
 }
 
 const STOCK_RISK_COLOR: Record<DistrictMetric['stockRisk'], string> = {
-  ok: 'text-green-600',
+  ok: 'text-green-400',
   watch: 'text-yellow-600',
-  high: 'text-orange-600',
+  high: 'text-orange-400',
   critical: 'text-red-600',
 }
 
@@ -44,7 +44,7 @@ export function DistrictTooltip({
   return (
     <div
       className={cn(
-        'pointer-events-none fixed z-50 w-56 rounded-lg border bg-white p-3 text-xs shadow-lg transition-opacity duration-150',
+        'pointer-events-none fixed z-50 w-56 rounded-lg border bg-card p-3 text-xs shadow-lg transition-opacity duration-150',
         show ? 'opacity-100' : 'opacity-0'
       )}
       style={{ left: x + 12, top: y - 10 }}
@@ -53,7 +53,7 @@ export function DistrictTooltip({
     >
       {district && metric && (
         <>
-          <div className="font-semibold text-gray-900">{district.name}</div>
+          <div className="font-semibold text-foreground">{district.name}</div>
           <div className="text-muted-foreground">{district.region} Region</div>
 
           <div className="my-2 h-px bg-border" />
@@ -72,8 +72,8 @@ export function DistrictTooltip({
                   metric.weekOnWeekChange > 0
                     ? 'text-red-600'
                     : metric.weekOnWeekChange < 0
-                      ? 'text-green-600'
-                      : 'text-gray-600'
+                      ? 'text-green-400'
+                      : 'text-muted-foreground'
                 )}
               >
                 {formatPercent(metric.weekOnWeekChange)}
@@ -115,7 +115,7 @@ function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-center justify-between">
       <dt className="text-muted-foreground">{label}</dt>
-      <dd className="font-medium text-gray-900 tabular-nums">{value}</dd>
+      <dd className="font-medium text-foreground tabular-nums">{value}</dd>
     </div>
   )
 }

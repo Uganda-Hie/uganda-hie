@@ -39,19 +39,19 @@ const CONSENT_OPTIONS: {
     value: 'full',
     label: 'Full Access',
     desc: 'Authorised health workers can view your complete record for care coordination.',
-    selectedBorder: 'border-green-500 bg-green-50',
+    selectedBorder: 'border-green-500 bg-green-500/10',
   },
   {
     value: 'emergency-only',
     label: 'Emergency Only',
     desc: 'Only accessible during documented emergencies. All access triggers automatic notification to you.',
-    selectedBorder: 'border-amber-500 bg-amber-50',
+    selectedBorder: 'border-amber-500 bg-amber-500/10',
   },
   {
     value: 'none',
     label: 'No Access',
     desc: 'Your record is not accessible through the HIE. You will need to present physical records at each facility.',
-    selectedBorder: 'border-red-500 bg-red-50',
+    selectedBorder: 'border-red-500 bg-red-500/10',
   },
 ]
 
@@ -131,26 +131,26 @@ export default function SharingPage() {
       <div>
         <Link
           href="/patient"
-          className="mb-1 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-gray-900"
+          className="mb-1 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
         >
           <ArrowLeft className="size-4" /> Back to my record
         </Link>
-        <h2 className="text-xl font-bold text-gray-900">Sharing &amp; Access Control</h2>
+        <h2 className="text-xl font-bold text-foreground">Sharing &amp; Access Control</h2>
         <p className="text-sm text-muted-foreground">
           Control who can access your health record through the Uganda HIE
         </p>
       </div>
 
       {/* Row 2 — consent control */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
         <div className="mb-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <ShieldCheck className="size-4 text-green-600" />
-            <h3 className="text-sm font-semibold text-gray-900">
+            <ShieldCheck className="size-4 text-green-400" />
+            <h3 className="text-sm font-semibold text-foreground">
               Your Consent Settings
             </h3>
           </div>
-          <span className="rounded-full bg-green-100 px-3 py-1 text-sm font-medium text-green-700">
+          <span className="rounded-full bg-green-500/15 px-3 py-1 text-sm font-medium text-green-400">
             {consent === 'full'
               ? 'Full Access Granted'
               : consent === 'emergency-only'
@@ -173,12 +173,12 @@ export default function SharingPage() {
                   'rounded-lg border-2 p-4 text-left transition-colors',
                   selected
                     ? opt.selectedBorder
-                    : 'border-gray-200 hover:border-gray-300'
+                    : 'border-border hover:border-border'
                 )}
               >
                 <div className="flex items-center gap-2">
-                  {selected && <Check className="size-4 text-green-600" />}
-                  <span className="font-medium text-gray-900">{opt.label}</span>
+                  {selected && <Check className="size-4 text-green-400" />}
+                  <span className="font-medium text-foreground">{opt.label}</span>
                 </div>
                 <p className="mt-1 text-xs text-muted-foreground">{opt.desc}</p>
               </button>
@@ -196,8 +196,8 @@ export default function SharingPage() {
       {/* Row 3 — facilities + next of kin */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[3fr_2fr]">
         {/* Facilities with access */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Facilities with Access
           </h3>
           <ul className="space-y-2">
@@ -211,10 +211,10 @@ export default function SharingPage() {
               >
                 <div className="min-w-0">
                   <div className="flex items-center gap-2">
-                    <span className="truncate text-sm font-medium text-gray-800">
+                    <span className="truncate text-sm font-medium text-foreground">
                       {f.name}
                     </span>
-                    <span className="shrink-0 rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-600">
+                    <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 text-xs text-muted-foreground">
                       {f.level}
                     </span>
                   </div>
@@ -243,7 +243,7 @@ export default function SharingPage() {
                   <Button
                     size="sm"
                     variant="outline"
-                    className="shrink-0 border-red-200 text-red-600 hover:bg-red-50"
+                    className="shrink-0 border-red-200 text-red-600 hover:bg-red-500/10"
                     onClick={() => setConfirmRevoke(f.name)}
                   >
                     Revoke
@@ -268,13 +268,13 @@ export default function SharingPage() {
               className="pl-9"
             />
             {matches.length > 0 && (
-              <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border bg-white shadow-lg">
+              <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-lg border bg-card shadow-lg">
                 {matches.map((f) => (
                   <li key={f.id}>
                     <button
                       type="button"
                       onClick={() => addFacility(f.name, f.level)}
-                      className="flex w-full items-center justify-between px-3 py-2 text-left text-sm hover:bg-gray-50"
+                      className="flex w-full items-center justify-between px-3 py-2 text-left text-sm hover:bg-muted"
                     >
                       <span>{f.name}</span>
                       <span className="text-xs text-muted-foreground">
@@ -289,9 +289,9 @@ export default function SharingPage() {
         </div>
 
         {/* Next of kin */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
           <div className="mb-4 flex items-center justify-between">
-            <h3 className="text-sm font-semibold text-gray-900">Next of Kin</h3>
+            <h3 className="text-sm font-semibold text-foreground">Next of Kin</h3>
             {!editingNok && (
               <Button
                 size="sm"
@@ -337,13 +337,13 @@ export default function SharingPage() {
             </div>
           ) : (
             <div className="space-y-1 text-sm">
-              <div className="font-medium text-gray-900">{nok.name}</div>
+              <div className="font-medium text-foreground">{nok.name}</div>
               <div className="text-muted-foreground">{nok.relationship}</div>
               <div className="flex items-center gap-1 text-muted-foreground">
                 <Phone className="size-3.5" /> {nok.phone}
               </div>
               {nokSaved && (
-                <div className="flex items-center gap-1 pt-1 text-xs text-green-600">
+                <div className="flex items-center gap-1 pt-1 text-xs text-green-400">
                   <Check className="size-3.5" /> Saved
                 </div>
               )}

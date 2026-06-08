@@ -84,10 +84,10 @@ export function TrendChart({ disease, title, height = 200 }: TrendChartProps) {
   const gradientId = `trend-grad-${disease}`
 
   return (
-    <div className="rounded-xl border bg-white p-5 shadow-sm">
+    <div className="rounded-xl border bg-card p-5 shadow-sm">
       <div className="mb-3 flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-gray-900">{label}</h3>
-        <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">
+        <h3 className="text-sm font-semibold text-foreground">{label}</h3>
+        <span className="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">
           Last 8 weeks
         </span>
       </div>
@@ -114,9 +114,13 @@ export function TrendChart({ disease, title, height = 200 }: TrendChartProps) {
             labelFormatter={(l) => `Week of ${String(l)}`}
             contentStyle={{
               borderRadius: 8,
-              border: '1px solid #e5e7eb',
+              border: '1px solid rgba(255,255,255,0.08)',
+              background: '#191a1b',
+              color: '#f7f8f8',
               fontSize: 12,
             }}
+            labelStyle={{ color: '#8a8f98' }}
+            itemStyle={{ color: '#f7f8f8' }}
           />
           <Area
             type="monotone"

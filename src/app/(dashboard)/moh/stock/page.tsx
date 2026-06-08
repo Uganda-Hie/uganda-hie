@@ -122,7 +122,7 @@ export default function StockPage() {
     <div className="space-y-6">
       {/* Row 1 — header + controls */}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-        <h2 className="text-xl font-bold text-gray-900">
+        <h2 className="text-xl font-bold text-foreground">
           National Medicine &amp; Supply Intelligence
         </h2>
         <div className="flex flex-wrap items-center gap-3">
@@ -167,7 +167,7 @@ export default function StockPage() {
           subtitle="< 7 days of stock"
           icon={AlertTriangle}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
           alert
         />
         <KpiCard
@@ -176,7 +176,7 @@ export default function StockPage() {
           subtitle="7–14 days"
           icon={Eye}
           iconColor="text-amber-500"
-          iconBg="bg-amber-50"
+          iconBg="bg-amber-500/10"
         />
         <KpiCard
           title="National Avg Days of Stock"
@@ -188,16 +188,16 @@ export default function StockPage() {
           value={wellStocked.length}
           subtitle="≥ 30 days"
           icon={CheckCircle}
-          iconColor="text-green-600"
-          iconBg="bg-green-50"
+          iconColor="text-green-400"
+          iconBg="bg-green-500/10"
         />
       </div>
 
       {/* Row 3 — distribution + critical list */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[13fr_7fr]">
         {/* Distribution chart */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             {commodityLabel} — Days of Stock by Facility
           </h3>
           <ResponsiveContainer width="100%" height={Math.max(320, chartData.length * 22)}>
@@ -235,8 +235,8 @@ export default function StockPage() {
         </div>
 
         {/* Critical list */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Immediate Action Required
           </h3>
           {criticalList.length > 0 ? (
@@ -247,9 +247,9 @@ export default function StockPage() {
                   className="flex items-center justify-between gap-2 rounded-lg border px-3 py-2"
                 >
                   <div className="min-w-0">
-                    <div className="truncate text-sm font-medium text-gray-800">
+                    <div className="truncate text-sm font-medium text-foreground">
                       {r.name}{' '}
-                      <span className="rounded bg-gray-100 px-1 py-0.5 text-xs text-gray-500">
+                      <span className="rounded bg-muted px-1 py-0.5 text-xs text-muted-foreground">
                         {r.level}
                       </span>
                     </div>
@@ -273,7 +273,7 @@ export default function StockPage() {
               ))}
             </ul>
           ) : (
-            <div className="rounded-lg bg-green-50 px-4 py-6 text-center text-sm font-medium text-green-700">
+            <div className="rounded-lg bg-green-500/10 px-4 py-6 text-center text-sm font-medium text-green-400">
               No critical stock-outs detected
             </div>
           )}
@@ -281,8 +281,8 @@ export default function StockPage() {
       </div>
 
       {/* Row 4 — commodity overview */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-sm font-semibold text-gray-900">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-4 text-sm font-semibold text-foreground">
           All Commodities at a Glance
         </h3>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -292,25 +292,25 @@ export default function StockPage() {
               type="button"
               onClick={() => setCommodity(o.item.id)}
               className={cn(
-                'rounded-lg border p-4 text-left transition-colors hover:bg-gray-50',
+                'rounded-lg border p-4 text-left transition-colors hover:bg-muted',
                 o.crit > 0 && 'border-red-300',
                 commodity === o.item.id && 'ring-2 ring-blue-500'
               )}
             >
               <div className="flex items-start justify-between gap-2">
-                <span className="text-sm font-medium text-gray-900">
+                <span className="text-sm font-medium text-foreground">
                   {o.item.name}
                 </span>
-                <span className="shrink-0 rounded bg-gray-100 px-1.5 py-0.5 text-xs capitalize text-gray-500">
+                <span className="shrink-0 rounded bg-muted px-1.5 py-0.5 text-xs capitalize text-muted-foreground">
                   {o.item.category}
                 </span>
               </div>
               <div className="mt-2 flex gap-4 text-sm">
                 <span className="font-semibold text-red-600">{o.crit} crit</span>
-                <span className="font-semibold text-amber-600">{o.wat} watch</span>
-                <span className="font-semibold text-green-600">{o.ok} ok</span>
+                <span className="font-semibold text-amber-400">{o.wat} watch</span>
+                <span className="font-semibold text-green-400">{o.ok} ok</span>
               </div>
-              <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-gray-100">
+              <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-muted">
                 <div
                   className="h-full rounded-full bg-green-500"
                   style={{ width: `${o.pctOk}%` }}

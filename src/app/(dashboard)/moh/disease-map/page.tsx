@@ -66,7 +66,7 @@ export default function DiseaseMapPage() {
       {/* Row 1 — header + controls */}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">Disease Intelligence</h2>
+          <h2 className="text-xl font-bold text-foreground">Disease Intelligence</h2>
           <p className="text-sm text-muted-foreground">
             Select a disease and click Show on Map to view district severity
           </p>
@@ -137,8 +137,8 @@ export default function DiseaseMapPage() {
               <SeverityLegend />
             </div>
           ) : (
-            <div className="flex h-[520px] flex-col items-center justify-center rounded-xl border border-dashed bg-gray-50 text-center">
-              <MapIcon className="size-12 text-gray-300" />
+            <div className="flex h-[520px] flex-col items-center justify-center rounded-xl border border-dashed bg-muted text-center">
+              <MapIcon className="size-12 text-muted-foreground" />
               <p className="mt-3 text-sm text-muted-foreground">
                 Select a disease and click Show on Map
               </p>
@@ -155,14 +155,14 @@ export default function DiseaseMapPage() {
             />
           </div>
 
-          <div className="rounded-xl border bg-white p-4 shadow-sm">
-            <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <div className="rounded-xl border bg-card p-4 shadow-sm">
+            <h3 className="mb-3 text-sm font-semibold text-foreground">
               Selected District
             </h3>
             {selectedInfo ? (
               <div className="space-y-2 text-sm">
                 <div>
-                  <div className="font-semibold text-gray-900">
+                  <div className="font-semibold text-foreground">
                     {selectedInfo.district.name}
                   </div>
                   <div className="text-xs text-muted-foreground">
@@ -181,8 +181,8 @@ export default function DiseaseMapPage() {
                       selectedInfo.metric.weekOnWeekChange > 0
                         ? 'font-medium text-red-600'
                         : selectedInfo.metric.weekOnWeekChange < 0
-                          ? 'font-medium text-green-600'
-                          : 'font-medium text-gray-600'
+                          ? 'font-medium text-green-400'
+                          : 'font-medium text-muted-foreground'
                     }
                   >
                     {formatPercent(selectedInfo.metric.weekOnWeekChange)}
@@ -204,7 +204,7 @@ export default function DiseaseMapPage() {
                 />
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Stock risk</span>
-                  <span className="font-medium capitalize text-gray-900">
+                  <span className="font-medium capitalize text-foreground">
                     {selectedInfo.metric.stockRisk}
                   </span>
                 </div>
@@ -237,7 +237,7 @@ function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-center justify-between">
       <span className="text-muted-foreground">{label}</span>
-      <span className="font-medium tabular-nums text-gray-900">{value}</span>
+      <span className="font-medium tabular-nums text-foreground">{value}</span>
     </div>
   )
 }

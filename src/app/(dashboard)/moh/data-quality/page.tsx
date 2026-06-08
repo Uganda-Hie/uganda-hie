@@ -147,7 +147,7 @@ export default function DataQualityPage() {
       {/* Row 1 — header */}
       <div className="flex flex-col gap-2 lg:flex-row lg:items-start lg:justify-between">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">
+          <h2 className="text-xl font-bold text-foreground">
             Data Quality &amp; Reporting Completeness
           </h2>
           <p className="text-sm text-muted-foreground">
@@ -155,7 +155,7 @@ export default function DataQualityPage() {
             across all facilities
           </p>
         </div>
-        <span className="shrink-0 rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-600">
+        <span className="shrink-0 rounded-full bg-muted px-3 py-1 text-xs font-medium text-muted-foreground">
           Reporting period: Last 30 days
         </span>
       </div>
@@ -166,8 +166,8 @@ export default function DataQualityPage() {
           title="Reporting Rate Today"
           value={`${reportingRate}%`}
           icon={CheckSquare}
-          iconColor={reportingRate > 80 ? 'text-green-600' : reportingRate < 60 ? 'text-red-600' : 'text-amber-500'}
-          iconBg={reportingRate > 80 ? 'bg-green-50' : reportingRate < 60 ? 'bg-red-50' : 'bg-amber-50'}
+          iconColor={reportingRate > 80 ? 'text-green-400' : reportingRate < 60 ? 'text-red-600' : 'text-amber-500'}
+          iconBg={reportingRate > 80 ? 'bg-green-500/10' : reportingRate < 60 ? 'bg-red-500/10' : 'bg-amber-500/10'}
         />
         <KpiCard title="On-Time Submissions" value={`${onTimeRate}%`} icon={Clock} />
         <KpiCard
@@ -175,7 +175,7 @@ export default function DataQualityPage() {
           value={zeroInflation}
           icon={AlertTriangle}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
           alert={zeroInflation > 0}
         />
         <KpiCard
@@ -186,8 +186,8 @@ export default function DataQualityPage() {
       </div>
 
       {/* Row 3 — completeness trend */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-sm font-semibold text-gray-900">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-4 text-sm font-semibold text-foreground">
           National Reporting Completeness — Last 8 Weeks
         </h3>
         <ResponsiveContainer width="100%" height={260}>
@@ -215,8 +215,8 @@ export default function DataQualityPage() {
       {/* Row 4 — non-reporting + zero flags */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[11fr_9fr]">
         {/* Non-reporting */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             {nonReporting.length} facilities not yet reported today
           </h3>
           <div className="overflow-x-auto">
@@ -234,8 +234,8 @@ export default function DataQualityPage() {
                 {nonReporting.map((d) => (
                   <tr key={d.id} className="border-b last:border-0">
                     <td className="py-2">
-                      <span className="font-medium text-gray-800">{d.name}</span>{' '}
-                      <span className="rounded bg-gray-100 px-1 py-0.5 text-xs text-gray-500">
+                      <span className="font-medium text-foreground">{d.name}</span>{' '}
+                      <span className="rounded bg-muted px-1 py-0.5 text-xs text-muted-foreground">
                         {d.level}
                       </span>
                     </td>
@@ -244,7 +244,7 @@ export default function DataQualityPage() {
                     <td
                       className={cn(
                         'py-2 tabular-nums',
-                        d.daysSinceLastReport > 3 ? 'font-medium text-red-600' : 'text-gray-700'
+                        d.daysSinceLastReport > 3 ? 'font-medium text-red-600' : 'text-foreground'
                       )}
                     >
                       {d.daysSinceLastReport}
@@ -273,8 +273,8 @@ export default function DataQualityPage() {
         </div>
 
         {/* Zero-report flags */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Zero-Report Flags
           </h3>
           <ul className="space-y-2">
@@ -284,13 +284,13 @@ export default function DataQualityPage() {
                 className="flex items-center justify-between gap-2 rounded-lg border px-3 py-2"
               >
                 <div className="min-w-0">
-                  <div className="truncate text-sm font-medium text-gray-800">
+                  <div className="truncate text-sm font-medium text-foreground">
                     {d.name}
                   </div>
                   <div className="text-xs text-muted-foreground">{d.districtName}</div>
                 </div>
                 <div className="flex shrink-0 items-center gap-2">
-                  <span className="rounded-full bg-red-100 px-2 py-0.5 text-xs font-semibold text-red-700">
+                  <span className="rounded-full bg-red-500/15 px-2 py-0.5 text-xs font-semibold text-red-400">
                     {d.zeroReportFlags} flags
                   </span>
                   <Button
@@ -307,7 +307,7 @@ export default function DataQualityPage() {
               <li className="text-sm text-muted-foreground">No flagged facilities.</li>
             )}
           </ul>
-          <p className="mt-4 rounded-lg bg-amber-50 px-3 py-2 text-xs text-amber-900">
+          <p className="mt-4 rounded-lg bg-amber-500/10 px-3 py-2 text-xs text-amber-400">
             Zero reports may indicate data entry issues, genuine disease absence,
             or connectivity problems. DHO follow-up recommended for flagged
             facilities.
@@ -316,8 +316,8 @@ export default function DataQualityPage() {
       </div>
 
       {/* Row 5 — completeness by district */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-sm font-semibold text-gray-900">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-4 text-sm font-semibold text-foreground">
           Completeness by District
         </h3>
         <ResponsiveContainer width="100%" height={300}>

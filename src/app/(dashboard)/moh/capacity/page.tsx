@@ -64,10 +64,10 @@ const OCC_BAR: Record<OccStatus, string> = {
   ok: 'bg-green-500',
 }
 const OCC_BADGE: Record<OccStatus, string> = {
-  critical: 'bg-red-100 text-red-700',
-  high: 'bg-orange-100 text-orange-700',
-  moderate: 'bg-amber-100 text-amber-800',
-  ok: 'bg-green-100 text-green-700',
+  critical: 'bg-red-500/15 text-red-400',
+  high: 'bg-orange-500/15 text-orange-400',
+  moderate: 'bg-amber-500/15 text-amber-400',
+  ok: 'bg-green-500/15 text-green-400',
 }
 const OCC_LABEL: Record<OccStatus, string> = {
   critical: 'Critical',
@@ -193,7 +193,7 @@ export default function CapacityPage() {
     <div className="space-y-6">
       {/* Row 1 — header + filters */}
       <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-        <h2 className="text-xl font-bold text-gray-900">
+        <h2 className="text-xl font-bold text-foreground">
           Hospital Capacity &amp; Referral Intelligence
         </h2>
         <div className="flex flex-wrap items-center gap-3">
@@ -221,7 +221,7 @@ export default function CapacityPage() {
               ))}
             </SelectContent>
           </Select>
-          <label className="flex items-center gap-2 text-sm text-gray-700">
+          <label className="flex items-center gap-2 text-sm text-foreground">
             <Switch checked={criticalOnly} onCheckedChange={setCriticalOnly} />
             Show critical only
           </label>
@@ -234,8 +234,8 @@ export default function CapacityPage() {
           title="Avg Bed Occupancy"
           value={`${avgOcc}%`}
           icon={Wind}
-          iconColor="text-blue-600"
-          iconBg="bg-blue-50"
+          iconColor="text-blue-400"
+          iconBg="bg-blue-500/10"
           alert={avgOcc > 80}
         />
         <KpiCard
@@ -243,7 +243,7 @@ export default function CapacityPage() {
           value={criticalCount}
           icon={AlertTriangle}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
           alert={criticalCount > 0}
         />
         <KpiCard
@@ -256,14 +256,14 @@ export default function CapacityPage() {
           value={oxygenAtRisk}
           icon={Wind}
           iconColor="text-red-600"
-          iconBg="bg-red-50"
+          iconBg="bg-red-500/10"
           alert={oxygenAtRisk > 3}
         />
       </div>
 
       {/* Row 3 — capacity table */}
-      <div className="rounded-xl border bg-white p-5 shadow-sm">
-        <h3 className="mb-4 text-sm font-semibold text-gray-900">
+      <div className="rounded-xl border bg-card p-5 shadow-sm">
+        <h3 className="mb-4 text-sm font-semibold text-foreground">
           Facility Capacity Overview
         </h3>
         <div className="overflow-x-auto">
@@ -304,24 +304,24 @@ export default function CapacityPage() {
               {filtered.map((c) => (
                 <tr key={c.id} className="border-b last:border-0">
                   <td className="py-2">
-                    <span className="font-medium text-gray-800">{c.name}</span>{' '}
-                    <span className="rounded bg-gray-100 px-1 py-0.5 text-xs text-gray-500">
+                    <span className="font-medium text-foreground">{c.name}</span>{' '}
+                    <span className="rounded bg-muted px-1 py-0.5 text-xs text-muted-foreground">
                       {c.level}
                     </span>
                   </td>
                   <td className="py-2 text-muted-foreground">{c.districtName}</td>
-                  <td className="py-2 tabular-nums text-gray-700">
+                  <td className="py-2 tabular-nums text-foreground">
                     {c.occupiedBeds}/{c.totalBeds}
                   </td>
                   <td className="py-2">
                     <div className="flex items-center gap-2">
-                      <div className="h-1.5 w-20 overflow-hidden rounded-full bg-gray-100">
+                      <div className="h-1.5 w-20 overflow-hidden rounded-full bg-muted">
                         <div
                           className={cn('h-full rounded-full', OCC_BAR[c.occupancyStatus])}
                           style={{ width: `${Math.min(100, c.occupancyPercent)}%` }}
                         />
                       </div>
-                      <span className="tabular-nums text-xs text-gray-600">
+                      <span className="tabular-nums text-xs text-muted-foreground">
                         {c.occupancyPercent}%
                       </span>
                     </div>
@@ -329,7 +329,7 @@ export default function CapacityPage() {
                   <td
                     className={cn(
                       'py-2 tabular-nums',
-                      c.pendingReferrals > 5 ? 'font-medium text-red-600' : 'text-gray-700'
+                      c.pendingReferrals > 5 ? 'font-medium text-red-600' : 'text-foreground'
                     )}
                   >
                     {c.pendingReferrals}
@@ -340,8 +340,8 @@ export default function CapacityPage() {
                       c.oxygenDaysRemaining < 5
                         ? 'font-medium text-red-600'
                         : c.oxygenDaysRemaining < 10
-                          ? 'font-medium text-amber-600'
-                          : 'text-gray-700'
+                          ? 'font-medium text-amber-400'
+                          : 'text-foreground'
                     )}
                   >
                     {c.oxygenDaysRemaining}d
@@ -380,8 +380,8 @@ export default function CapacityPage() {
       {/* Row 4 — referral pressure + oxygen risk */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {/* Referral pressure */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Referral Pressure
           </h3>
           {referralChart.length > 0 ? (
@@ -414,8 +414,8 @@ export default function CapacityPage() {
         </div>
 
         {/* Oxygen risk */}
-        <div className="rounded-xl border bg-white p-5 shadow-sm">
-          <h3 className="mb-4 text-sm font-semibold text-gray-900">
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-4 text-sm font-semibold text-foreground">
             Oxygen Supply Risk
           </h3>
           {oxygenRisk.length > 0 ? (
@@ -426,8 +426,8 @@ export default function CapacityPage() {
                   c.oxygenDaysRemaining < 5
                     ? 'text-red-600'
                     : c.oxygenDaysRemaining < 10
-                      ? 'text-amber-600'
-                      : 'text-gray-700'
+                      ? 'text-amber-400'
+                      : 'text-foreground'
                 const bar =
                   c.oxygenDaysRemaining < 5
                     ? 'bg-red-500'
@@ -438,7 +438,7 @@ export default function CapacityPage() {
                   <li key={c.id} className="flex items-center gap-3">
                     <div className="min-w-0 flex-1">
                       <div className="flex items-center justify-between">
-                        <span className="truncate text-sm text-gray-700">
+                        <span className="truncate text-sm text-foreground">
                           {c.name}
                           <span className="ml-1 text-xs text-muted-foreground">
                             · {c.districtName}
@@ -448,7 +448,7 @@ export default function CapacityPage() {
                           {c.oxygenDaysRemaining}d
                         </span>
                       </div>
-                      <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-gray-100">
+                      <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-muted">
                         <div className={cn('h-full rounded-full', bar)} style={{ width: `${pct}%` }} />
                       </div>
                     </div>
@@ -465,7 +465,7 @@ export default function CapacityPage() {
               })}
             </ul>
           ) : (
-            <div className="rounded-lg bg-green-50 px-4 py-6 text-center text-sm font-medium text-green-700">
+            <div className="rounded-lg bg-green-500/10 px-4 py-6 text-center text-sm font-medium text-green-400">
               All facilities have adequate oxygen supply
             </div>
           )}

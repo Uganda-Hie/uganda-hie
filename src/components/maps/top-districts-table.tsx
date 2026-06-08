@@ -36,11 +36,11 @@ export function TopDistrictsTable({
   }
 
   return (
-    <div className="flex h-full flex-col rounded-xl border bg-white shadow-sm">
+    <div className="flex h-full flex-col rounded-xl border bg-card shadow-sm">
       {/* Header */}
       <div className="flex items-center justify-between border-b px-4 py-3">
-        <h3 className="text-sm font-semibold text-gray-900">Top Districts</h3>
-        <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500">
+        <h3 className="text-sm font-semibold text-foreground">Top Districts</h3>
+        <span className="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">
           {diseaseLabel}
         </span>
       </div>
@@ -56,11 +56,11 @@ export function TopDistrictsTable({
                 type="button"
                 onClick={() => handleClick(d.id)}
                 className={cn(
-                  'flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-gray-50',
-                  selected === d.id && 'bg-blue-50'
+                  'flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-muted',
+                  selected === d.id && 'bg-blue-500/10'
                 )}
               >
-                <span className="w-6 shrink-0 text-sm font-bold text-gray-400">
+                <span className="w-6 shrink-0 text-sm font-bold text-muted-foreground">
                   {i + 1}
                 </span>
                 <span
@@ -70,7 +70,7 @@ export function TopDistrictsTable({
                   aria-hidden
                 />
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate text-sm font-semibold text-gray-900">
+                  <span className="block truncate text-sm font-semibold text-foreground">
                     {d.name}
                   </span>
                   <span className="block text-xs text-muted-foreground">
@@ -78,7 +78,7 @@ export function TopDistrictsTable({
                   </span>
                 </span>
                 <span className="shrink-0 text-right">
-                  <span className="block text-sm font-bold tabular-nums text-gray-900">
+                  <span className="block text-sm font-bold tabular-nums text-foreground">
                     {d.cases.toLocaleString()}
                   </span>
                   <span
@@ -87,8 +87,8 @@ export function TopDistrictsTable({
                       positive
                         ? 'text-red-600'
                         : d.weekOnWeekChange < 0
-                          ? 'text-green-600'
-                          : 'text-gray-500'
+                          ? 'text-green-400'
+                          : 'text-muted-foreground'
                     )}
                   >
                     {formatPercent(d.weekOnWeekChange)}
@@ -117,7 +117,7 @@ export function TopDistrictsTable({
         {' · '}
         <span className="font-medium text-orange-500">{highCount} high</span>
         {' · '}
-        <span className="font-medium text-gray-500">
+        <span className="font-medium text-muted-foreground">
           {missingCount} missing reports
         </span>
       </div>

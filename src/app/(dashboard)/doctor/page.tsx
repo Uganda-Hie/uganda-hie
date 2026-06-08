@@ -18,7 +18,7 @@ export default function DoctorSearchPage() {
     <div className="mx-auto max-w-4xl space-y-6">
       {/* Header */}
       <div>
-        <h2 className="text-xl font-bold text-gray-900">Patient Record Lookup</h2>
+        <h2 className="text-xl font-bold text-foreground">Patient Record Lookup</h2>
         <p className="text-sm text-muted-foreground">
           Search by name, HIE ID, or phone number
         </p>
@@ -38,7 +38,7 @@ export default function DoctorSearchPage() {
             type="button"
             onClick={() => setQuery('')}
             aria-label="Clear search"
-            className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-gray-900"
+            className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
           >
             <X className="size-4" />
           </button>
@@ -61,7 +61,7 @@ export default function DoctorSearchPage() {
                 {locked && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center gap-1 rounded-xl bg-white/70 backdrop-blur-[1px]">
                     <Lock className="size-5 text-red-600" />
-                    <span className="text-xs font-medium text-red-700">
+                    <span className="text-xs font-medium text-red-400">
                       Emergency access required
                     </span>
                   </div>
@@ -71,7 +71,7 @@ export default function DoctorSearchPage() {
           })}
         </div>
       ) : (
-        <div className="rounded-xl border border-dashed bg-gray-50">
+        <div className="rounded-xl border border-dashed bg-muted">
           <EmptyState
             icon={SearchX}
             title={`No patients found matching “${query}”`}
@@ -81,8 +81,8 @@ export default function DoctorSearchPage() {
       )}
 
       {/* Access notice */}
-      <div className="flex items-start gap-2 rounded-xl border bg-blue-50 px-4 py-3 text-sm text-blue-900">
-        <Info className="mt-0.5 size-4 shrink-0 text-blue-600" />
+      <div className="flex items-start gap-2 rounded-xl border bg-blue-500/10 px-4 py-3 text-sm text-blue-400">
+        <Info className="mt-0.5 size-4 shrink-0 text-blue-400" />
         <div>
           <span className="font-medium">Access Notice. </span>
           All patient record access is logged and auditable. Emergency access

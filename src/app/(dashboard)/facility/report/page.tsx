@@ -42,20 +42,20 @@ export default function ReportPage() {
         <div>
           <Link
             href="/facility"
-            className="mb-1 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-gray-900"
+            className="mb-1 inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground"
           >
             <ArrowLeft className="size-4" /> Back to facility
           </Link>
-          <h2 className="text-xl font-bold text-gray-900">Daily Facility Report</h2>
+          <h2 className="text-xl font-bold text-foreground">Daily Facility Report</h2>
           <p className="text-sm text-muted-foreground">
             Karenga HCIII · Kaabong District · {today}
           </p>
         </div>
 
-        <div className="rounded-xl border bg-white p-4 text-xs text-muted-foreground shadow-sm">
+        <div className="rounded-xl border bg-card p-4 text-xs text-muted-foreground shadow-sm">
           <p>Reporting window: 07:00 – 20:00</p>
           <p>Reports sync to MoH DHIS2 every 6 hours</p>
-          <p className="font-medium text-gray-600">HIE ID: UGA-HCIII-KBG-011</p>
+          <p className="font-medium text-muted-foreground">HIE ID: UGA-HCIII-KBG-011</p>
         </div>
       </div>
 
@@ -72,14 +72,14 @@ export default function ReportPage() {
         {/* Info panel */}
         <div className="space-y-4">
           {/* Why this matters */}
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
+          <div className="rounded-xl border bg-card p-5 shadow-sm">
             <div className="mb-3 flex items-center gap-2">
-              <Info className="size-4 text-blue-600" />
-              <h3 className="text-sm font-semibold text-gray-900">
+              <Info className="size-4 text-blue-400" />
+              <h3 className="text-sm font-semibold text-foreground">
                 Why this matters
               </h3>
             </div>
-            <ul className="space-y-2 text-xs text-gray-600">
+            <ul className="space-y-2 text-xs text-muted-foreground">
               {WHY_IT_MATTERS.map((item) => (
                 <li key={item} className="flex gap-2">
                   <span className="mt-1 size-1.5 shrink-0 rounded-full bg-blue-500" />
@@ -90,8 +90,8 @@ export default function ReportPage() {
           </div>
 
           {/* DHIS2 sync status */}
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <div className="rounded-xl border bg-card p-5 shadow-sm">
+            <h3 className="mb-3 text-sm font-semibold text-foreground">
               DHIS2 Sync Status
             </h3>
             <ul className="space-y-2.5">
@@ -100,7 +100,7 @@ export default function ReportPage() {
                   key={row.label}
                   className="flex items-center justify-between text-xs"
                 >
-                  <span className="text-gray-700">{row.label}</span>
+                  <span className="text-foreground">{row.label}</span>
                   <span className="flex items-center gap-1 text-muted-foreground">
                     {row.detail}
                     <CheckCircle2 className="size-3.5 text-green-500" />
@@ -111,8 +111,8 @@ export default function ReportPage() {
           </div>
 
           {/* Recent reports */}
-          <div className="rounded-xl border bg-white p-5 shadow-sm">
-            <h3 className="mb-3 text-sm font-semibold text-gray-900">
+          <div className="rounded-xl border bg-card p-5 shadow-sm">
+            <h3 className="mb-3 text-sm font-semibold text-foreground">
               Recent Reports
             </h3>
             {recentReports.length > 0 ? (
@@ -123,7 +123,7 @@ export default function ReportPage() {
                     className="flex items-center justify-between text-xs"
                   >
                     <div>
-                      <div className="font-medium text-gray-700">
+                      <div className="font-medium text-foreground">
                         {formatDate(r.reportDate)}
                       </div>
                       <div className="text-muted-foreground">
@@ -133,8 +133,8 @@ export default function ReportPage() {
                     <span
                       className={`rounded-full px-2 py-0.5 font-medium capitalize ${
                         r.status === 'validated'
-                          ? 'bg-green-100 text-green-700'
-                          : 'bg-blue-100 text-blue-700'
+                          ? 'bg-green-500/15 text-green-400'
+                          : 'bg-blue-500/15 text-blue-400'
                       }`}
                     >
                       {r.status}
