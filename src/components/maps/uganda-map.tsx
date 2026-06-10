@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useMemo, useState } from 'react'
-import { scaleLinear } from 'd3-scale'
 import type { FeatureCollection, Geometry, Position } from 'geojson'
 import { DISTRICTS, generateDistrictMetrics } from '@/data/districts'
 import { getSeverityHex, getSeverityLabel } from '@/lib/severity'
@@ -16,14 +15,23 @@ interface UgandaMapProps {
 }
 
 const BASE_FILL = '#202123'
-const BASE_STROKE = 'rgba(255,255,255,0.08)'
+const BASE_STROKE = 'rgba(255,255,255,0.10)'
 const GEOJSON_URL = '/uganda-districts.geojson'
 const WIDTH = 800
 const HEIGHT = 600
 const PAD = 24
 
-// Marker radius scales with the district's severity score (0–100).
-const radiusScale = scaleLinear().domain([0, 100]).range([4, 13]).clamp(true)
+// Choropleth fill opacity per severity — tuned for the dark base so low
+// severities stay dim and hotspots glow. This keeps the map dark-native
+// while still shading every district polygon by its value.
+const FILL_OPACITY: Record<string, number> = {
+  critical: 0.92,
+  high: 0.82,
+  moderate: 0.62,
+  watch: 0.4,
+  none: 0.14,
+  missing: 0.08,
+}
 
 type Projector = (coord: Position) => [number, number]
 
@@ -81,6 +89,28 @@ function geometryToPath(geometry: Geometry, project: Projector): string {
     }
   }
   return d
+}
+
+// Average lon/lat of every coordinate in a geometry — used to join each
+// GeoJSON polygon to its nearest district (the polygon set is ADM2 counties
+// with no district key, so we match by geographic proximity).
+function geometryCentroidLonLat(geometry: Geometry): [number, number] | null {
+  let sx = 0,
+    sy = 0,
+    n = 0
+  const walk = (c: Position[] | Position[][] | Position[][][] | Position): void => {
+    if (typeof (c as Position)[0] === 'number') {
+      sx += (c as Position)[0]
+      sy += (c as Position)[1]
+      n++
+    } else {
+      ;(c as Position[][]).forEach(walk)
+    }
+  }
+  const coords = (geometry as { coordinates?: Position[] }).coordinates
+  if (!coords) return null
+  walk(coords)
+  return n ? [sx / n, sy / n] : null
 }
 
 // Error boundary so a map render failure degrades to a list, never a blank.
@@ -170,6 +200,28 @@ export function UgandaMap({
     return geoData.features.map((f) => geometryToPath(f.geometry, project))
   }, [geoData, project])
 
+  // Join each polygon to the nearest of our districts (by centroid distance),
+  // computed once per GeoJSON load. This is what makes the choropleth possible.
+  const featureDistrictId = useMemo(() => {
+    if (!geoData) return []
+    return geoData.features.map((f) => {
+      const c = geometryCentroidLonLat(f.geometry)
+      if (!c) return null
+      let best: string | null = null
+      let bestD = Infinity
+      for (const d of DISTRICTS) {
+        const dx = d.centroid[0] - c[0]
+        const dy = d.centroid[1] - c[1]
+        const dist = dx * dx + dy * dy
+        if (dist < bestD) {
+          bestD = dist
+          best = d.id
+        }
+      }
+      return best
+    })
+  }, [geoData])
+
   const metricByDistrict = useMemo(() => {
     const map: Record<string, DistrictMetric> = {}
     for (const m of generateDistrictMetrics(disease)) map[m.districtId] = m
@@ -210,46 +262,34 @@ export function UgandaMap({
           role="img"
           aria-label="Uganda district severity map"
         >
-          {/* Base layer: district outlines */}
-          <g style={{ pointerEvents: 'none' }}>
-            {basePaths.map((d, i) => (
-              <path
-                key={i}
-                d={d}
-                fill={BASE_FILL}
-                stroke={BASE_STROKE}
-                strokeWidth={0.5}
-              />
-            ))}
-          </g>
-
-          {/* District markers: colored by severity, sized by score */}
+          {/* Choropleth layer: each polygon shaded by its district's severity */}
           <g>
-            {DISTRICTS.map((dist) => {
-              const metric = metricByDistrict[dist.id]
-              if (!metric) return null
-              const [cx, cy] = project(dist.centroid)
-              const isSelected = dist.id === selectedDistrictId
-              const r = radiusScale(metric.severityScore)
+            {basePaths.map((d, i) => {
+              const districtId = featureDistrictId[i]
+              const metric = districtId ? metricByDistrict[districtId] : undefined
+              const severity = metric?.severity ?? 'missing'
+              const isSelected =
+                districtId != null && districtId === selectedDistrictId
               return (
-                <circle
-                  key={dist.id}
-                  cx={cx}
-                  cy={cy}
-                  r={isSelected ? r + 3 : r}
-                  fill={getSeverityHex(metric.severity)}
-                  fillOpacity={0.85}
-                  stroke={isSelected ? '#1e293b' : '#ffffff'}
-                  strokeWidth={isSelected ? 2 : 1}
-                  style={{ cursor: 'pointer', transition: 'fill 0.4s ease' }}
+                <path
+                  key={i}
+                  d={d}
+                  fill={metric ? getSeverityHex(severity) : BASE_FILL}
+                  fillOpacity={metric ? FILL_OPACITY[severity] ?? 0.5 : 1}
+                  stroke={isSelected ? '#f7f8f8' : BASE_STROKE}
+                  strokeWidth={isSelected ? 1.5 : 0.5}
+                  style={{
+                    cursor: districtId ? 'pointer' : 'default',
+                    transition: 'fill 0.5s ease, fill-opacity 0.5s ease',
+                  }}
                   onMouseEnter={(e) =>
-                    onDistrictHover?.(dist.id, e.clientX, e.clientY)
+                    districtId && onDistrictHover?.(districtId, e.clientX, e.clientY)
                   }
                   onMouseMove={(e) =>
-                    onDistrictHover?.(dist.id, e.clientX, e.clientY)
+                    districtId && onDistrictHover?.(districtId, e.clientX, e.clientY)
                   }
                   onMouseLeave={() => onDistrictHover?.(null, 0, 0)}
-                  onClick={() => onDistrictClick?.(dist.id)}
+                  onClick={() => districtId && onDistrictClick?.(districtId)}
                 />
               )
             })}
