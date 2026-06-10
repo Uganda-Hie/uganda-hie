@@ -91,28 +91,6 @@ function geometryToPath(geometry: Geometry, project: Projector): string {
   return d
 }
 
-// Average lon/lat of every coordinate in a geometry — used to join each
-// GeoJSON polygon to its nearest district (the polygon set is ADM2 counties
-// with no district key, so we match by geographic proximity).
-function geometryCentroidLonLat(geometry: Geometry): [number, number] | null {
-  let sx = 0,
-    sy = 0,
-    n = 0
-  const walk = (c: Position[] | Position[][] | Position[][][] | Position): void => {
-    if (typeof (c as Position)[0] === 'number') {
-      sx += (c as Position)[0]
-      sy += (c as Position)[1]
-      n++
-    } else {
-      ;(c as Position[][]).forEach(walk)
-    }
-  }
-  const coords = (geometry as { coordinates?: Position[] }).coordinates
-  if (!coords) return null
-  walk(coords)
-  return n ? [sx / n, sy / n] : null
-}
-
 // Error boundary so a map render failure degrades to a list, never a blank.
 class MapErrorBoundary extends React.Component<
   { children: React.ReactNode; fallback: React.ReactNode },
@@ -200,26 +178,13 @@ export function UgandaMap({
     return geoData.features.map((f) => geometryToPath(f.geometry, project))
   }, [geoData, project])
 
-  // Join each polygon to the nearest of our districts (by centroid distance),
-  // computed once per GeoJSON load. This is what makes the choropleth possible.
+  // Each polygon carries its district id directly (GADM level-1 boundaries
+  // keyed to our district set at build time) — exact, no proximity guessing.
   const featureDistrictId = useMemo(() => {
     if (!geoData) return []
-    return geoData.features.map((f) => {
-      const c = geometryCentroidLonLat(f.geometry)
-      if (!c) return null
-      let best: string | null = null
-      let bestD = Infinity
-      for (const d of DISTRICTS) {
-        const dx = d.centroid[0] - c[0]
-        const dy = d.centroid[1] - c[1]
-        const dist = dx * dx + dy * dy
-        if (dist < bestD) {
-          bestD = dist
-          best = d.id
-        }
-      }
-      return best
-    })
+    return geoData.features.map(
+      (f) => (f.properties?.districtId as string | null) ?? null
+    )
   }, [geoData])
 
   const metricByDistrict = useMemo(() => {
