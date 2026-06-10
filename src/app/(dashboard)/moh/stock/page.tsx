@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import {
   BarChart,
   Bar,
@@ -14,6 +14,8 @@ import { AlertTriangle, Eye, Package, CheckCircle } from 'lucide-react'
 import { FACILITIES } from '@/data/facilities'
 import { DISTRICTS } from '@/data/districts'
 import { STOCK_ITEMS, generateStockLevels } from '@/data/stock'
+import { useDemoStore } from '@/store/demo-store'
+import { DEMO_SCENARIOS } from '@/lib/demo-scenarios'
 import { KpiCard } from '@/components/dashboard/kpi-card'
 import { Button } from '@/components/ui/button'
 import {
@@ -26,6 +28,12 @@ import {
 import { cn } from '@/lib/utils'
 
 const REGIONS = ['all', 'Northern', 'Eastern', 'Western', 'Central']
+
+// Map a scenario's highlighted commodity label to a STOCK_ITEMS id.
+const COMMODITY_BY_LABEL: Record<string, string> = {
+  'ACT (artemether-lumefantrine)': 'acts',
+  'ORS / Zinc': 'ors-zinc',
+}
 
 function dayColor(days: number) {
   return days < 7 ? '#ef4444' : days < 14 ? '#f59e0b' : '#22c55e'
@@ -56,8 +64,20 @@ export default function StockPage() {
     return m
   }, [])
 
-  const [commodity, setCommodity] = useState('acts')
+  const scenario = useDemoStore((s) => s.scenario)
+  const highlightCommodity =
+    COMMODITY_BY_LABEL[
+      (DEMO_SCENARIOS.find((s) => s.key === scenario) ?? DEMO_SCENARIOS[0])
+        .stockHighlightCommodity
+    ] ?? 'acts'
+
+  const [commodity, setCommodity] = useState(highlightCommodity)
   const [region, setRegion] = useState('all')
+
+  // Keep the highlighted commodity in sync with the active scenario.
+  useEffect(() => {
+    setCommodity(highlightCommodity)
+  }, [highlightCommodity])
   const [selectedFacility, setSelectedFacility] = useState<string | null>(null)
   const [toast, setToast] = useState('')
   const showToast = (msg: string) => {

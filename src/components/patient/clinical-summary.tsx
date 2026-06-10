@@ -1,7 +1,17 @@
 'use client'
 
 import { format, parseISO } from 'date-fns'
-import { Activity, Pill, ArrowRight, AlertTriangle, FlaskConical, Shield } from 'lucide-react'
+import {
+  Activity,
+  Pill,
+  ArrowRight,
+  AlertTriangle,
+  FlaskConical,
+  Shield,
+  CheckCircle2,
+  Clock,
+  Pencil,
+} from 'lucide-react'
 import { EmptyState } from '@/components/dashboard/empty-state'
 import type { Patient } from '@/types/patient'
 import { AUDIT_LOGS } from '@/data/audit-logs'
@@ -29,6 +39,30 @@ const REFERRAL_STATUS: Record<string, string> = {
   cancelled: 'bg-muted text-muted-foreground',
 }
 
+type LabFlag = 'normal' | 'low' | 'high' | 'critical' | 'positive' | 'negative'
+type LabStatus = 'verified' | 'preliminary' | 'corrected'
+
+const FLAG_BADGE: Record<LabFlag, string> = {
+  critical: 'bg-[rgba(220,38,38,0.15)] text-[#dc2626]',
+  positive: 'bg-[rgba(220,38,38,0.15)] text-[#dc2626]',
+  high: 'bg-[rgba(249,115,22,0.15)] text-[#f97316]',
+  low: 'bg-[rgba(249,115,22,0.15)] text-[#f97316]',
+  negative: 'bg-[rgba(34,197,94,0.15)] text-[#22c55e]',
+  normal: 'bg-[rgba(34,197,94,0.15)] text-[#22c55e]',
+}
+
+function StatusBadge({ status }: { status?: LabStatus }) {
+  if (!status) return null
+  const Icon =
+    status === 'verified' ? CheckCircle2 : status === 'preliminary' ? Clock : Pencil
+  return (
+    <span className="inline-flex items-center gap-1 text-xs text-[#62666d] capitalize">
+      <Icon className="size-3" />
+      {status}
+    </span>
+  )
+}
+
 export function ClinicalSummary({
   patient,
   emergencyMode = false,
@@ -37,6 +71,15 @@ export function ClinicalSummary({
     b.date.localeCompare(a.date)
   )
   const accessLogs = AUDIT_LOGS.filter((l) => l.patientHieId === patient.hieId)
+
+  // Unique facilities this patient has moved through, across labs + referrals.
+  const facilitySet = new Set<string>()
+  patient.labResults.forEach((l) => facilitySet.add(l.facility))
+  patient.referrals.forEach((r) => {
+    facilitySet.add(r.from)
+    facilitySet.add(r.to)
+  })
+  const uniqueFacilityCount = facilitySet.size
 
   return (
     <Tabs defaultValue="conditions" className="w-full">
@@ -97,30 +140,56 @@ export function ClinicalSummary({
       <TabsContent value="labs">
         <div className="rounded-xl border bg-card p-5 shadow-sm">
           {labs.length > 0 ? (
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b text-left text-xs text-muted-foreground">
-                  <th className="pb-2 font-medium">Test</th>
-                  <th className="pb-2 font-medium">Result</th>
-                  <th className="pb-2 font-medium">Date</th>
-                  <th className="pb-2 font-medium">Facility</th>
-                </tr>
-              </thead>
-              <tbody>
-                {labs.map((lab, i) => (
-                  <tr key={i} className="border-b last:border-0">
-                    <td className="py-2 text-foreground">{lab.test}</td>
-                    <td className={cn('py-2', resultClass(lab.result))}>
-                      {lab.result}
-                    </td>
-                    <td className="py-2 text-muted-foreground">
-                      {formatDate(lab.date)}
-                    </td>
-                    <td className="py-2 text-muted-foreground">{lab.facility}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <>
+              <p className="mb-2 text-xs text-[#62666d]">Most recent first</p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b text-left text-xs text-muted-foreground">
+                      <th className="pb-2 font-medium">Test</th>
+                      <th className="pb-2 font-medium">Result</th>
+                      <th className="pb-2 font-medium">Ref. Range</th>
+                      <th className="pb-2 font-medium">Flag</th>
+                      <th className="pb-2 font-medium">Date</th>
+                      <th className="pb-2 font-medium">Facility</th>
+                      <th className="pb-2 font-medium">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {labs.map((lab, i) => (
+                      <tr key={i} className="border-b last:border-0">
+                        <td className="py-2 text-foreground">{lab.test}</td>
+                        <td className={cn('py-2', resultClass(lab.result))}>
+                          {lab.result}
+                        </td>
+                        <td className="py-2 text-xs text-[#62666d]">
+                          {lab.referenceRange ?? '—'}
+                        </td>
+                        <td className="py-2">
+                          {lab.flag && (
+                            <span
+                              className={cn(
+                                'rounded px-1.5 py-0.5 text-xs font-medium capitalize',
+                                FLAG_BADGE[lab.flag]
+                              )}
+                            >
+                              {lab.flag}
+                            </span>
+                          )}
+                        </td>
+                        <td className="py-2 whitespace-nowrap text-muted-foreground">
+                          {formatDate(lab.date)}
+                        </td>
+                        <td className="py-2 text-muted-foreground">{lab.facility}</td>
+                        <td className="py-2">
+                          <StatusBadge status={lab.status} />
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
           ) : (
             <EmptyState
               icon={FlaskConical}
@@ -135,31 +204,58 @@ export function ClinicalSummary({
       <TabsContent value="referrals">
         <div className="rounded-xl border bg-card p-5 shadow-sm">
           {patient.referrals.length > 0 ? (
-            <ul className="space-y-4">
-              {patient.referrals.map((r, i) => (
-                <li key={i} className="flex gap-3 text-sm">
-                  <span className="w-20 shrink-0 text-xs text-muted-foreground">
-                    {formatDate(r.date)}
-                  </span>
-                  <div className="flex-1">
-                    <div className="flex items-center gap-1.5 font-medium text-foreground">
-                      {r.from}
-                      <ArrowRight className="size-3.5 text-muted-foreground" />
-                      {r.to}
+            <>
+              <p className="mb-4 text-xs text-[#62666d]">
+                This record shows patient movement across{' '}
+                <span className="font-medium text-foreground">
+                  {uniqueFacilityCount}
+                </span>{' '}
+                facilities in the Uganda HIE network
+              </p>
+              <ul className="space-y-4">
+                {patient.referrals.map((r, i) => (
+                  <li key={i} className="flex gap-3 text-sm">
+                    <span className="w-20 shrink-0 text-xs text-muted-foreground">
+                      {formatDate(r.date)}
+                    </span>
+                    <div className="flex-1">
+                      <div className="flex flex-wrap items-center gap-1.5 font-medium text-foreground">
+                        <span className="rounded bg-[rgba(255,255,255,0.05)] px-2 py-0.5 text-xs">
+                          {r.from}
+                        </span>
+                        <span className="text-[#1a6b9a]">→</span>
+                        <span className="rounded bg-[rgba(255,255,255,0.05)] px-2 py-0.5 text-xs">
+                          {r.to}
+                        </span>
+                      </div>
+                      <div className="mt-1 text-xs text-muted-foreground">
+                        {r.reason}
+                      </div>
+                      <div className="mt-1.5 flex flex-wrap gap-2">
+                        {r.status === 'completed' && (
+                          <span className="rounded-full bg-green-500/15 px-2 py-0.5 text-xs font-medium text-green-400">
+                            Discharge Summary Received
+                          </span>
+                        )}
+                        {r.status === 'pending' && (
+                          <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-medium text-amber-400">
+                            Awaiting Response
+                          </span>
+                        )}
+                      </div>
                     </div>
-                    <div className="text-xs text-muted-foreground">{r.reason}</div>
-                  </div>
-                  <span
-                    className={cn(
-                      'h-fit rounded-full px-2 py-0.5 text-xs font-medium capitalize',
-                      REFERRAL_STATUS[r.status] ?? 'bg-muted text-muted-foreground'
-                    )}
-                  >
-                    {r.status}
-                  </span>
-                </li>
-              ))}
-            </ul>
+                    <span
+                      className={cn(
+                        'h-fit rounded-full px-2 py-0.5 text-xs font-medium capitalize',
+                        REFERRAL_STATUS[r.status] ?? 'bg-muted text-muted-foreground'
+                      )}
+                    >
+                      {r.status}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </>
           ) : (
             <EmptyState
               icon={ArrowRight}

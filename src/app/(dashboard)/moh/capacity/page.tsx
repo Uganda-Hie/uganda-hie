@@ -13,6 +13,7 @@ import {
 import { AlertTriangle, ArrowRightCircle, Wind, Check, X } from 'lucide-react'
 import { FACILITIES } from '@/data/facilities'
 import { DISTRICTS } from '@/data/districts'
+import { useDemoStore } from '@/store/demo-store'
 import { KpiCard } from '@/components/dashboard/kpi-card'
 import { Button } from '@/components/ui/button'
 import { Switch } from '@/components/ui/switch'
@@ -76,18 +77,25 @@ const OCC_LABEL: Record<OccStatus, string> = {
   ok: 'OK',
 }
 
-function buildCapacity(): Cap[] {
+function buildCapacity(pressureDistricts: string[]): Cap[] {
   const regionByDistrict = new Map(DISTRICTS.map((d) => [d.id, d]))
   return FACILITIES.map((f) => {
     const rand = seededRandom(charSum(f.id) * 53 + 11)
     const isBig = f.level === 'RRH' || f.level === 'NRH' || f.level === 'Hospital'
     const isTop = f.level === 'RRH' || f.level === 'NRH'
 
-    const occupiedBeds = Math.round(f.totalBeds * (0.4 + rand() * 0.58))
+    // Facilities in scenario-flagged districts are pushed under referral and
+    // bed pressure so the surge story shows up on this screen.
+    const underPressure = pressureDistricts.includes(f.districtId)
+    const occupiedBeds = underPressure
+      ? Math.round(f.totalBeds * (0.92 + rand() * 0.06))
+      : Math.round(f.totalBeds * (0.4 + rand() * 0.58))
     const icuOccupied = isBig
       ? Math.round(f.totalBeds * 0.05 * (0.6 + rand() * 0.4))
       : 0
-    const pendingReferrals = Math.floor(rand() * 13)
+    const pendingReferrals = underPressure
+      ? 8 + Math.floor(rand() * 5)
+      : Math.floor(rand() * 13)
     const oxygenDaysRemaining = Math.round(2 + rand() * 19)
     const ventilators = isTop ? Math.round(2 + rand() * 6) : 0
     const covidIsolationBeds = Math.floor(rand() * 5)
@@ -131,7 +139,11 @@ const LEVELS = ['all', 'NRH', 'RRH', 'Hospital', 'HCIV']
 type SortKey = 'name' | 'occupancyPercent' | 'pendingReferrals' | 'oxygenDaysRemaining'
 
 export default function CapacityPage() {
-  const data = useMemo(() => buildCapacity(), [])
+  const pressureDistricts = useDemoStore((s) => s.capacityPressureDistricts)
+  const data = useMemo(
+    () => buildCapacity(pressureDistricts),
+    [pressureDistricts]
+  )
 
   const [region, setRegion] = useState('all')
   const [level, setLevel] = useState('all')

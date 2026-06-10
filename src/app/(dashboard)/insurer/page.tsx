@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Search, Inbox } from 'lucide-react'
+import { Search, Inbox, ShieldCheck } from 'lucide-react'
 import { EmptyState } from '@/components/dashboard/empty-state'
 import { CLAIMS } from '@/data/claims'
 import type { Claim } from '@/types/claim'
@@ -56,6 +56,19 @@ export default function InsurerPage() {
           <Kpi label="Approved" value={String(countOf('approved'))} color="text-green-400" />
           <Kpi label="Total Value" value={formatUGX(totalValue)} color="text-blue-400" />
         </div>
+      </div>
+
+      {/* Privacy notice */}
+      <div className="flex items-start gap-2 rounded-lg border border-[rgba(26,107,154,0.15)] bg-[rgba(26,107,154,0.08)] p-3">
+        <ShieldCheck className="mt-0.5 size-4 shrink-0 text-[#1a6b9a]" />
+        <p className="text-xs text-[#8a8f98]">
+          <span className="font-medium text-foreground">
+            Minimum Necessary Access
+          </span>{' '}
+          — Insurers can only view claim-specific clinical summaries. Full
+          patient records are not accessible through this portal. All access is
+          logged and auditable.
+        </p>
       </div>
 
       {/* Row 2 — filter tabs */}

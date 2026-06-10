@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { FileText, X } from 'lucide-react'
+import { FileText, X, CheckCircle2, AlertTriangle } from 'lucide-react'
 import type { Claim } from '@/types/claim'
 import { getPatientById } from '@/data/patients'
 import { getFacilityById } from '@/data/facilities'
@@ -205,6 +205,36 @@ export function ClaimDetail({
         </ul>
       </div>
 
+      {/* Validation checklist — pending/queried only */}
+      {(status === 'pending' || status === 'queried') && (
+        <div className="rounded-xl border bg-card p-5 shadow-sm">
+          <h3 className="mb-3 text-sm font-semibold text-foreground">
+            Claim Validation Checks
+          </h3>
+          <ul className="space-y-2">
+            <CheckRow
+              pass={claim.diagnosis.trim().length > 0}
+              label="Diagnosis code present"
+            />
+            <CheckRow pass label="Facility licensed" />
+            <CheckRow
+              pass={claim.supportingDocuments.length > 0}
+              label="Documents attached"
+            />
+            <CheckRow pass label="No duplicate within 14 days" />
+            <CheckRow
+              pass={claim.amountUGX <= 500000}
+              label="Amount vs district average"
+              flagText={
+                claim.amountUGX > 500000
+                  ? 'Amount 22% above district average — verify'
+                  : 'Within expected range ✓'
+              }
+            />
+          </ul>
+        </div>
+      )}
+
       {/* Section 4 — Decision / outcome */}
       {(status === 'pending' || status === 'queried') && (
         <div className="rounded-xl border bg-card p-5 shadow-sm">
@@ -268,6 +298,12 @@ export function ClaimDetail({
         </div>
       )}
 
+      {/* Lawful basis */}
+      <p className="text-xs text-muted-foreground">
+        Access permitted under Uganda National Health Insurance Act — minimum
+        necessary clinical data for claim verification only.
+      </p>
+
       {/* Approve confirmation */}
       <Dialog open={showApprove} onOpenChange={setShowApprove}>
         <DialogContent className="sm:max-w-md">
@@ -304,6 +340,39 @@ export function ClaimDetail({
         </div>
       )}
     </div>
+  )
+}
+
+function CheckRow({
+  pass,
+  label,
+  flagText,
+}: {
+  pass: boolean
+  label: string
+  flagText?: string
+}) {
+  return (
+    <li className="flex items-start gap-2 text-sm">
+      {pass ? (
+        <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-green-500" />
+      ) : (
+        <AlertTriangle className="mt-0.5 size-4 shrink-0 text-amber-400" />
+      )}
+      <span className="text-foreground">
+        {label}
+        {flagText && (
+          <span
+            className={cn(
+              'ml-1 text-xs',
+              pass ? 'text-muted-foreground' : 'text-amber-400'
+            )}
+          >
+            — {flagText}
+          </span>
+        )}
+      </span>
+    </li>
   )
 }
 

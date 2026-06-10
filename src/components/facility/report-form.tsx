@@ -5,7 +5,9 @@ import { useForm, Controller, type Resolver } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import { format } from 'date-fns'
-import { Loader2 } from 'lucide-react'
+import { Loader2, Sparkles } from 'lucide-react'
+import { useDemoStore } from '@/store/demo-store'
+import { DEMO_SCENARIOS } from '@/lib/demo-scenarios'
 import { getFacilityById } from '@/data/facilities'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -60,16 +62,31 @@ function stockBorderClass(days: number): string {
   return 'border-green-500 focus-visible:ring-green-500/40'
 }
 
+const SCENARIO_NARRATIVE: Record<string, string> = {
+  normal:
+    'Routine end-of-day. Two malaria patients admitted for observation. ACT stock adequate.',
+  'malaria-surge':
+    'High OPD attendance today - mostly malaria presentations. ACT stock critically low, requested emergency resupply from district store. Two severe malaria cases referred to Kaabong Hospital.',
+  'cholera-alert':
+    'Two suspected cholera cases presented with acute watery diarrhoea. Samples collected for lab confirmation. ORS stock being monitored closely.',
+  'stock-crisis':
+    'ACT stock completely exhausted. Redirecting to quinine where available. Urgent resupply requested 3 days ago — no response yet.',
+}
+
 export function ReportForm({ facilityId, onSubmitSuccess }: ReportFormProps) {
   const facility = getFacilityById(facilityId)
   const today = format(new Date(), 'yyyy-MM-dd')
   const [submitting, setSubmitting] = useState(false)
+
+  const scenario = useDemoStore((s) => s.scenario)
+  const overrides = useDemoStore((s) => s.nurseReportOverrides)
 
   const {
     register,
     handleSubmit,
     control,
     watch,
+    reset,
     formState: { errors },
   } = useForm<FormValues>({
     resolver: zodResolver(DailyReportSchema) as Resolver<FormValues>,
@@ -125,8 +142,54 @@ export function ReportForm({ facilityId, onSubmitSuccess }: ReportFormProps) {
     onSubmitSuccess?.()
   }
 
+  // Pre-fill the form with the active scenario's end-of-day values so the
+  // demo can be driven without manual typing.
+  function loadSampleValues() {
+    reset({
+      reporterName: 'Brian Okello',
+      reporterRole: 'In-charge Nurse',
+      reportDate: today,
+      opdVisits: overrides.opdVisits,
+      emergencyVisits: Math.round(overrides.opdVisits * 0.1),
+      admissions: overrides.admissions,
+      discharges: Math.round(overrides.admissions * 0.6),
+      referralsOut: overrides.referralsOut,
+      malariaSuspected: overrides.malariaSuspected,
+      malariaConfirmed: overrides.malariaConfirmed,
+      malariaTests: overrides.malariaTests,
+      cholera: overrides.cholera,
+      measles: 0,
+      respiratory: Math.round(overrides.opdVisits * 0.15),
+      diarrhoeal: Math.round(overrides.opdVisits * 0.1),
+      births: 1,
+      maternalDeaths: 0,
+      under5Deaths: 0,
+      adultDeaths: 0,
+      totalBeds: 20,
+      occupiedBeds: 14,
+      oxygenAvailable: false,
+      ambulanceOperational: false,
+      actStock: overrides.actStock,
+      rdtStock: overrides.rdtStock,
+      narrativeEvent: SCENARIO_NARRATIVE[scenario] ?? SCENARIO_NARRATIVE.normal,
+    })
+  }
+
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+      <div className="flex justify-end">
+        <Button
+          type="button"
+          variant="ghost"
+          size="sm"
+          onClick={loadSampleValues}
+          className="text-muted-foreground"
+        >
+          <Sparkles className="size-4" />
+          Load Sample End-of-Day Values
+        </Button>
+      </div>
+
       {/* Section 1 — Reporter Information */}
       <Card>
         <CardHeader>

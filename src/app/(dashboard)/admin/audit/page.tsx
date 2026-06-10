@@ -2,14 +2,29 @@
 
 import { useState } from 'react'
 import { format, parseISO } from 'date-fns'
-import { Activity, Siren, AlertTriangle, Users } from 'lucide-react'
+import { Activity, Siren, AlertTriangle, Users, Download } from 'lucide-react'
 import { AUDIT_LOGS, getFlaggedLogs } from '@/data/audit-logs'
-import { AccessLog } from '@/components/patient/access-log'
+import { AccessLog, type AuditFilter } from '@/components/patient/access-log'
 import { KpiCard } from '@/components/dashboard/kpi-card'
 import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
+
+const AUDIT_FILTERS: { value: AuditFilter; label: string }[] = [
+  { value: 'all', label: 'All' },
+  { value: 'emergency-access', label: 'Emergency Access' },
+  { value: 'download', label: 'Downloads' },
+  { value: 'review-required', label: 'Review Required' },
+]
 
 export default function AuditPage() {
   const [reviewed, setReviewed] = useState<Set<string>>(new Set())
+  const [filter, setFilter] = useState<AuditFilter>('all')
+  const [toast, setToast] = useState('')
+
+  function exportReport() {
+    setToast('Audit report exported — PDF format available in production deployment')
+    setTimeout(() => setToast(''), 3000)
+  }
 
   const totalEvents = AUDIT_LOGS.length
   const emergencyCount = AUDIT_LOGS.filter(
@@ -60,6 +75,25 @@ export default function AuditPage() {
         />
       </div>
 
+      {/* Filter bar */}
+      <div className="flex flex-wrap gap-1.5">
+        {AUDIT_FILTERS.map((f) => (
+          <button
+            key={f.value}
+            type="button"
+            onClick={() => setFilter(f.value)}
+            className={cn(
+              'rounded-full px-3 py-1 text-xs font-medium transition-colors',
+              filter === f.value
+                ? 'bg-gray-900 text-white'
+                : 'bg-muted text-muted-foreground hover:bg-muted/70'
+            )}
+          >
+            {f.label}
+          </button>
+        ))}
+      </div>
+
       {/* Row 3 — flagged events */}
       {flagged.length > 0 && (
         <div className="rounded-xl border border-l-4 border-l-red-500 bg-card p-5 shadow-sm">
@@ -108,7 +142,27 @@ export default function AuditPage() {
       )}
 
       {/* Row 4 — full audit log */}
-      <AccessLog showAll limit={25} title="Full System Audit Trail" />
+      <AccessLog
+        showAll
+        limit={25}
+        title="Full System Audit Trail"
+        actionFilter={filter}
+      />
+
+      {/* Export */}
+      <div className="flex justify-end">
+        <Button variant="outline" onClick={exportReport}>
+          <Download className="size-4" />
+          Export Audit Report
+        </Button>
+      </div>
+
+      {/* Toast */}
+      {toast && (
+        <div className="fixed bottom-6 right-6 z-50 rounded-lg bg-gray-900 px-4 py-2 text-sm text-white shadow-lg">
+          {toast}
+        </div>
+      )}
     </div>
   )
 }

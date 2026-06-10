@@ -1,4 +1,9 @@
 import { create } from 'zustand'
+import {
+  DEMO_SCENARIOS,
+  DEFAULT_SCENARIO,
+  type NurseReportOverrides,
+} from '@/lib/demo-scenarios'
 
 export type DemoRole =
   | 'moh-analyst'
@@ -18,6 +23,8 @@ export type Disease =
   | 'diarrhoeal'
 
 export type TimeRange = 'today' | '7days' | '30days' | 'quarter'
+
+export type ScenarioKey = 'normal' | 'malaria-surge' | 'cholera-alert' | 'stock-crisis'
 
 interface DemoStore {
   // Role
@@ -43,8 +50,12 @@ interface DemoStore {
   setEmergencyAccess: (v: boolean) => void
 
   // Demo scenario
-  scenario: 'normal' | 'malaria-surge' | 'cholera-alert' | 'stock-crisis'
-  setScenario: (s: DemoStore['scenario']) => void
+  scenario: ScenarioKey
+  setScenario: (s: ScenarioKey) => void
+
+  // Cross-screen scenario data (kept in sync by setScenario)
+  nurseReportOverrides: NurseReportOverrides
+  capacityPressureDistricts: string[]
 }
 
 export const useDemoStore = create<DemoStore>((set) => ({
@@ -67,5 +78,17 @@ export const useDemoStore = create<DemoStore>((set) => ({
   setEmergencyAccess: (v) => set({ emergencyAccessActive: v }),
 
   scenario: 'normal',
-  setScenario: (s) => set({ scenario: s }),
+  setScenario: (s) => {
+    const sc = DEMO_SCENARIOS.find((x) => x.key === s) ?? DEFAULT_SCENARIO
+    set({
+      scenario: s,
+      // Cascade the scenario's connected data across every MoH screen.
+      selectedDisease: sc.defaultDisease as Disease,
+      nurseReportOverrides: sc.nurseReportOverrides,
+      capacityPressureDistricts: sc.capacityPressureDistricts,
+    })
+  },
+
+  nurseReportOverrides: DEFAULT_SCENARIO.nurseReportOverrides,
+  capacityPressureDistricts: DEFAULT_SCENARIO.capacityPressureDistricts,
 }))

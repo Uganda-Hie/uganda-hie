@@ -12,9 +12,11 @@ interface SyncAnimationProps {
 }
 
 const CONFIRMATION_LINES = [
-  '✓ Received by District Health Office — Kaabong',
-  '✓ Synced to MoH DHIS2 national aggregate',
-  '✓ Disease signals processed by HIE analytics engine',
+  '✓ Report validated — no anomalies detected',
+  '✓ Saved to local HIE node — Kaabong District',
+  '✓ Synced to Uganda HIE national aggregate',
+  '✓ DHIS2-compatible data package generated',
+  '✓ MoH National Snapshot updated',
 ]
 
 // phase: 0 = syncing, 1 = success, 2 = confirmation lines

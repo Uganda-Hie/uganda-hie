@@ -60,17 +60,17 @@ export default function ReportPage() {
       </div>
 
       {/* Content */}
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[2fr_1fr]">
+      <div className="grid grid-cols-1 items-start gap-6 lg:grid-cols-[2fr_1fr]">
         {/* Form */}
-        <div>
+        <div className="min-h-0 overflow-y-auto">
           <ReportForm
             facilityId={FACILITY_ID}
             onSubmitSuccess={() => setShowSync(true)}
           />
         </div>
 
-        {/* Info panel */}
-        <div className="space-y-4">
+        {/* Info panel — sticky beside the form on desktop, stacked on mobile */}
+        <div className="space-y-4 lg:sticky lg:top-6">
           {/* Why this matters */}
           <div className="rounded-xl border bg-card p-5 shadow-sm">
             <div className="mb-3 flex items-center gap-2">

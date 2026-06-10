@@ -22,6 +22,9 @@ export interface Patient {
     result: string
     date: string
     facility: string
+    referenceRange?: string
+    flag?: 'normal' | 'low' | 'high' | 'critical' | 'positive' | 'negative'
+    status?: 'verified' | 'preliminary' | 'corrected'
   }[]
   referrals: {
     from: string
